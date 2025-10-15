@@ -1,37 +1,76 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# SmallSuggestions — Free Online Tools for JSON, CSV, XML & Excel Conversion
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+**SmallSuggestions** is a free, browser-based utility hub that helps you convert, format, and validate data instantly.  
+It provides fast and secure online tools for working with **JSON, CSV, XML, and Excel** files — perfect for developers, data analysts, and students who deal with structured data daily.
 
-## Demo
+---
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+## 🌟 Key Features
 
-The main page would look like this:
+- 🔁 **Convert data formats instantly** — JSON ⇄ CSV, XML ⇄ JSON, Excel ⇄ CSV, and more  
+- 🔒 **Privacy-focused** — all conversions happen in your browser; no data is uploaded or stored  
+- ⚡ **Fast & lightweight** — built for speed with clean UI and minimal load time  
+- 📁 **Multi-format support** — handle multiple structured data types in one place  
+- 🧠 **Developer-friendly** — ideal for building, testing, and cleaning datasets  
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+---
 
-The post page would look like this:
+## 🧰 Available Tools
 
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+| Category | Tool Examples |
+|-----------|----------------|
+| **JSON Tools** | JSON to CSV, JSON to XML, JSON to Dart, JSON to JSON Schema |
+| **CSV Tools** | CSV to JSON, CSV to XML, CSV Formatter |
+| **XML Tools** | XML to JSON, XML to CSV |
+| **Excel Tools** | Excel to CSV, Excel to JSON, Excel to XML |
 
-## Features
+More tools are added regularly to expand the SmallSuggestions ecosystem.
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
+---
 
-## Installation:
+## 🚀 Why Choose SmallSuggestions?
 
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+SmallSuggestions focuses purely on **data format conversion and structure optimization**, avoiding clutter from unrelated categories.  
+Its goal is to provide **fast, reliable, and accurate** data conversion directly inside your browser without compromising security or usability.
 
-## License
+---
 
-GNU General Public License v3.0
+## 🌐 Website
 
-## Premium Themes by Artem
+👉 Visit: [https://smallsuggestions.com](https://smallsuggestions.com)
 
-| [![Coderon Jekyll Theme](https://github.com/artemsheludko/artemsheludko.github.io/raw/master/assets/preview/coderon-preview.png?raw=true)](https://jekyllthemes.io/theme/coderon-blog-jekyll-theme) | [![Renva Portfolio Jekyll Theme](https://github.com/artemsheludko/artemsheludko.github.io/raw/master/assets/preview/renva-preview.png?raw=true)](https://jekyllthemes.io/theme/renva-portfolio-jekyll-theme) | [![Nomod](https://github.com/artemsheludko/artemsheludko.github.io/raw/master/assets/preview/nomod-preview.png?raw=true)](https://jekyllthemes.io/theme/nomod-blog-jekyll-theme) |
-|:---:|:---:|:---:|
-| **Coderon** | **Renva** | **Nomod** |
+Explore and use all tools online — no sign-up, no installation.
+
+---
+
+## 🧩 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Performance:** Optimized for Core Web Vitals and accessibility (100% contrast and visibility)  
+- **Deployment:** Static hosting for maximum speed and reliability  
+
+---
+
+## 📢 Contributing
+
+We welcome contributions and ideas for new tools or data formats!  
+If you’d like to collaborate:
+1. Fork the repository  
+2. Create a feature branch  
+3. Submit a pull request  
+
+---
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+### 📈 SEO Keywords
+
+`data converter`, `json tools`, `csv tools`, `xml tools`, `excel converter`, `online data formatter`, `file conversion tools`, `smallsuggestions`, `browser-based converters`, `json to csv`, `xml to json`, `excel to csv`
+
+---
+
+**Simplify your data — convert, format, and analyze smarter with SmallSuggestions.**

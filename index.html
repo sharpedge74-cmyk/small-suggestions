@@ -1,19 +1,26 @@
 ---
 layout: main
+title: SmallSuggestions — Free Online Data Format Tools for Excel, JSON, CSV & XML
+description: Simplify your data work with SmallSuggestions — free, secure tools to convert Excel, JSON, CSV, and XML files online.
+keywords: audio tools, video tools, image tools
 ---
-{% for post in paginator.posts %}
-<article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
-  {% endif %}
-  <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-  </div>
-</article>
-{% endfor %}
 
-{% include pagination.html %}
+
+<section style="width: 100%;">
+    <h1>Find All JSON, XML, Excel, and CSV Utility Tools</h1> 
+    <p style="padding: 2rem;">Explore free, secure, and browser-based tools to convert, format, and manage your data instantly. 
+SmallSuggestions helps you work with JSON, XML, Excel, and CSV files — fast, accurate, and privacy-friendly — no uploads, no limits.
+</p>
+
+<div class="search-container">
+   <i class="fas fa-search search-icon"></i>
+   <input type="text" class="search-bar" id="searchInput" placeholder="Search The Tool Like JSON To Dart">
+</div>
+
+
+<div class="container">
+<div class="tool-grid" id="toolsGrid">
+</div>
+</div>
+
+<script src="/assets/js/tools.js"></script>

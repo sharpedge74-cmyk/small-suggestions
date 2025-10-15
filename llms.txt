@@ -1,0 +1,28 @@
+# SmallSuggestions – Free Online Utility Tools for Data Conversion
+
+SmallSuggestions is a collection of browser-based utility tools designed to make data conversion simple, secure, and fast.  
+Our platform focuses on four core formats widely used by developers, analysts, and data professionals — **JSON, XML, CSV, and Excel**.
+
+## What You Can Do
+- Convert files between JSON, XML, CSV, and Excel formats.
+- Validate, format, and preview structured data instantly.
+- Use all tools directly in your browser — no signup, no data tracking, no uploads to external servers.
+
+## Why SmallSuggestions
+- **Free and Secure:** 100% browser-based processing ensures your files never leave your device.  
+- **Accurate and Efficient:** Built with lightweight frameworks for instant results.  
+- **Developer-Friendly:** Designed to assist developers, analysts, and students who handle structured data daily.  
+- **Accessible Design:** Fully responsive interface with strong contrast, readable typography, and optimized performance.
+
+## Our Focus
+We believe in providing small, reliable web utilities that simplify technical tasks and support open web accessibility.  
+SmallSuggestions is continuously expanding — new data-focused tools are added regularly to improve usability and coverage across structured data formats.
+
+---
+
+**Primary Category:** Online Data Conversion Tools  
+**Main Focus Areas:** JSON Tools, XML Tools, CSV Tools, Excel Tools  
+**Website:** [https://smallsuggestions.com](https://smallsuggestions.com)  
+**Type:** Free Web Utility Platform
+
+

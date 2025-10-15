@@ -1,53 +1,66 @@
 ---
 layout: default
 ---
+<a id="skip-to-content" href="#content">Skip to the content.</a>
 
-<aside class="sidebar">
-  <header>
-    <div class="about">
-      <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+<header>
+  <div class="container header-container">
+    <a href="/" class="logo" title="SmallSuggestions">
+      <img src="assets/img/smallsuggestions.webp" class="cover-author-image" alt="SmallSuggestions" width="40px" height="40px"/>
+    </a>
+    <div class="nav-controls">
+      <a href="json-tools" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">JSON Tools</a> | 
+      <a href="csv-tools" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">CSV Tools</a> | 
+      <a href="xml-tools" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">XML Tools</a> | 
+      <a href="excel-tools" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">Excel Tools</a>
+    </div>
+  </div>
+</header>
+
+<main id="content" role="main">
+  <!-- HERO -->
+  {{content}}
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">                
+      <div class="footer-column">
+        <ul class="footer-links"></ul>
       </div>
-      <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
+
+      <div class="footer-column">
+        <ul class="footer-links"></ul>
+      </div>
+
+      <div class="footer-column">
+        <ul class="footer-links"></ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Resources</h3>
+        <ul class="footer-links">
+          <li><a href="articles" aria-label="SmallSuggestions Blog"> 📝 SmallSuggestions Blog</a></li>
+          <li><a href="authors" aria-label="SmallSuggestions Developers and Authors">💻 Authors & Contributors</a></li>
+          <li><a href="privacy-policy" aria-label="SmallSuggestions Privacy Policy">🔒 Privacy Policy</a></li>
+          <li><a href="sitemap" aria-label="SmallSuggestions Sitemap">🚀 Sitemap</a></li>
+        </ul>
+      </div>
     </div>
-  </header> <!-- End Header -->
-  <footer>
-    <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
-      <ul>
-        {% if site.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-facebook %}
-          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-        {% else %}
-          <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        {% else %}
-          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
-        {% else %}
-          <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        {% endif %}
-      </ul>
-    </section> <!-- End Section Contact -->
-    <div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+    
+    <div class="footer-bottom">
+      <div class="footer-column">
+        <h3><a href="/">SmallSuggestions</a></h3>
+        <p>
+          SmallSuggestions provides free, secure browser-based tools for structured data — convert and format 
+          <strong>JSON, CSV, XML, and Excel</strong> files instantly.  
+          Our mission is to simplify data handling for developers, analysts, and learners with reliable, ad-free utilities that run directly in your browser.
+          Explore tutorials, productivity insights, and best practices in our blog to enhance your data workflow.
+        </p>
+      </div>
+      <div style="width: 99%; display: flex; justify-content: flex-end;">
+        <p>&copy; {{ site.time | date: "%Y" }} SmallSuggestions | Built with precision and ❤️</p>
+      </div>
     </div>
-  </footer> <!-- End Footer -->
-</aside> <!-- End Sidebar -->
-<div class="content-box clearfix">
-  {{ content }}
-</div>
+  </div>
+</footer>

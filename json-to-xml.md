@@ -61,7 +61,6 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
 <script src="/assets/js/json-to-xml.js"></script>
 
 <div style="margin: 4rem;">
-  <h1>JSON to XML Converter Online – Free, Secure & Browser-Based</h1>
   <p>
     Our <strong>JSON to XML Converter</strong> is a fully browser-based, secure, and efficient data transformation tool that converts structured JSON objects into valid, well-formatted XML. It allows users to <strong>upload JSON files, preview the structured hierarchy</strong>, and <strong>instantly generate equivalent XML markup</strong> that adheres to standard XML formatting rules. The entire process happens locally in your browser — ensuring your data never leaves your device.
   </p>

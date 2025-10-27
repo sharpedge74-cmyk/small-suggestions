@@ -28,7 +28,7 @@ const tools = [
 
   relatedTools: ['flac-to-mp3', 'wav-to-mp3', 'm4a-to-mp3'],
 
-  canonical: 'https://iamrango.com/aac-to-mp3',
+  canonical: 'aac-to-mp3',
   lastUpdated: '2025-10-14',
 
   meta: {
@@ -42,8 +42,8 @@ const tools = [
     "name": "AAC to MP3 Converter",
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "Web",
-    "url": "https://iamrango.com/aac-to-mp3",
-    "description": "Convert AAC audio files to MP3 instantly with iamrango's browser-based converter. Secure and easy to use."
+    "url": "aac-to-mp3",
+    "description": "Convert AAC audio files to MP3 instantly with  browser-based converter. Secure and easy to use."
   },
 
   faq: [
@@ -103,23 +103,24 @@ const tools = [
         function renderTools(toolsArray) {
             toolsGrid.innerHTML = '';
             
-            toolsArray.forEach(tool => {
-                const toolCard = document.createElement('div');
-                toolCard.className = 'tool-card';
-                toolCard.innerHTML = `
-                   <a href="${tool.url}">
-                    <div class="tool-icon">
+          toolsArray.forEach(tool => {
+            const toolCard = document.createElement('div');
+            toolCard.className = 'tool-card';
+            toolCard.innerHTML = `
+                  <a href="${tool.slug}" class="ss-tool-card">
+                  <div class="ss-card-header">
                     <h2>${tool.title}</h2>
-                    </div>
-                    <div class="tool-content">
-                        <p class="tool-description">${tool.description}</p>
-                        <div class="tool-tags">
-                            ${tool.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-                        </div>
-                    </div>
-                    </a>
-                `;
-                toolsGrid.appendChild(toolCard);
+                  </div>
+                  <div class="ss-card-body">
+                     <p class="ss-card-description">${tool.description}</p>
+                     <div class="ss-card-tags">
+                       ${tool.tags.map(tag => `<span class="ss-tag">${tag}</span>`).join('')}
+                     </div>
+                  </div>
+                  </a>
+                  `;
+
+            toolsGrid.appendChild(toolCard);
             });
         }
         

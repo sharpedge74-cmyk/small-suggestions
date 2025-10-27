@@ -25,6 +25,15 @@ all without uploading or sharing your files online. Fast, private, and designed 
 </section> 
 <script src="/assets/js/excel-tools.js"></script>
 
+<div style="margin:4rem;">
+
+<h2>Need to Convert JSON or CSV to Excel?</h2>
+<p>
+If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/json-converters" style="color:#007BFF; text-decoration:underline;">JSON Converters</a> and <a href="/csv-converter" style="color:#007BFF; text-decoration:underline;">CSV Converters</a> have you covered. JSON Converters can import structured JSON data and generate Excel sheets while keeping nested structures intact. CSV Converters allow you to convert comma-separated files into well-organized Excel spreadsheets, preserving rows and columns for easy analysis. These tools are ideal for professionals, developers, or students who receive data in multiple formats but need to consolidate it in Excel for calculations, reporting, or visualization. All conversions happen securely in the browser, without downloads or software installations. By exploring these categories, you can handle any workflow efficiently, ensuring your Excel files are accurate and ready for further processing.
+</p>
+
+</div>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

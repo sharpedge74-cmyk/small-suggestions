@@ -8,7 +8,7 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
-
+<section> <h1>JSON to TXT Converter – Simple, Private, and Instant Conversion</h1> </section>
 <div class="jsonx-container">
   <div class="jsonx-panel">
     <div class="jsonx-pane-container">
@@ -70,7 +70,7 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
 
 <div style="margin: 4rem;">
 
-  <h1>JSON to TXT Converter – Simple, Private, and Instant Conversion</h1>
+
 
   <p>
     The <strong>JSON to TXT Converter</strong> is a free, browser-based utility that allows you to transform structured JSON data into clean, readable plain text. 

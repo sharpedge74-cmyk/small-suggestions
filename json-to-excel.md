@@ -4,7 +4,7 @@ title: JSON to Excel Converter Online – Fast, Secure, Offline
 description: Convert JSON to Excel (XLSX/XLS) instantly with our free, browser-based tool. Fast, offline, and private — perfect for everyone.
 keywords: json-to-excel, JSON to Excel converter, convert JSON files to Excel, online JSON to Excel tool, free JSON to Excel
 ---
-<section> <h1>JSON to Excel Converter Online – Fast, Secure, Offline</h1> </section>
+<section> <h1>JSON to Excel Data Conversion Tool</h1> </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>

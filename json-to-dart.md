@@ -7,7 +7,6 @@ keywords: json to dart converter, json to dart model, json to dart null safety, 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
-
 <!-- Tool section -->
 <section class="tool-section container" style="min-width: 99%">
 <h1>JSON to Dart Converter - Advance Dart Model Generation</h1>

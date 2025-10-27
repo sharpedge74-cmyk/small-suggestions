@@ -9,6 +9,8 @@ keywords: json-to-jsonschema, JSON to JSON Schema converter, convert JSON files 
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
 
 <section class="tool-section container" style="min-width: 99%">
+<h1>JSON to JSON Schema Converter – Instantly Generate JSON Schema Online</h1>
+
   <div id="json-tool-wrapper">
     <!-- JSON Editor -->
     <div id="json-editor-container">
@@ -112,7 +114,6 @@ keywords: json-to-jsonschema, JSON to JSON Schema converter, convert JSON files 
 
 <div style="margin: 4rem;">
 
-<h1>JSON to JSON Schema Converter – Instantly Generate JSON Schema Online</h1>
 
 <p>
 The <strong>JSON to JSON Schema Converter</strong> is a smart, browser-based utility that automatically generates a valid <strong>JSON Schema Draft-07</strong> from any JSON input. Whether you’re a developer working with API data, a schema designer defining structure validation, or simply need to document JSON formats, this tool instantly transforms your JSON into a properly structured and formatted schema.

@@ -5,7 +5,7 @@ description: Convert JSON to HTML instantly with our free, browser-based tool. G
 keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, online JSON to HTML tool, free JSON to HTML
 ---
 <section>
-<h1>JSON to HTML Converter – Fast, Secure, Offline</h1>
+<h1>JSON to HTML Converter – Convert Nested JSON</h1>
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

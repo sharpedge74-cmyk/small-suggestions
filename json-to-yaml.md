@@ -10,6 +10,7 @@ keywords: json-to-yaml, JSON to YAML converter, convert JSON files to YAML, onli
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
+<section> <h1>Convert JSON to YAML - Free and Faster</h1> </section>
 
 <div class="jsonx-container">
   <div class="jsonx-panel">
@@ -63,8 +64,6 @@ keywords: json-to-yaml, JSON to YAML converter, convert JSON files to YAML, onli
 <script src="/assets/js/json-to-yaml.js"></script>
 
 <div style="margin:4rem;">
-  <h1>JSON to YAML Converter Online – Free & Secure</h1>
-
   <p>
     Our <strong>JSON to YAML Converter</strong> is a free, browser-based utility that allows you to transform complex JSON data into a clean, human-readable YAML structure within seconds. 
     Whether you’re a developer managing configuration files or a data analyst simplifying nested structures, this tool performs <em>instant JSON to YAML conversion</em> securely — no server upload required.

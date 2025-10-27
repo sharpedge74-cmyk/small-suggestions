@@ -8,7 +8,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
-
+<section>  <h1>Convert JSON to CSV Online – Nested JSON Supported</h1> </section>
 <div class="jsonx-container">
   <!-- Top Panel -->
   <div class="jsonx-panel">
@@ -63,8 +63,6 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
 
 
 <div style="margin:4rem;">
-
-  <h1>JSON to CSV Converter Online – Fast, Secure, Offline</h1>
 
   <p>Instantly convert your JSON files or strings into fully structured CSV format with our free, browser-based JSON to CSV converter. Whether your JSON is simple or deeply nested, this tool efficiently transforms it into CSV tables while preserving relationships, and lets you preview, copy, or download the result. All processing happens client-side in your browser — no uploads, no servers, and full privacy.</p>
 

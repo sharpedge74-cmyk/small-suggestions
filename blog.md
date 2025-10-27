@@ -1,6 +1,6 @@
 ---
 layout: main
-title: "SmallSuggestions Blog - Productivity, Software, and Data Conversion Insights"
+title: "SmallSuggestions Blog - Data Conversion Tools"
 description: "Read the latest blog posts from SmallSuggestions on productivity tools, online converters, and data management. Explore more web apps."
 keywords: smallsuggestions blog, productivity tools, data conversion blog, online converters, open source software, data tools, web utilities
 ---

@@ -9,6 +9,7 @@ keywords: json-to-sql, JSON to SQL converter, convert JSON files to SQL, online 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
+<section> <h1>JSON to SQL Converter – Transform JSON Data into SQL Tables & Queries</h1></section>
 
 <div class="jsonx-container">
   <!-- Top Panel -->
@@ -62,8 +63,6 @@ keywords: json-to-sql, JSON to SQL converter, convert JSON files to SQL, online 
 <script src="/assets/js/json-to-sql.js"></script>
 
 <div style="margin:4rem;">
-
-  <h1>JSON to SQL Converter – Transform JSON Data into SQL Tables & Queries</h1>
 
   <p>
     The <strong>JSON to SQL Converter</strong> is a browser-based data conversion tool that helps you seamlessly

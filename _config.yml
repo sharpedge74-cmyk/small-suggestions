@@ -2,7 +2,7 @@ title: SmallSuggestions — Free Online Tools for JSON, CSV, XML & Excel Convers
 description: Convert, format, and manage your data easily with SmallSuggestions. Free browser-based tools for JSON, CSV, XML, and Excel — secure, accurate, and fast.
 permalink: ':title'
 baseurl: ""
-url: "https://smallsugesstions.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://smallsuggestions.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 image: 
 # Author Settings

@@ -8,7 +8,7 @@ keywords: json string to json object, convert string to json, convert json strin
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/jsonview@1.2.0/dist/jquery.jsonview.min.css" rel="stylesheet">
-
+<section>  <h1>Convert JSON String to JSON Object Converter Online </h1> </section>
 <!-- Tool section -->
 <section class="tool-section container" style="min-width: 99%">
   <div id="json-tool-wrapper">
@@ -107,8 +107,6 @@ keywords: json string to json object, convert string to json, convert json strin
 <script src="assets/js/json-string-to-json-object.js"></script>
 
 <div style="margin: 4rem;">
-
-  <h1>Convert JSON String to JSON Object Converter Online </h1>
 
   <p>Convert any JSON string into a fully formatted JSON object instantly with our free, browser-based tool. Whether you have nested JSON strings or a simple key-value JSON, this converter parses and displays your data in a structured, easy-to-read format with syntax highlighting. Copy the result to your clipboard or download it as a JSON file for further use — all directly in your browser without any server uploads.</p>
 

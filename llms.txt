@@ -1,28 +1,57 @@
-# SmallSuggestions – Free Online Utility Tools for Data Conversion
+# SmallSuggestions – Free Online Data Conversion Tools
 
-SmallSuggestions is a collection of browser-based utility tools designed to make data conversion simple, secure, and fast.  
-Our platform focuses on four core formats widely used by developers, analysts, and data professionals — **JSON, XML, CSV, and Excel**.
+SmallSuggestions is a free, browser-based platform offering utility tools for **JSON, XML, CSV, and Excel** data conversion.  
+All processing happens in your browser — **no signup, no uploads, no tracking**.
 
 ## What You Can Do
 - Convert files between JSON, XML, CSV, and Excel formats.
-- Validate, format, and preview structured data instantly.
-- Use all tools directly in your browser — no signup, no data tracking, no uploads to external servers.
+- Export to PDF, SQL, TXT, HTML, and other formats.
+- Preview, edit, and validate structured data instantly.
+- Handle both small and large datasets efficiently.
+
+## Key Benefits
+- **Free & Secure:** Files never leave your device.
+- **Fast & Accurate:** Lightweight tools optimized for modern browsers.
+- **Developer-Friendly:** Ideal for developers, analysts, and students.
+- **Accessible Design:** Responsive, readable, and high-performance interface.
+- **Privacy-Focused:** Local processing, zero server storage.
+
+## Tool Categories
+
+### JSON Tools
+- [JSON → CSV](https://smallsuggestions.com/json-to-csv)
+- [JSON → Excel](https://smallsuggestions.com/json-to-excel)
+- [JSON → PDF](https://smallsuggestions.com/json-to-pdf)
+- [JSON → SQL](https://smallsuggestions.com/json-to-sql)
+- [JSON → TXT](https://smallsuggestions.com/json-to-txt)
+- [JSON → HTML](https://smallsuggestions.com/json-to-html)
+- [JSON → XML](https://smallsuggestions.com/json-to-xml)
+- [JSON → Dart](https://smallsuggestions.com/json-to-dart)
+- [JSON String → JSON Object](https://smallsuggestions.com/json-string-to-json-object)
+- [JSON → JSON Schema](https://smallsuggestions.com/json-to-json-schema)
+
+### Excel Tools
+- [XLSX/XLS → CSV](https://smallsuggestions.com/convert-xlsx-to-csv)
+- [XLSX/XLS → XML](https://smallsuggestions.com/convert-xlsx-to-xml)
+- [Excel → HTML](https://smallsuggestions.com/excel-to-html)
+- [Excel → JSON](https://smallsuggestions.com/excel-to-json)
+- [XLSX/XLS → PDF](https://smallsuggestions.com/xlsx-to-pdf)
+- [XLSX/XLS → SQL](https://smallsuggestions.com/xlsx-to-sql-converter)
+
+### CSV Tools
+- [CSV → JSON](https://smallsuggestions.com/convert-csv-to-json)
+- [CSV → Excel](https://smallsuggestions.com/convert-csv-to-excel)
+- [CSV → SQL](https://smallsuggestions.com/csv-to-sql)
+- [CSV → PDF](https://smallsuggestions.com/convert-csv-to-pdf)
+- [CSV → XML](https://smallsuggestions.com/convert-csv-to-xml)
+- [CSV → TXT](https://smallsuggestions.com/convert-csv-to-txt)
+
 
 ## Why SmallSuggestions
-- **Free and Secure:** 100% browser-based processing ensures your files never leave your device.  
-- **Accurate and Efficient:** Built with lightweight frameworks for instant results.  
-- **Developer-Friendly:** Designed to assist developers, analysts, and students who handle structured data daily.  
-- **Accessible Design:** Fully responsive interface with strong contrast, readable typography, and optimized performance.
-
-## Our Focus
-We believe in providing small, reliable web utilities that simplify technical tasks and support open web accessibility.  
-SmallSuggestions is continuously expanding — new data-focused tools are added regularly to improve usability and coverage across structured data formats.
-
----
+Small, reliable, and continuously expanding tools that simplify everyday data tasks.  
+Designed for professional and personal use — perfect for anyone who works with structured data.
 
 **Primary Category:** Online Data Conversion Tools  
 **Main Focus Areas:** JSON Tools, XML Tools, CSV Tools, Excel Tools  
 **Website:** [https://smallsuggestions.com](https://smallsuggestions.com)  
 **Type:** Free Web Utility Platform
-
-

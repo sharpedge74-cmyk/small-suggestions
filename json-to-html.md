@@ -202,10 +202,6 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
       "https://en.wikipedia.org/wiki/JSON",
       "https://en.wikipedia.org/wiki/HTML",
       "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-excel",
-    "https://smallsuggestions.com/json-to-pdf",
-    "https://smallsuggestions.com/json-to-sql",
-    "https://smallsuggestions.com/json-to-xml"
     ]
   }
 }
@@ -242,11 +238,9 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
 }
 </script>
 
-<!-- ✅ Dataset Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Dataset",
   "@graph": [
     {
       "@type": "Dataset",
@@ -258,7 +252,14 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
       "creator": {
         "@type": "Organization",
         "name": "Small Suggestions"
-      }
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://smallsuggestions.com/json-to-html"
+        }
+      ]
     },
     {
       "@type": "Dataset",
@@ -270,11 +271,19 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
       "creator": {
         "@type": "Organization",
         "name": "Small Suggestions"
-      }
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/html",
+          "contentUrl": "https://smallsuggestions.com/json-to-html"
+        }
+      ]
     }
   ]
 }
 </script>
+
 
 <!-- ✅ HowTo Schema -->
 <script type="application/ld+json">

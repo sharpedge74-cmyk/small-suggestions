@@ -98,39 +98,6 @@ keywords: privacy policy, GDPR, CCPA, data protection, local file processing, se
   <p><strong>Last Updated:</strong> {{ site.time | date: "%B %d, %Y" }}</p>
 </div>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "@id": "https://smallsuggestions.com/privacy-policy#webpage",
-  "url": "https://smallsuggestions.com/privacy-policy",
-  "name": "Privacy Policy - SmallSuggestions",
-  "description": "Read the Privacy Policy of SmallSuggestions. Learn how we handle user data, protect files, and ensure privacy while using free browser-based tools.",
-  "isPartOf": {
-    "@type": "WebSite",
-    "@id": "https://smallsuggestions.com/#website",
-    "url": "https://smallsuggestions.com/",
-    "name": "SmallSuggestions"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "SmallSuggestions",
-    "url": "https://smallsuggestions.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/logo.webp"
-    }
-  },
-  "mainEntity": {
-    "@type": "CreativeWork",
-    "name": "Privacy Policy",
-    "about": "This Privacy Policy explains how SmallSuggestions ensures user privacy while providing free online tools. No file uploads, no personal data collection, browser-based only.",
-    },
-  "inLanguage": "en",
-  "datePublished": "2025-10-16",
-  "dateModified": "2025-10-16"
-}
-</script>
 <style>
   .link{
    color: #2563eb;

@@ -185,7 +185,7 @@ keywords: convert csv to xml, CSV to XML converter, convert CSV files to XML, on
   "description": "Use this online tool to instantly convert CSV data into structured XML format for easy data sharing and integration.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-xml",
+    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-xml"
     },
   "result": {
     "@type": "Thing",

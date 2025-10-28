@@ -273,11 +273,6 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "name": "Convert JSON to SQL",
       "description": "Convert JSON data to SQL table creation and insert statements directly in your browser, with zero data uploads.",
       "actionStatus": "PotentialActionStatus",
-      "agent": {
-        "@type": "WebApplication",
-        "name": "JSON to SQL Converter",
-        "url": "https://smallsuggestions.com/json-to-sql"
-      },
       "object": {
         "@type": "Dataset",
         "name": "JSON Dataset",

@@ -176,7 +176,7 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "description": "Upload a CSV file and convert each row into SQL INSERT statements suitable for common relational databases.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/csv-to-sql",
+    "urlTemplate": "https://smallsuggestions.com/csv-to-sql"
     },
   "result": {
     "@type": "Thing",

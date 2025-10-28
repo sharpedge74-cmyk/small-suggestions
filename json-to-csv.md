@@ -221,7 +221,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     "urlTemplate": "https://smallsuggestions.com/json-to-csv",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
-      "https://schema.org/MobileWebPlatform",
+      "https://schema.org/MobileWebPlatform"
     ]
   }
 }

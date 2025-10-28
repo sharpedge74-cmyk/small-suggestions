@@ -187,9 +187,6 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
   "name": "Convert Excel to JSON",
   "description": "Convert Excel spreadsheets to JSON format in your browser instantly.",
   "actionStatus": "PotentialActionStatus",
-  "agent": { "@type": "WebApplication", "name": "Excel to JSON Converter", "url": "https://smallsuggestions.com/excel-to-json" },
-  "object": { "@type": "Dataset", "name": "Excel Data Input" },
-  "result": { "@type": "Dataset", "name": "JSON Output" },
   "target": { "@type": "EntryPoint", "urlTemplate": "https://smallsuggestions.com/excel-to-json" }
 }
 </script>

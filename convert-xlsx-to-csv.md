@@ -198,7 +198,7 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "description": "Upload your Excel XLSX file to convert it to CSV format with just one click.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-xlsx-to-csv",
+    "urlTemplate": "https://smallsuggestions.com/convert-xlsx-to-csv"
     },
   "result": {
     "@type": "Thing",

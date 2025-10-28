@@ -136,20 +136,6 @@ keywords: xlsx to sql converter, XLSX to SQL converter, convert XLSX files to SQ
 }
 </script>
 
-<!-- 2. SoftwareApplication Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "XLSX to SQL Converter",
-  "url": "https://yourdomain.com/xlsx-to-sql-converter",
-  "applicationCategory": "DeveloperTool",
-  "operatingSystem": "Browser",
-  "softwareVersion": "1.0",
-  "description": "Browser-based tool to convert XLSX or XLS files to SQL INSERT statements quickly and safely."
-}
-</script>
-
 <!-- 3. FAQPage Schema -->
 <script type="application/ld+json">
 {

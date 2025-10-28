@@ -165,7 +165,6 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
 </div>
 
 <!-- ✅ WebApplication Schema -->
-<!-- Structured Data: Small Suggestions Schema Framework v1 -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -197,11 +196,6 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
       "@type": "Action",
       "name": "CSV to Excel Conversion",
       "description": "Quickly convert CSV files to Excel (XLS or XLSX) format online with full browser-side processing.",
-      "agent": {
-        "@type": "WebApplication",
-        "name": "CSV to Excel Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-excel"
-      },
       "object": {
         "@type": "MediaObject",
         "encodingFormat": "text/csv",

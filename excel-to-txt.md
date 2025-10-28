@@ -148,7 +148,7 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ConvertAction",
+  "@type": "Action",
   "target": {
     "@type": "EntryPoint",
     "urlTemplate": "https://yourdomain.com/excel-to-text",
@@ -166,29 +166,36 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
 }
 </script>
 
+<!-- ✅ Dataset Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "Excel Spreadsheet Input",
-  "description": "User-provided Excel file (.xls or .xlsx) used for conversion to TXT format.",
-  "distribution": {
-    "@type": "DataDownload",
-    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "Converted TXT Output",
-  "description": "Plain-text (TXT) file generated from Excel input, preserving table structure and headers.",
-  "distribution": {
-    "@type": "DataDownload",
-    "encodingFormat": "text/plain"
-  }
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "#inputExcelDataset",
+      "name": "Excel File Input",
+      "description": "Excel files uploaded or pasted by the user for conversion to plain text format.",
+      "keywords": ["Excel", "XLS", "XLSX", "Spreadsheet", "Data Conversion"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "#outputTxtDataset",
+      "name": "Text Output File",
+      "description": "Generated TXT file containing the flattened and formatted text representation of the Excel spreadsheet data.",
+      "keywords": ["TXT", "Plain Text", "Data Export", "Spreadsheet Conversion"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    }
+  ]
 }
 </script>
 

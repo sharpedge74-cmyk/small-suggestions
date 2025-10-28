@@ -198,17 +198,15 @@ keywords: convert csv to html, CSV to HTML converter, convert CSV files to HTML,
     "name": "CSV to HTML Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Comma-separated_values",
-      "https://en.wikipedia.org/wiki/HTML"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/convert-csv-to-json",
+      "https://en.wikipedia.org/wiki/HTML",
+      "https://smallsuggestions.com/convert-csv-to-json",
     "https://smallsuggestions.com/convert-csv-to-excel",
     "https://smallsuggestions.com/convert-csv-to-pdf",
     "https://smallsuggestions.com/convert-csv-to-xml",
     "https://smallsuggestions.com/convert-csv-to-txt",
     "https://smallsuggestions.com/csv-to-sql"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -221,11 +219,6 @@ keywords: convert csv to html, CSV to HTML converter, convert CSV files to HTML,
   "name": "Convert CSV to HTML",
   "description": "This free online tool lets you convert CSV files into clean, structured HTML tables directly in your browser without any uploads.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "CSV to HTML Converter",
-    "url": "https://smallsuggestions.com/convert-csv-to-html"
-  },
   "object": {
     "@type": "Dataset",
     "name": "CSV Dataset",

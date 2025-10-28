@@ -231,6 +231,7 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
   <li><a href="json-to-dart" style="color:#0066cc; text-decoration:underline;">JSON to Dart</a></li>
   <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
   <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">Json String To Json Object</a></li>
+  <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
 </ul>
 
 </div>
@@ -274,16 +275,14 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
     "name": "JSON Schema Generation",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://json-schema.org/"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-html",
+      "https://json-schema.org/",
+      "https://smallsuggestions.com/json-to-html",
     "https://smallsuggestions.com/json-to-xml",
     "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-xlsx",
     "https://smallsuggestions.com/json-to-sql"
-  ]
+    ]
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -294,11 +293,6 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
   "name": "Convert JSON to JSON Schema",
   "description": "Free online tool to generate JSON Schema definitions from any valid JSON input. Supports Draft-07 and includes instant preview, copy, and download features.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to JSON Schema Converter",
-    "url": "https://smallsuggestions.com/json-to-json-schema"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Data",

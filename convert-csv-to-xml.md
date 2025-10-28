@@ -172,13 +172,6 @@ keywords: convert csv to xml, CSV to XML converter, convert CSV files to XML, on
     "Browser-based secure processing",
     "Supports large CSV files",
     "Free and easy to use"
-  ],
-  "relatedLink": [
-    "https://smallsuggestions.com/convert-csv-to-json",
-    "https://smallsuggestions.com/convert-csv-to-txt",
-    "https://smallsuggestions.com/convert-csv-to-html",
-    "https://smallsuggestions.com/convert-excel-to-xml",
-    "https://smallsuggestions.com/convert-json-to-xml"
   ]
 }
 </script>
@@ -193,8 +186,7 @@ keywords: convert csv to xml, CSV to XML converter, convert CSV files to XML, on
   "target": {
     "@type": "EntryPoint",
     "urlTemplate": "https://smallsuggestions.com/convert-csv-to-xml",
-    "inLanguage": "en"
-  },
+    },
   "result": {
     "@type": "Thing",
     "name": "XML file",

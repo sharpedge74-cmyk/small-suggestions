@@ -114,6 +114,7 @@ Our suite of JSON tools helps you transform structured data into multiple useful
   <li><a href="/json-to-txt" style="color:#0066cc;text-decoration:underline;">JSON to TXT Converter</a></li>
   <li><a href="/json-string-to-json-object" style="color:#0066cc;text-decoration:underline;">JSON String to JSON Object</a></li>
   <li><a href="/json-to-json-schema" style="color:#0066cc;text-decoration:underline;">JSON to JSON Schema Converter</a></li>
+  <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>  
 </ul>
 
 </div>
@@ -157,16 +158,14 @@ Our suite of JSON tools helps you transform structured data into multiple useful
     "name": "JSON to PDF Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/PDF"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-html",
+      "https://en.wikipedia.org/wiki/PDF",
+       "https://smallsuggestions.com/json-to-html",
     "https://smallsuggestions.com/json-to-xml",
     "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-xlsx",
     "https://smallsuggestions.com/json-to-sql"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -178,11 +177,6 @@ Our suite of JSON tools helps you transform structured data into multiple useful
   "name": "Convert JSON to PDF",
   "description": "Free online JSON to PDF converter that formats your data into structured, shareable PDF files instantly and securely.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to PDF Converter",
-    "url": "https://smallsuggestions.com/json-to-pdf"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Data",

@@ -168,6 +168,7 @@ background-color: #66fcf1;
     <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
     <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">Json String To Json Object</a></li>
     <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">Json To Json Schema</a></li>
+    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
   </ul>
 
 </div>
@@ -212,16 +213,14 @@ background-color: #66fcf1;
     "name": "JSON to Excel Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/Microsoft_Excel"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-csv",
+      "https://en.wikipedia.org/wiki/Microsoft_Excel",
+      "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-pdf",
     "https://smallsuggestions.com/json-to-sql",
     "https://smallsuggestions.com/json-to-txt",
     "https://smallsuggestions.com/json-to-xml"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -234,11 +233,6 @@ background-color: #66fcf1;
   "name": "Convert JSON to Excel",
   "description": "This online tool lets you convert JSON files into Excel formats (.xls or .xlsx) directly in your browser with no uploads or installations.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to Excel Converter",
-    "url": "https://smallsuggestions.com/json-to-excel"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Dataset",

@@ -175,16 +175,14 @@ It’s safe, private, and ideal for sensitive business or academic use.
     "name": "Excel to XML Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Microsoft_Excel",
-      "https://en.wikipedia.org/wiki/XML"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/excel-to-html",
+      "https://en.wikipedia.org/wiki/XML",
+      "https://smallsuggestions.com/excel-to-html",
     "https://smallsuggestions.com/excel-to-json",
     "https://smallsuggestions.com/convert-xlsx-to-csv",
     "https://smallsuggestions.com/xlsx-to-pdf",
     "https://smallsuggestions.com/xlsx-to-sql-converter"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -197,11 +195,6 @@ It’s safe, private, and ideal for sensitive business or academic use.
   "name": "Convert XLSX to XML",
   "description": "This online tool lets you convert Excel files (.xls or .xlsx) into XML directly in your browser with no uploads or installations.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "XLSX to XML Converter",
-    "url": "https://smallsuggestions.com/convert-xlsx-to-xml"
-  },
   "object": {
     "@type": "Dataset",
     "name": "Excel Spreadsheet",

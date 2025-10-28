@@ -134,7 +134,7 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ConvertAction",
+  "@type": "Action",
   "target": {
     "@type": "EntryPoint",
     "urlTemplate": "https://yourdomain.com/xlsx-to-pdf",
@@ -152,31 +152,39 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
 }
 </script>
 
+<!-- ✅ Dataset Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "Excel Spreadsheet Input",
-  "description": "User-provided Excel file (.xls or .xlsx) used for conversion to PDF format.",
-  "distribution": {
-    "@type": "DataDownload",
-    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-  }
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "#inputExcelDataset",
+      "name": "Excel File Input",
+      "description": "Excel files (XLSX) uploaded by the user to be converted into PDF documents.",
+      "keywords": ["Excel", "XLSX", "Spreadsheet", "Data Conversion", "Document Export"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "#outputPdfDataset",
+      "name": "PDF Output File",
+      "description": "Generated PDF file representing the formatted version of the uploaded Excel spreadsheet, maintaining table structure and layout.",
+      "keywords": ["PDF", "Portable Document", "Data Export", "Spreadsheet Conversion"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    }
+  ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "Converted PDF Output",
-  "description": "PDF file generated from Excel input, preserving tables, charts, and formatting.",
-  "distribution": {
-    "@type": "DataDownload",
-    "encodingFormat": "application/pdf"
-  }
-}
-</script>
 
 <script type="application/ld+json">
 {

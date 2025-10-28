@@ -117,6 +117,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
     <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String to JSON Object</a></li>
     <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
+    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
   </ul>
 
   <h2>Frequently Asked Questions (FAQ)</h2>
@@ -185,17 +186,15 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     "name": "JSON to CSV Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/Comma-separated_values"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-excel",
+      "https://en.wikipedia.org/wiki/Comma-separated_values",
+      "https://smallsuggestions.com/json-to-excel",
     "https://smallsuggestions.com/json-to-html",
     "https://smallsuggestions.com/json-to-pdf",
     "https://smallsuggestions.com/json-to-sql",
     "https://smallsuggestions.com/json-to-txt",
     "https://smallsuggestions.com/json-to-xml"
-  ]
+    ]
+  }
 }
 </script>
 <!-- ✅ ConvertAction Schema -->
@@ -207,11 +206,6 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
   "name": "Convert JSON to CSV",
   "description": "This online tool lets you convert JSON files or strings into CSV format directly in your browser with no uploads or installations.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to CSV Converter",
-    "url": "https://smallsuggestions.com/json-to-csv"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Dataset",
@@ -227,7 +221,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     "urlTemplate": "https://smallsuggestions.com/json-to-csv",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
-      "https://schema.org/MobileWebPlatform"
+      "https://schema.org/MobileWebPlatform",
     ]
   }
 }

@@ -194,16 +194,39 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
 }
 </script>
 
-<!-- Dataset Schema -->
+<!-- ✅ Dataset Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Dataset", "@id": "#inputExcelDataset", "name": "Excel Data Input", "description": "Excel spreadsheet uploaded by the user.", "keywords": ["Excel","XLS","XLSX","Data"], "creator": {"@type":"Organization","name":"Small Suggestions"} },
-    { "@type": "Dataset", "@id": "#outputJsonDataset", "name": "JSON Output", "description": "JSON object generated from Excel data.", "keywords": ["JSON","Structured Data","Web App"], "creator": {"@type":"Organization","name":"Small Suggestions"} }
+    {
+      "@type": "Dataset",
+      "@id": "#inputExcelDataset",
+      "name": "Excel File Input",
+      "description": "Excel files uploaded or pasted by the user for conversion to structured JSON format.",
+      "keywords": ["Excel", "XLS", "XLSX", "Spreadsheet", "Data Conversion"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "#outputJsonDataset",
+      "name": "JSON Output Data",
+      "description": "Generated JSON data representing the structured content of the uploaded Excel spreadsheet with key-value pairs and nested objects.",
+      "keywords": ["JSON", "Structured Data", "API Format", "Spreadsheet Conversion"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    }
   ]
 }
 </script>
+
 
 <!-- HowTo Schema -->
 <script type="application/ld+json">

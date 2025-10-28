@@ -154,13 +154,6 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
     "Secure, browser-based processing",
     "Supports large CSV files",
     "Free and easy to use"
-  ],
-  "relatedLink": [
-    "https://smallsuggestions.com/convert-csv-to-excel",
-    "https://smallsuggestions.com/convert-csv-to-json",
-    "https://smallsuggestions.com/convert-csv-to-html",
-    "https://smallsuggestions.com/convert-csv-to-xml",
-    "https://smallsuggestions.com/convert-csv-to-pdf"
   ]
 }
 </script>
@@ -174,8 +167,7 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
   "description": "Online CSV to TXT converter that transforms CSV data into column-aligned plain text instantly.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-txt",
-    "inLanguage": "en"
+    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-txt"
   },
   "result": {
     "@type": "Thing",

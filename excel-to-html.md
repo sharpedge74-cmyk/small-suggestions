@@ -193,17 +193,15 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
     "name": "Excel to HTML Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Microsoft_Excel",
-      "https://en.wikipedia.org/wiki/HTML_table"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/excel-to-json",
+      "https://en.wikipedia.org/wiki/HTML_table",
+      "https://smallsuggestions.com/excel-to-json",
     "https://smallsuggestions.com/excel-to-txt",
     "https://smallsuggestions.com/convert-xlsx-to-csv",
     "https://smallsuggestions.com/convert-xlsx-to-xml",
     "https://smallsuggestions.com/xlsx-to-pdf",
     "https://smallsuggestions.com/xlsx-to-sql-converter"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -216,11 +214,6 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
   "name": "Convert Excel to HTML",
   "description": "This online tool lets you convert Excel files (.xls or .xlsx) into HTML tables directly in your browser without uploads or installations.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "Excel to HTML Converter",
-    "url": "https://smallsuggestions.com/excel-to-html"
-  },
   "object": {
     "@type": "Dataset",
     "name": "Excel Dataset",

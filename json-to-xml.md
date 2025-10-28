@@ -145,6 +145,7 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
     <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
     <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
     <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String to JSON Object</a></li>
+    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
   </ul>
 </div>
 
@@ -188,16 +189,14 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
     "name": "JSON to XML Data Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/XML"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-csv",
+      "https://en.wikipedia.org/wiki/XML",
+      "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-excel",
     "https://smallsuggestions.com/json-to-pdf",
     "https://smallsuggestions.com/json-to-sql",
     "https://smallsuggestions.com/json-to-txt"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -210,11 +209,6 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
   "name": "Convert JSON to XML",
   "description": "Use this free online tool to convert JSON data into XML format directly in your browser with instant preview and secure local processing.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to XML Converter",
-    "url": "https://smallsuggestions.com/json-to-xml"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Dataset",

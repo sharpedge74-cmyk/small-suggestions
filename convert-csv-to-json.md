@@ -163,11 +163,6 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
     "Editable data preview",
     "Browser-based privacy",
     "JSON file export"
-  ],
-  "relatedLink": [
-    "https://smallsuggestions.com/convert-csv-to-html",
-    "https://smallsuggestions.com/convert-csv-to-excel",
-    "https://smallsuggestions.com/convert-csv-to-xml"
   ]
 }
 </script>
@@ -235,7 +230,7 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
   "itemListElement": [
     {"@type": "ListItem","position": 1,"name": "CSV to Excel","url": "https://smallsuggestions.com/convert-csv-to-excel"},
     {"@type": "ListItem","position": 2,"name": "CSV to HTML","url": "https://smallsuggestions.com/convert-csv-to-html"},
-    {"@type": "ListItem","position": 3,"name": "CSV to XML","url": "https://smallsuggestions.com/convert-csv-to-xml"}
+    {"@type": "ListItem","position": 3,"name": "CSV to XML","url": "https://smallsuggestions.com/convert-csv-to-xml"},
   ]
 }
 </script>

@@ -1,7 +1,7 @@
 ---
 layout: main
 title: JSON to YAML Converter Online – Free & Secure
-description: Convert JSON files to clean, structured YAML format instantly with our free browser-based tool. Transform nested JSON into readable YAML safely, with no uploads.
+description: Convert JSON files to clean, structured YAML format instantly with our free browser-based tool. Nested JSON supported.
 keywords: json-to-yaml, JSON to YAML converter, convert JSON files to YAML, online JSON to YAML tool, free JSON to YAML
 ---
 
@@ -299,17 +299,15 @@ details:
     "name": "JSON to YAML Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/YAML"
+      "https://en.wikipedia.org/wiki/YAML",
+      "https://smallsuggestions.com/json-to-csv",
+      "https://smallsuggestions.com/json-to-excel",
+      "https://smallsuggestions.com/json-to-pdf",
+      "https://smallsuggestions.com/json-to-sql",
+      "https://smallsuggestions.com/json-to-txt",
+      "https://smallsuggestions.com/json-to-xml"
     ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-excel",
-    "https://smallsuggestions.com/json-to-pdf",
-    "https://smallsuggestions.com/json-to-sql",
-    "https://smallsuggestions.com/json-to-txt",
-    "https://smallsuggestions.com/json-to-xml"
-  ]
+  }
 }
 </script>
 
@@ -322,11 +320,6 @@ details:
   "name": "Convert JSON to YAML",
   "description": "This tool allows you to convert JSON files to YAML format directly in your browser. View, validate, and export your data safely without any uploads.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to YAML Converter",
-    "url": "https://smallsuggestions.com/json-to-yaml"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Dataset",

@@ -125,8 +125,7 @@ keywords: privacy policy, GDPR, CCPA, data protection, local file processing, se
     "@type": "CreativeWork",
     "name": "Privacy Policy",
     "about": "This Privacy Policy explains how SmallSuggestions ensures user privacy while providing free online tools. No file uploads, no personal data collection, browser-based only.",
-    "inLanguage": "en"
-  },
+    },
   "inLanguage": "en",
   "datePublished": "2025-10-16",
   "dateModified": "2025-10-16"

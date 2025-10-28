@@ -163,13 +163,6 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
     "Escapes quotes to preserve data integrity",
     "Editable preview before export",
     "Client-side processing — no uploads"
-  ],
-  "relatedLink": [
-    "https://smallsuggestions.com/convert-csv-to-json",
-    "https://smallsuggestions.com/convert-csv-to-xml",
-    "https://smallsuggestions.com/convert-csv-to-excel",
-    "https://smallsuggestions.com/convert-csv-to-txt",
-    "https://smallsuggestions.com/convert-csv-to-pdf"
   ]
 }
 </script>
@@ -184,8 +177,7 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "target": {
     "@type": "EntryPoint",
     "urlTemplate": "https://smallsuggestions.com/csv-to-sql",
-    "inLanguage": "en"
-  },
+    },
   "result": {
     "@type": "Thing",
     "name": "SQL Script",

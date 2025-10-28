@@ -182,6 +182,7 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
   <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
   <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
   <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">Json String To Json Object</a></li>
+  <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
 </ul>
 
 </div>
@@ -228,16 +229,14 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
     "name": "JSON to Text Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/Text_file"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-html",
-    "https://smallsuggestions.com/json-to-xml",
+      "https://en.wikipedia.org/wiki/Text_file",
+      "https://smallsuggestions.com/json-to-html",
+      "https://smallsuggestions.com/json-to-xml",
     "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-xlsx",
     "https://smallsuggestions.com/json-to-sql"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -249,11 +248,6 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
   "name": "Convert JSON to TXT",
   "description": "Free online JSON to TXT converter that transforms JSON into plain text with options for raw, flattened, readable, and values-only outputs. Works offline and allows instant export.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to TXT Converter",
-    "url": "https://smallsuggestions.com/json-to-txt"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Data",

@@ -212,6 +212,7 @@ class Root {
   <li><a href="/json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
   <li><a href="/json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
   <li><a href="/json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
+  <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
 </ul>  
 </div>
 <!-- ✅ WebApplication Schema -->
@@ -254,16 +255,14 @@ class Root {
     "name": "JSON to Dart Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://dart.dev/guides/language/language-tour"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-csv",
+      "https://dart.dev/guides/language/language-tour",
+      "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-excel",
     "https://smallsuggestions.com/json-to-pdf",
     "https://smallsuggestions.com/json-to-sql",
     "https://smallsuggestions.com/json-to-xml"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -276,11 +275,6 @@ class Root {
   "name": "Convert JSON to Dart",
   "description": "This online tool converts your JSON data into fully functional Dart models with options for null safety, private fields, required fields, and default values.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to Dart Converter",
-    "url": "https://smallsuggestions.com/json-to-dart"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON Dataset",

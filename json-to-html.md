@@ -155,6 +155,7 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
   <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
   <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">Json String To Json Object</a></li>
   <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">Json To Json Schema</a></li>
+  <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
 </ul>
   
 </div>
@@ -199,16 +200,14 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
     "name": "JSON to HTML Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/HTML"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-csv",
+      "https://en.wikipedia.org/wiki/HTML",
+      "https://smallsuggestions.com/json-to-csv",
     "https://smallsuggestions.com/json-to-excel",
     "https://smallsuggestions.com/json-to-pdf",
     "https://smallsuggestions.com/json-to-sql",
     "https://smallsuggestions.com/json-to-xml"
-  ]
+    ]
+  }
 }
 </script>
 
@@ -221,11 +220,7 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
   "name": "Convert JSON to HTML",
   "description": "This online tool converts JSON (pasted or uploaded) into structured HTML output directly in the browser with no uploads or installations.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON to HTML Converter",
-    "url": "https://smallsuggestions.com/json-to-html"
-  },
+
   "object": {
     "@type": "Dataset",
     "name": "JSON Dataset",

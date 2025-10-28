@@ -165,235 +165,170 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
 </div>
 
 <!-- ✅ WebApplication Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "CSV to Excel Converter",
-  "alternateName": "Convert CSV Files to Excel Online",
-  "operatingSystem": "Any",
-  "applicationCategory": "UtilityApplication",
-  "applicationSubCategory": "File Conversion",
-  "description": "Convert CSV files to Excel (XLS/XLSX) instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
-  "url": "https://smallsuggestions.com/convert-csv-to-excel",
-  "image": "https://smallsuggestions.com/assets/img/csv-to-excel-tool.webp",
-  "creator": {
-    "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
-  },
-  "featureList": [
-    "Instant CSV to Excel conversion",
-    "Preview and edit data before exporting",
-    "Export to .xls and .xlsx formats",
-    "No software installation required",
-    "Completely client-side — no data uploads"
-  ],
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "category": "Free"
-  },
-  "softwareVersion": "1.0.0",
-  "browserRequirements": "Works on all JavaScript-enabled browsers",
-  "permissions": "No data storage or tracking involved",
-  "inLanguage": "en",
-  "about": {
-    "@type": "Thing",
-    "name": "CSV to Excel Conversion",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Comma-separated_values",
-      "https://en.wikipedia.org/wiki/Microsoft_Excel"
-    ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/convert-csv-to-json",
-    "https://smallsuggestions.com/convert-csv-to-html",
-    "https://smallsuggestions.com/convert-csv-to-pdf",
-    "https://smallsuggestions.com/convert-csv-to-xml",
-    "https://smallsuggestions.com/convert-csv-to-sql"
-  ]
-}
-</script>
-
-<!-- ✅ ConvertAction Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Action",
-  "@id": "#convertCsvToExcel",
-  "name": "Convert CSV to Excel",
-  "description": "This online tool lets you convert CSV files into Excel formats (.xls or .xlsx) directly in your browser with no uploads or installations.",
-  "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "CSV to Excel Converter",
-    "url": "https://smallsuggestions.com/convert-csv-to-excel"
-  },
-  "object": {
-    "@type": "Dataset",
-    "name": "CSV Dataset",
-    "description": "Comma-separated values file containing structured data."
-  },
-  "result": {
-    "@type": "Dataset",
-    "name": "Excel Spreadsheet",
-    "description": "Excel file (.xls or .xlsx) generated from uploaded CSV data."
-  },
-  "target": {
-    "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-excel",
-    "actionPlatform": [
-      "https://schema.org/DesktopWebPlatform",
-      "https://schema.org/MobileWebPlatform"
-    ]
-  }
-}
-</script>
-
-<!-- ✅ Dataset Schema -->
+<!-- Structured Data: Small Suggestions Schema Framework v1 -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
+
+    {
+      "@type": "WebApplication",
+      "name": "Convert CSV to Excel - Free Online Tool",
+      "url": "https://smallsuggestions.com/convert-csv-to-excel",
+      "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+      "description": "Convert CSV files to Excel instantly with browser-based CSV to Excel converter. Fast, secure, and no installation required.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "softwareVersion": "1.0.0",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions",
+        "url": "https://smallsuggestions.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+
+    {
+      "@type": "Action",
+      "name": "CSV to Excel Conversion",
+      "description": "Quickly convert CSV files to Excel (XLS or XLSX) format online with full browser-side processing.",
+      "agent": {
+        "@type": "WebApplication",
+        "name": "CSV to Excel Converter",
+        "url": "https://smallsuggestions.com/convert-csv-to-excel"
+      },
+      "object": {
+        "@type": "MediaObject",
+        "encodingFormat": "text/csv",
+        "name": "CSV File"
+      },
+      "result": {
+        "@type": "MediaObject",
+        "encodingFormat": "application/vnd.ms-excel",
+        "name": "Excel File (.xls / .xlsx)"
+      }
+    },
+
     {
       "@type": "Dataset",
-      "@id": "#inputCsvDataset",
-      "name": "CSV Data Input",
-      "description": "Structured CSV data that users upload to convert into Excel format.",
-      "keywords": ["CSV", "Comma Separated Values", "Spreadsheet", "Data conversion"],
+      "name": "CSV to Excel Converter Dataset",
+      "description": "Dataset representing the conversion of CSV input data into structured Excel spreadsheet output.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
         "name": "Small Suggestions"
-      }
+      },
+      "@graph": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://smallsuggestions.com/convert-csv-to-excel"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/vnd.ms-excel",
+          "contentUrl": "https://smallsuggestions.com/convert-csv-to-excel"
+        }
+      ]
     },
-    {
-      "@type": "Dataset",
-      "@id": "#outputExcelDataset",
-      "name": "Excel File Output",
-      "description": "Converted Excel file generated from the input CSV data, available in .xls or .xlsx formats.",
-      "keywords": ["Excel", "Spreadsheet", "XLS", "XLSX", "Data export"],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Small Suggestions"
-      }
-    }
-  ]
-}
-</script>
 
-<!-- ✅ HowTo Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Convert CSV to Excel",
-  "description": "Follow these simple steps to convert your CSV file into Excel format using our free web tool.",
-  "step": [
     {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "Upload CSV File",
-      "text": "Click the Upload button and select your CSV file from your device."
+      "@type": "HowTo",
+      "name": "How to Convert CSV to Excel Online",
+      "description": "Step-by-step guide to convert CSV to Excel instantly in your browser.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Upload your CSV file",
+          "text": "Click the Upload CSV button to choose a .csv file from your device."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Preview CSV data",
+          "text": "View and confirm your CSV content in the preview window before conversion."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Convert to Excel",
+          "text": "Press Convert CSV to Excel to instantly process your data."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Download the Excel file",
+          "text": "Save your converted file as .xls or .xlsx with a single click."
+        }
+      ]
     },
-    {
-      "@type": "HowToStep",
-      "position": 2,
-      "name": "Preview Your Data",
-      "text": "View your CSV content in the preview panel and ensure it’s properly formatted."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 3,
-      "name": "Convert to Excel",
-      "text": "Click the Convert to Excel button to instantly process your file."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 4,
-      "name": "Download Excel File",
-      "text": "Download your converted Excel file in .xls or .xlsx format for further use."
-    }
-  ]
-}
-</script>
 
-<!-- ✅ ItemList Schema (Related Tools) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Related CSV Conversion Tools",
-  "itemListOrder": "Ascending",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Convert CSV to JSON", "url": "https://smallsuggestions.com/convert-csv-to-json" },
-    { "@type": "ListItem", "position": 2, "name": "Convert CSV to HTML", "url": "https://smallsuggestions.com/convert-csv-to-html" },
-    { "@type": "ListItem", "position": 3, "name": "Convert CSV to PDF", "url": "https://smallsuggestions.com/convert-csv-to-pdf" },
-    { "@type": "ListItem", "position": 4, "name": "Convert CSV to TXT", "url": "https://smallsuggestions.com/convert-csv-to-txt" },
-    { "@type": "ListItem", "position": 5, "name": "Convert CSV to XML", "url": "https://smallsuggestions.com/convert-csv-to-xml" },
-    { "@type": "ListItem", "position": 6, "name": "Convert CSV to SQL", "url": "https://smallsuggestions.com/csv-to-sql" }
-  ]
-}
-</script>
+    {
+      "@type": "ItemList",
+      "name": "Related Tools",
+      "itemListOrder": "Ascending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://smallsuggestions.com/convert-csv-to-json"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://smallsuggestions.com/convert-csv-to-xml"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://smallsuggestions.com/convert-csv-to-txt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://smallsuggestions.com/convert-excel-to-csv"
+        }
+      ]
+    },
 
-<!-- ✅ FAQPage Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
     {
-      "@type": "Question",
-      "name": "Is this CSV to Excel converter free to use?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, our CSV to Excel converter is completely free and works directly in your browser." }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the conversion happen online or offline?",
-      "acceptedAnswer": { "@type": "Answer", "text": "All conversions happen in your browser (client-side). No data is uploaded or stored on our servers." }
-    },
-    {
-      "@type": "Question",
-      "name": "What Excel formats are supported?",
-      "acceptedAnswer": { "@type": "Answer", "text": "You can export your converted file as .xls or .xlsx format." }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I edit my CSV before converting?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, the preview section allows you to view and modify data before exporting." }
-    },
-    {
-      "@type": "Question",
-      "name": "Is my data safe during conversion?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, all operations are performed locally within your browser. No external server is used." }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to install any software?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No installation required — the converter runs directly in your web browser." }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use it on mobile?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, it works smoothly on all mobile browsers supporting JavaScript." }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my file formatting stay intact?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, your data structure and formatting are preserved during conversion." }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I convert large CSV files?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, it can handle large CSV files efficiently as long as your browser memory supports it." }
-    },
-    {
-      "@type": "Question",
-      "name": "What browsers are supported?",
-      "acceptedAnswer": { "@type": "Answer", "text": "This tool works on all modern browsers including Chrome, Firefox, Edge, and Safari." }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this CSV to Excel converter free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the converter is completely free and runs 100% in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to install any software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No installation required — all processing happens locally in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What file formats are supported for output?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can download the converted file as .xls or .xlsx format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my uploaded data secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all conversions are handled entirely within your browser. No data is uploaded to any server."
+          }
+        }
+      ]
     }
   ]
 }

@@ -185,13 +185,6 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
     "Supports both .xls and .xlsx formats",
     "Copy or download CSV output",
     "Runs completely in your browser without file upload"
-  ],
-  "relatedLink": [
-    "https://smallsuggestions.com/excel-to-html",
-    "https://smallsuggestions.com/excel-to-json",
-    "https://smallsuggestions.com/convert-xlsx-to-xml",
-    "https://smallsuggestions.com/xlsx-to-pdf",
-    "https://smallsuggestions.com/xlsx-to-sql-converter"
   ]
 }
 </script>
@@ -206,8 +199,7 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "target": {
     "@type": "EntryPoint",
     "urlTemplate": "https://smallsuggestions.com/convert-xlsx-to-csv",
-    "inLanguage": "en"
-  },
+    },
   "result": {
     "@type": "Thing",
     "name": "CSV File",

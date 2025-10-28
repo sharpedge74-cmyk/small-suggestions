@@ -220,195 +220,198 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
     <li><a href="/json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
     <li><a href="/json-to-dart" style="color:#0066cc; text-decoration:underline;">JSON to Dart</a></li>
     <li><a href="/json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
+    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
   </ul>
 
 </div>
 
 <!-- Primary JSON-LD Schemas for JSON to SQL Converter Page -->
 
+<!-- ✅ Structured Data: JSON to SQL Converter -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "JSON to SQL Converter – Transform JSON Data into SQL Queries",
-  "url": "https://smallsuggestions.com/json-to-sql",
-  "description": "Convert JSON data to SQL instantly using our browser-based JSON to SQL converter. Generate CREATE TABLE and INSERT statements with smart type detection — 100% offline, secure, and free.",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Small Suggestions",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
-    }
-  }
-}
-</script>
+  "@graph": [
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "JSON to SQL Converter",
-  "operatingSystem": "Any",
-  "applicationCategory": "UtilityApplication",
-  "description": "Browser-based JSON to SQL converter that transforms JSON files into structured SQL database scripts. Works offline, supports nested JSON, and exports SQL files instantly.",
-  "url": "https://smallsuggestions.com/json-to-sql",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "Small Suggestions"
-  },
-  "featureList": [
-    "Real-time JSON validation",
-    "Automatic CREATE TABLE generation",
-    "Nested JSON structure support",
-    "Smart SQL type detection",
-    "Copy and export SQL files",
-    "Fully offline processing"
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Tool",
-  "name": "JSON to SQL Converter Tool",
-  "description": "Free online converter for transforming JSON data into SQL table scripts with type inference and relational mapping.",
-  "url": "https://smallsuggestions.com/json-to-sql",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
-  "applicationCategory": "Data Conversion Tool",
-  "featureList": [
-    "Upload or paste JSON input",
-    "Instant structure preview",
-    "Convert nested objects into SQL tables",
-    "Download SQL file output"
-  ],
-  "sameAs": [
-    "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-excel",
-    "https://smallsuggestions.com/json-to-pdf",
-    "https://smallsuggestions.com/json-to-txt"
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Convert JSON to SQL – Secure, Browser-Based Tool",
-  "description": "Learn how to convert JSON data into SQL queries using our free browser-based JSON to SQL converter. No upload, no registration — just paste JSON and export SQL instantly.",
-  "url": "https://smallsuggestions.com/json-to-sql",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Small Suggestions",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Editorial Team"
-  },
-  "datePublished": "2025-10-26",
-  "dateModified": "2025-10-26"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Convert JSON to SQL",
-  "description": "Follow these steps to convert JSON data into SQL queries using the JSON to SQL Converter.",
-  "step": [
     {
-      "@type": "HowToStep",
-      "name": "Upload or paste JSON",
-      "text": "Select a JSON file or paste data directly into the editor."
+      "@type": "WebApplication",
+      "name": "JSON to SQL Converter Online – Fast & Secure",
+      "alternateName": "Convert JSON to SQL Queries",
+      "url": "https://smallsuggestions.com/json-to-sql",
+      "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+      "description": "Convert JSON files to SQL scripts instantly with our free, browser-based tool. Generate database-ready queries offline, with full privacy and no uploads.",
+      "applicationCategory": "UtilityApplication",
+      "applicationSubCategory": "File Conversion",
+      "operatingSystem": "Any",
+      "browserRequirements": "Works on all JavaScript-enabled browsers",
+      "softwareVersion": "1.0.0",
+      "inLanguage": "en",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions",
+        "url": "https://smallsuggestions.com"
+      },
+      "featureList": [
+        "Instant JSON to SQL conversion",
+        "Offline browser-based conversion",
+        "Preview and edit before export",
+        "No installation or data upload required",
+        "Exports SQL queries compatible with MySQL, PostgreSQL, and SQLite"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "category": "Free"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/"
     },
-    {
-      "@type": "HowToStep",
-      "name": "Preview and validate",
-      "text": "Review the formatted JSON tree structure to confirm hierarchy and syntax."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Click Convert",
-      "text": "Generate SQL instantly including CREATE TABLE and INSERT statements."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export SQL",
-      "text": "Copy or download the resulting SQL file for database use."
-    }
-  ],
-  "totalTime": "PT1M",
-  "supply": {
-    "@type": "HowToSupply",
-    "name": "JSON data file"
-  },
-  "tool": {
-    "@type": "HowToTool",
-    "name": "JSON to SQL Converter"
-  },
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
     {
-      "@type": "Question",
-      "name": "Is my JSON data uploaded to any server?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The JSON to SQL Converter runs completely in your browser and never uploads data to any server."
+      "@type": "Action",
+      "@id": "#convertJsonToSql",
+      "name": "Convert JSON to SQL",
+      "description": "Convert JSON data to SQL table creation and insert statements directly in your browser, with zero data uploads.",
+      "actionStatus": "PotentialActionStatus",
+      "agent": {
+        "@type": "WebApplication",
+        "name": "JSON to SQL Converter",
+        "url": "https://smallsuggestions.com/json-to-sql"
+      },
+      "object": {
+        "@type": "Dataset",
+        "name": "JSON Dataset",
+        "description": "User-provided JSON file containing structured data objects for SQL conversion."
+      },
+      "result": {
+        "@type": "Dataset",
+        "name": "SQL Script Output",
+        "description": "Generated SQL table schema and insert queries converted from JSON data."
+      },
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://smallsuggestions.com/json-to-sql",
+        "actionPlatform": [
+          "https://schema.org/DesktopWebPlatform",
+          "https://schema.org/MobileWebPlatform"
+        ]
       }
     },
+
     {
-      "@type": "Question",
-      "name": "Can I convert nested JSON structures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The converter detects nested arrays and objects and creates relational SQL tables automatically."
-      }
+      "@type": "Dataset",
+      "@graph": [
+        {
+          "@type": "Dataset",
+          "@id": "#inputJsonDataset",
+          "name": "JSON Data Input",
+          "description": "Raw JSON objects uploaded or pasted by the user for SQL generation.",
+          "keywords": ["JSON", "SQL conversion", "database tools", "file transformation", "online converter"],
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creator": { "@type": "Organization", "name": "Small Suggestions" }
+        },
+        {
+          "@type": "Dataset",
+          "@id": "#outputSqlDataset",
+          "name": "SQL Output Script",
+          "description": "SQL table creation and insert scripts produced from the uploaded JSON data.",
+          "keywords": ["SQL", "database export", "MySQL", "PostgreSQL", "SQLite", "JSON to SQL"],
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creator": { "@type": "Organization", "name": "Small Suggestions" }
+        }
+      ]
     },
+
     {
-      "@type": "Question",
-      "name": "Which databases are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The generated SQL scripts are compatible with MySQL, PostgreSQL, SQLite, and most other SQL databases."
-      }
+      "@type": "HowTo",
+      "name": "How to Convert JSON to SQL Online",
+      "description": "Follow these steps to quickly convert JSON data to SQL tables and queries in your browser.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Upload or Paste JSON",
+          "text": "Upload your JSON file or paste data into the input editor."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Preview JSON Structure",
+          "text": "The tool validates and displays your JSON in a readable format."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Convert to SQL",
+          "text": "Click 'Convert JSON' to generate SQL table creation and insert statements."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Copy or Export SQL Output",
+          "text": "Copy the generated SQL script or download it as a file for your database."
+        }
+      ]
     },
+
     {
-      "@type": "Question",
-      "name": "Do I need to install anything?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No installation is required. Everything runs directly in your browser."
-      }
+      "@type": "ItemList",
+      "name": "Related JSON Conversion Tools",
+      "itemListOrder": "Ascending",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "JSON to CSV", "url": "https://smallsuggestions.com/json-to-csv" },
+        { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://smallsuggestions.com/json-to-excel" },
+        { "@type": "ListItem", "position": 3, "name": "JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
+        { "@type": "ListItem", "position": 4, "name": "JSON to YAML", "url": "https://smallsuggestions.com/json-to-yaml" },
+        { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://smallsuggestions.com/json-to-txt" },
+        { "@type": "ListItem", "position": 6, "name": "JSON to PDF", "url": "https://smallsuggestions.com/json-to-pdf" }
+      ]
     },
+
     {
-      "@type": "Question",
-      "name": "Can I export SQL as a file?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. After conversion, you can download your SQL output as a .sql file or copy it to your clipboard."
-      }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the JSON to SQL converter free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it’s completely free and works 100% in your browser with no hidden charges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to upload my data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, all processing happens locally within your browser to ensure complete privacy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What database formats are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The generated SQL is compatible with MySQL, PostgreSQL, SQLite, and most other relational databases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I edit the generated SQL script?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can preview, modify, and export your SQL script directly from the output area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it work on mobile browsers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the tool is optimized for all modern mobile and desktop browsers."
+          }
+        }
+      ]
     }
   ]
 }

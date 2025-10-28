@@ -147,6 +147,7 @@ keywords: json string to json object, convert string to json, convert json strin
     <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
     <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
     <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
+    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
   </ul>
 
   <h2>Frequently Asked Questions (FAQ)</h2>
@@ -216,18 +217,10 @@ keywords: json string to json object, convert string to json, convert json strin
     "@type": "Thing",
     "name": "JSON String to JSON Object Conversion",
     "sameAs": [
-      "https://en.wikipedia.org/wiki/JSON"
+      "https://en.wikipedia.org/wiki/JSON",
+      "https://smallsuggestions.com/json-to-dart"
     ]
-  },
-  "relatedLink": [
-    "https://smallsuggestions.com/json-to-dart",
-    "https://smallsuggestions.com/json-to-excel",
-    "https://smallsuggestions.com/json-to-pdf",
-    "https://smallsuggestions.com/json-to-sql",
-    "https://smallsuggestions.com/json-to-txt",
-    "https://smallsuggestions.com/json-to-xml",
-    "https://smallsuggestions.com/json-to-json-schema",
-  ]
+  }
 }
 </script>
 <!-- ✅ ConvertAction Schema -->
@@ -239,11 +232,6 @@ keywords: json string to json object, convert string to json, convert json strin
   "name": "Convert JSON String to JSON Object",
   "description": "This online tool lets you convert JSON strings into formatted JSON objects directly in your browser with syntax highlighting, copy, and download options.",
   "actionStatus": "PotentialActionStatus",
-  "agent": {
-    "@type": "WebApplication",
-    "name": "JSON String to JSON Object Converter",
-    "url": "https://smallsuggestions.com/json-string-to-json-object"
-  },
   "object": {
     "@type": "Dataset",
     "name": "JSON String Input",

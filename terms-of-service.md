@@ -5,7 +5,7 @@ description: Read SmallSuggestions' Terms of Service. Usage guidelines, and resp
 keywords: terms of service, SmallSuggestions TOS, data conversion rules, browser-based tools, JSON tools, Excel tools, CSV tools, XML tools
 ---
 
-<h1>Terms of Service</h1>
+<h1>Terms of Service - Small Suggestions</h1>
 <p>Welcome to <strong>SmallSuggestions</strong>. By accessing or using our website and tools, you agree to comply with and be bound by these Terms of Service. Please read them carefully.</p>
 
 <h2>1. Use of Tools</h2>

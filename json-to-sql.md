@@ -294,28 +294,31 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
     },
 
     {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "JSON to SQL Converter Data",
+  "description": "JSON input and SQL output datasets for the online converter.",
+  "hasPart": [
+    {
       "@type": "Dataset",
-      "@graph": [
-        {
-          "@type": "Dataset",
-          "@id": "#inputJsonDataset",
-          "name": "JSON Data Input",
-          "description": "Raw JSON objects uploaded or pasted by the user for SQL generation.",
-          "keywords": ["JSON", "SQL conversion", "database tools", "file transformation", "online converter"],
-          "license": "https://creativecommons.org/licenses/by/4.0/",
-          "creator": { "@type": "Organization", "name": "Small Suggestions" }
-        },
-        {
-          "@type": "Dataset",
-          "@id": "#outputSqlDataset",
-          "name": "SQL Output Script",
-          "description": "SQL table creation and insert scripts produced from the uploaded JSON data.",
-          "keywords": ["SQL", "database export", "MySQL", "PostgreSQL", "SQLite", "JSON to SQL"],
-          "license": "https://creativecommons.org/licenses/by/4.0/",
-          "creator": { "@type": "Organization", "name": "Small Suggestions" }
-        }
-      ]
+      "@id": "#inputJsonDataset",
+      "name": "JSON Data Input",
+      "description": "Raw JSON objects uploaded or pasted by the user for SQL generation.",
+      "keywords": ["JSON", "SQL conversion", "database tools", "file transformation", "online converter"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": { "@type": "Organization", "name": "Small Suggestions" }
     },
+    {
+      "@type": "Dataset",
+      "@id": "#outputSqlDataset",
+      "name": "SQL Output Script",
+      "description": "SQL table creation and insert scripts produced from the uploaded JSON data.",
+      "keywords": ["SQL", "database export", "MySQL", "PostgreSQL", "SQLite", "JSON to SQL"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+    }
+  ]
+},
 
     {
       "@type": "HowTo",

@@ -200,8 +200,7 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
     "name": "JSON to HTML Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/HTML",
-      "https://smallsuggestions.com/json-to-csv",
+      "https://en.wikipedia.org/wiki/HTML"
     ]
   }
 }

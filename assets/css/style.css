@@ -423,3 +423,9 @@ body{
 .jsonx-output::-webkit-scrollbar-thumb:hover {
   background: #666;
 }
+.xml-error { font-family: monospace; margin-top: 10px; }
+.xml-error .red { color: #e63946; font-weight: bold; }
+.xml-error .gray { color: #888; }
+.xml-preview { background: #f8f8f8; padding: 8px; border-radius: 6px; overflow-x: auto; }
+.line-num { color: #999; margin-right: 6px; }
+.error-line { background-color: #ffe4e1; border-left: 3px solid #e63946; }

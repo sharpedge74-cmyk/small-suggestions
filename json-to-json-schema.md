@@ -301,7 +301,11 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
   "result": {
     "@type": "Dataset",
     "name": "Generated JSON Schema",
-    "description": "Auto-generated JSON Schema compliant with Draft-07 specification."
+    "description": "Auto-generated JSON Schema compliant with Draft-07 specification.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

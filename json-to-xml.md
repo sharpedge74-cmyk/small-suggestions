@@ -217,7 +217,11 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
   "result": {
     "@type": "Dataset",
     "name": "XML Output",
-    "description": "Clean XML data converted from the original JSON structure."
+    "description": "Clean XML data converted from the original JSON structure.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

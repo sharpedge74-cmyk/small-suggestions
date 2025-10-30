@@ -222,7 +222,11 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
   "result": {
     "@type": "Dataset",
     "name": "HTML Table Output",
-    "description": "HTML table generated from uploaded Excel data, ready for embedding in web pages."
+    "description": "HTML table generated from uploaded Excel data, ready for embedding in web pages.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

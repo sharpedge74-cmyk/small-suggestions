@@ -161,7 +161,11 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
   "result": {
     "@type": "DataDownload",
     "encodingFormat": "text/plain",
-    "contentUrl": "https://yourdomain.com/download/converted.txt"
+    "contentUrl": "https://yourdomain.com/download/converted.txt",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   }
 }
 </script>

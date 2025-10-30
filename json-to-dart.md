@@ -283,7 +283,11 @@ class Root {
   "result": {
     "@type": "Dataset",
     "name": "Dart Model File",
-    "description": "Generated Dart code (.dart) with class definitions corresponding to the input JSON structure."
+    "description": "Generated Dart code (.dart) with class definitions corresponding to the input JSON structure.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

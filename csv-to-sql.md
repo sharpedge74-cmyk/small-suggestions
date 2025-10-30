@@ -181,7 +181,11 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "result": {
     "@type": "Thing",
     "name": "SQL Script",
-    "description": "A .sql file containing INSERT statements generated from the CSV data."
+    "description": "A .sql file containing INSERT statements generated from the CSV data.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   }
 }
 </script>

@@ -281,7 +281,11 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "result": {
         "@type": "Dataset",
         "name": "SQL Script Output",
-        "description": "Generated SQL table schema and insert queries converted from JSON data."
+        "description": "Generated SQL table schema and insert queries converted from JSON data.",
+         "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
       },
       "target": {
         "@type": "EntryPoint",

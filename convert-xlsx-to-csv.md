@@ -203,7 +203,11 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "result": {
     "@type": "Thing",
     "name": "CSV File",
-    "description": "A downloadable .csv file generated from the uploaded Excel spreadsheet."
+    "description": "A downloadable .csv file generated from the uploaded Excel spreadsheet.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   }
 }
 </script>

@@ -204,7 +204,11 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
       "result": {
         "@type": "MediaObject",
         "encodingFormat": "application/vnd.ms-excel",
-        "name": "Excel File (.xls / .xlsx)"
+        "name": "Excel File (.xls / .xlsx)",
+         "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
       }
     },
 

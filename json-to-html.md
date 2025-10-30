@@ -224,7 +224,11 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
   "result": {
     "@type": "Dataset",
     "name": "HTML Output",
-    "description": "HTML file generated from the input JSON data with tables and nested blocks preserving structure."
+    "description": "HTML file generated from the input JSON data with tables and nested blocks preserving structure.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

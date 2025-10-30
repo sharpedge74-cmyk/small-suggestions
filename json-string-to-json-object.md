@@ -240,7 +240,11 @@ keywords: json string to json object, convert string to json, convert json strin
   "result": {
     "@type": "Dataset",
     "name": "JSON Object Output",
-    "description": "Formatted JSON object generated from the input string."
+    "description": "Formatted JSON object generated from the input string.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

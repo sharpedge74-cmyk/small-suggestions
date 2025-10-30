@@ -241,7 +241,11 @@ background-color: #66fcf1;
   "result": {
     "@type": "Dataset",
     "name": "Excel Spreadsheet",
-    "description": "Excel file (.xls or .xlsx) generated from uploaded JSON data."
+    "description": "Excel file (.xls or .xlsx) generated from uploaded JSON data.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

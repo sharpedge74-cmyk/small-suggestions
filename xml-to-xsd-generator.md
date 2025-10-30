@@ -227,35 +227,39 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
 }
 </script>
 
-<!-- ✅ ConvertAction Schema -->
+<!-- ✅ Dataset Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Action",
-  "@id": "#convertXmlToXsd",
-  "name": "Generate XSD from XML",
-  "description": "This online tool lets you generate XSD schemas from XML files directly in your browser without uploading or installing software.",
-  "actionStatus": "PotentialActionStatus",
-  "object": {
-    "@type": "Dataset",
-    "name": "XML Input",
-    "description": "XML file uploaded by the user to generate XSD schema."
-  },
-  "result": {
-    "@type": "Dataset",
-    "name": "XSD Output",
-    "description": "XSD schema generated from the uploaded XML."
-  },
-  "target": {
-    "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/xml-to-xsd-generator",
-    "actionPlatform": [
-      "https://schema.org/DesktopWebPlatform",
-      "https://schema.org/MobileWebPlatform"
-    ]
-  }
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "#inputXmlDataset",
+      "name": "XML Data Input",
+      "description": "XML content uploaded or pasted by the user for generating a corresponding XSD schema structure.",
+      "keywords": ["XML", "Markup Language", "Data Serialization", "Structured Documents"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "#outputXsdDataset",
+      "name": "XSD Schema Output",
+      "description": "Automatically created XSD schema that defines the structure and validation rules for the provided XML input, ensuring consistent formatting and type integrity.",
+      "keywords": ["XSD", "Schema Definition", "XML Validation", "Data Structure"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      }
+    }
+  ]
 }
 </script>
+
 
 <!-- ✅ FAQPage Schema -->
 <script type="application/ld+json">
@@ -324,5 +328,38 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
       "text": "Copy or download your XSD file for use in validation or integration."
     }
   ]
+}
+</script>
+<!-- ✅ ConvertAction Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Action",
+  "@id": "#convertXmlToXsd",
+  "name": "Convert XML to XSD",
+  "description": "This browser-based tool converts XML data into a valid XSD schema, allowing users to define element types, structure, and validation rules automatically.",
+  "actionStatus": "PotentialActionStatus",
+  "object": {
+    "@type": "Dataset",
+    "name": "XML Dataset",
+    "description": "Uploaded or pasted XML content containing structured tags and attributes to be analyzed for schema generation."
+  },
+  "result": {
+    "@type": "Dataset",
+    "name": "XSD Schema File",
+    "description": "Generated XSD file defining the XML structure, data types, and element hierarchy based on the provided XML document.",
+    "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
+  },
+  "target": {
+    "@type": "EntryPoint",
+    "urlTemplate": "https://smallsuggestions.com/xml-to-xsd",
+    "actionPlatform": [
+      "https://schema.org/DesktopWebPlatform",
+      "https://schema.org/MobileWebPlatform"
+    ]
+  }
 }
 </script>

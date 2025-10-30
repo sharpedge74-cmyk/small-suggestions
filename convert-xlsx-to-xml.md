@@ -203,7 +203,11 @@ It’s safe, private, and ideal for sensitive business or academic use.
   "result": {
     "@type": "Dataset",
     "name": "XML Output",
-    "description": "XML file generated from the uploaded Excel data."
+    "description": "XML file generated from the uploaded Excel data.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

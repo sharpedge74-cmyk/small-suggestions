@@ -328,7 +328,11 @@ details:
   "result": {
     "@type": "Dataset",
     "name": "YAML Output",
-    "description": "Converted YAML data generated from user-provided JSON content."
+    "description": "Converted YAML data generated from user-provided JSON content.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

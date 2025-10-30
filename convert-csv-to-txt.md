@@ -172,7 +172,11 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
   "result": {
     "@type": "Thing",
     "name": "TXT file",
-    "description": "Converted text file output from CSV."
+    "description": "Converted text file output from CSV.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   }
 }
 </script>

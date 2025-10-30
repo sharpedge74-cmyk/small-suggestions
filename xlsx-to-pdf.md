@@ -147,7 +147,11 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
   "result": {
     "@type": "DataDownload",
     "encodingFormat": "application/pdf",
-    "contentUrl": "https://yourdomain.com/download/converted.pdf"
+    "contentUrl": "https://yourdomain.com/download/converted.pdf",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   }
 }
 </script>

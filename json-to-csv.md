@@ -214,7 +214,11 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
   "result": {
     "@type": "Dataset",
     "name": "CSV File",
-    "description": "CSV file generated from uploaded JSON data, including multiple tables for nested JSON."
+    "description": "CSV file generated from uploaded JSON data, including multiple tables for nested JSON.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

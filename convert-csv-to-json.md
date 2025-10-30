@@ -181,7 +181,11 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
   "result": {
     "@type": "Thing",
     "name": "JSON File",
-    "description": "Converted JSON data generated from uploaded CSV."
+    "description": "Converted JSON data generated from uploaded CSV file.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   }
 }
 </script>

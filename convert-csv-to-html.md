@@ -227,7 +227,11 @@ keywords: convert csv to html, CSV to HTML converter, convert CSV files to HTML,
   "result": {
     "@type": "Dataset",
     "name": "HTML Table Output",
-    "description": "HTML table code generated from the uploaded CSV file for embedding or web use."
+    "description": "HTML table code generated from the uploaded CSV file for embedding or web use.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

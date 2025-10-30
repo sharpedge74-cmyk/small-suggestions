@@ -185,7 +185,11 @@ Our suite of JSON tools helps you transform structured data into multiple useful
   "result": {
     "@type": "MediaObject",
     "name": "Generated PDF Document",
-    "description": "Printable PDF file created from JSON input with preserved data structure."
+    "description": "Printable PDF file created from JSON input with preserved data structure.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

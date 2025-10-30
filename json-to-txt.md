@@ -256,7 +256,11 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
   "result": {
     "@type": "Dataset",
     "name": "Converted TXT Output",
-    "description": "Generated plain text output from JSON data in selected format."
+    "description": "Generated plain text output from JSON data in selected format.",
+     "creator": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    }
   },
   "target": {
     "@type": "EntryPoint",

@@ -1,7 +1,7 @@
 ---
 layout: main
 title: XML Converters - Multiple Browser Based XML Conversion Tools
-description: A complete collection of XML converters to convert your XML files to JSON, CSV, Excel, HTML, and more. All conversions happen securely in your browser with no uploads or installations.
+description: A complete collection of XML converters to convert your XML files to JSON, CSV, Excel, HTML, and more. All conversions happen in your browser.
 keywords: XML Converter, XML Converters, XML Converters Online, Online XML Converters, Browser Based XML Converters, xml to json, xml to csv, xml to excel, xml to html, xml to pdf, xml to sql, convert xml online, xml viewer, xml formatter, xml to xsd, xml to yaml, online xml converter, xml converter tool, paste xml and convert, browser xml tools
 ---
 

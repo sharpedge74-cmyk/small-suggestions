@@ -190,11 +190,7 @@ keywords: convert csv to xml, CSV to XML converter, convert CSV files to XML, on
   "result": {
     "@type": "Thing",
     "name": "XML file",
-    "description": "Structured XML file generated from your uploaded CSV data.",
-     "creator": {
-      "@type": "Organization",
-      "name": "Small Suggestions"
-    }
+    "description": "Structured XML file generated from your uploaded CSV data."
   }
 }
 </script>

@@ -175,11 +175,7 @@ It’s ideal for anyone who needs professional, print-ready PDF documents create
   "result": {
     "@type": "Thing",
     "name": "PDF Document",
-    "description": "A formatted PDF file generated from uploaded CSV data.",
-     "creator": {
-      "@type": "Organization",
-      "name": "Small Suggestions"
-    }
+    "description": "A formatted PDF file generated from uploaded CSV data."
   }
 }
 </script>

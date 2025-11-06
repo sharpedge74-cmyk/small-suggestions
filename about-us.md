@@ -67,9 +67,32 @@ keywords: about us, organization, SmallSuggestions, data conversion, browser-bas
         </div>
       </div>
     </div>
-
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-image">
+      <img src="assets/img/gourav-mishra.jpg" alt="Gourav Mishra - Business Analyst">
+    </div>
+    <div class="profile-content">
+      <h2 style="display:flex; justify-content:center;">Gourav Mishra</h2>
+      <p class="title">Business Analyst</p>
+      <p class="bio">
+        Experienced Business Analyst specializing in <strong>mortgage underwriting, fraud analysis, and credit history evaluation</strong>. 
+        Skilled in IT business analysis, BRD creation, and identifying qualifying factors for financial applications.
+      </p>
+      <div class="skills">
+        <span class="tag">Business Analysis</span>
+        <span class="tag">Mortgage Underwriting</span>
+        <span class="tag">Fraud Analysis</span>
+        <span class="tag">Credit Evaluation</span>
+        <span class="tag">BRD</span>
+      </div>
+      <a href="gourav-mishra" class="profile-button">See More About Gourav</a>
+    </div>
   </div>
 </div>
+  </div>
 
   
+</div>
+ 
 </div>

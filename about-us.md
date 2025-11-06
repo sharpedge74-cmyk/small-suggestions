@@ -96,3 +96,75 @@ keywords: about us, organization, SmallSuggestions, data conversion, browser-bas
 </div>
  
 </div>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Small Suggestions",
+  "url": "https://smallsuggestions.com",
+  "logo": "https://smallsuggestions.com/assets/img/logo.png",
+  "description": "Small Suggestions is a technology solutions platform featuring expert software developers and business analysts delivering enterprise-grade applications.",
+  "sameAs": [
+    "https://www.linkedin.com/company/smallsuggestions"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Sohail Anwar",
+    "email": "sohailanwaralmani74@gmail.com",
+    "telephone": "+923010136029",
+    "jobTitle": "Senior Consultant – App Development",
+    "url": "https://smallsuggestions.com/sohail-anwar",
+    "image": "https://smallsuggestions.com/assets/img/sohail-anwar.png",
+    "sameAs": [
+      "https://www.linkedin.com/in/sohail-anwar-a63063162/",
+      "https://github.com/sohailanwaralmani74",
+      "https://wa.me/923010136029"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Small Suggestions"
+    },
+    "description": "Senior Consultant in App Development with 12+ years experience in Java, Spring Boot, JSF, Struts, Angular, and Microservices, delivering enterprise solutions."
+  },
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "Saeed Ahmed",
+      "jobTitle": "Full Stack Developer",
+      "email": "mailto:saeed@example.com",
+      "telephone": "+923147144647",
+      "url": "https://smallsuggestions.com/saeed-ahmed",
+      "image": "https://smallsuggestions.com/assets/img/saeed-ahmed.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/saeedahmedsheikh/",
+        "https://wa.me/923147144647"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      },
+      "description": "Full Stack Developer with 6+ years experience in Java, Spring Boot, Node.js, Electron, and DevOps, creating efficient enterprise-grade applications."
+    },
+    {
+      "@type": "Person",
+      "name": "Gourav Mishra",
+      "jobTitle": "Business Analyst",
+      "email": "mailto:gourav@example.com",
+      "telephone": "+923147144647",
+      "url": "https://smallsuggestions.com/gourav-mishra",
+      "image": "https://smallsuggestions.com/assets/img/gourav-mishra.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/gourav-m-0a0584132/",
+        "https://wa.me/923147144647"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Small Suggestions"
+      },
+      "description": "Business Analyst with expertise in mortgage underwriting, fraud analysis, credit evaluation, and workflow optimization for financial applications."
+    }
+  ]
+}
+</script>

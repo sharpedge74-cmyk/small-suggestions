@@ -153,7 +153,7 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "CSV to SQL Converter",
-  "url": "https://smallsuggestions.com/csv-to-sql",
+  "url": "https://reptilebirds.com/csv-to-sql",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Any",
   "description": "Convert CSV files to SQL INSERT statements online. Generate standard SQL insert queries compatible with most relational databases.",
@@ -176,7 +176,7 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "description": "Upload a CSV file and convert each row into SQL INSERT statements suitable for common relational databases.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/csv-to-sql"
+    "urlTemplate": "https://reptilebirds.com/csv-to-sql"
     },
   "result": {
     "@type": "Thing",
@@ -196,13 +196,13 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "distribution": {
     "@type": "DataDownload",
     "encodingFormat": "application/sql",
-    "contentUrl": "https://smallsuggestions.com/csv-to-sql"
+    "contentUrl": "https://reptilebirds.com/csv-to-sql"
   }
 }
 </script>
@@ -213,7 +213,7 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Convert CSV to SQL",
-  "description": "Steps to convert CSV files into SQL INSERT statements using the Small Suggestions CSV to SQL converter.",
+  "description": "Steps to convert CSV files into SQL INSERT statements using the Reptile Birds CSV to SQL converter.",
   "step": [
     { "@type": "HowToStep", "name": "Upload CSV", "text": "Click Upload CSV and select your CSV file." },
     { "@type": "HowToStep", "name": "Preview & Edit", "text": "Verify and edit column names or values in the preview table." },
@@ -230,11 +230,11 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
   "@type": "ItemList",
   "name": "Related CSV Conversion Tools",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "url": "https://smallsuggestions.com/convert-csv-to-json", "name": "Convert CSV to JSON" },
-    { "@type": "ListItem", "position": 2, "url": "https://smallsuggestions.com/convert-csv-to-xml", "name": "Convert CSV to XML" },
-    { "@type": "ListItem", "position": 3, "url": "https://smallsuggestions.com/convert-csv-to-excel", "name": "Convert CSV to Excel" },
-    { "@type": "ListItem", "position": 4, "url": "https://smallsuggestions.com/convert-csv-to-txt", "name": "Convert CSV to TXT" },
-    { "@type": "ListItem", "position": 5, "url": "https://smallsuggestions.com/convert-csv-to-pdf", "name": "Convert CSV to PDF" }
+    { "@type": "ListItem", "position": 1, "url": "https://reptilebirds.com/convert-csv-to-json", "name": "Convert CSV to JSON" },
+    { "@type": "ListItem", "position": 2, "url": "https://reptilebirds.com/convert-csv-to-xml", "name": "Convert CSV to XML" },
+    { "@type": "ListItem", "position": 3, "url": "https://reptilebirds.com/convert-csv-to-excel", "name": "Convert CSV to Excel" },
+    { "@type": "ListItem", "position": 4, "url": "https://reptilebirds.com/convert-csv-to-txt", "name": "Convert CSV to TXT" },
+    { "@type": "ListItem", "position": 5, "url": "https://reptilebirds.com/convert-csv-to-pdf", "name": "Convert CSV to PDF" }
   ]
 }
 </script>

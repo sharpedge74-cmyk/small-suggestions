@@ -197,12 +197,12 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to plain TXT instantly with this free, browser-based converter. Choose from multiple text formats like raw, flattened, readable, or values-only, and export directly — all offline and secure.",
-  "url": "https://smallsuggestions.com/json-to-txt",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "url": "https://reptilebirds.com/json-to-txt",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Upload or paste JSON directly in browser",
@@ -230,11 +230,11 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
       "https://en.wikipedia.org/wiki/Text_file",
-      "https://smallsuggestions.com/json-to-html",
-      "https://smallsuggestions.com/json-to-xml",
-    "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-xlsx",
-    "https://smallsuggestions.com/json-to-sql"
+      "https://reptilebirds.com/json-to-html",
+      "https://reptilebirds.com/json-to-xml",
+    "https://reptilebirds.com/json-to-csv",
+    "https://reptilebirds.com/json-to-xlsx",
+    "https://reptilebirds.com/json-to-sql"
     ]
   }
 }
@@ -259,12 +259,12 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
     "description": "Generated plain text output from JSON data in selected format.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/json-to-txt",
+    "urlTemplate": "https://reptilebirds.com/json-to-txt",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -284,7 +284,7 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
       "description": "User-provided JSON structure uploaded or pasted for conversion into TXT.",
       "keywords": ["JSON", "Data Conversion", "Text Extraction", "File Converter"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     },
     {
       "@type": "Dataset",
@@ -293,7 +293,7 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
       "description": "Text output generated from JSON data in chosen mode (raw, flattened, readable, or values-only).",
       "keywords": ["TXT Output", "Plain Text", "Flattened JSON", "Readable Format"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     }
   ]
 }
@@ -341,11 +341,11 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
   "name": "Related JSON Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Convert JSON to HTML", "url": "https://smallsuggestions.com/json-to-html" },
-    { "@type": "ListItem", "position": 2, "name": "Convert JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
-    { "@type": "ListItem", "position": 3, "name": "Convert JSON to CSV", "url": "https://smallsuggestions.com/json-to-csv" },
-    { "@type": "ListItem", "position": 4, "name": "Convert JSON to XLSX", "url": "https://smallsuggestions.com/json-to-xlsx" },
-    { "@type": "ListItem", "position": 5, "name": "Convert JSON to SQL", "url": "https://smallsuggestions.com/json-to-sql" }
+    { "@type": "ListItem", "position": 1, "name": "Convert JSON to HTML", "url": "https://reptilebirds.com/json-to-html" },
+    { "@type": "ListItem", "position": 2, "name": "Convert JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
+    { "@type": "ListItem", "position": 3, "name": "Convert JSON to CSV", "url": "https://reptilebirds.com/json-to-csv" },
+    { "@type": "ListItem", "position": 4, "name": "Convert JSON to XLSX", "url": "https://reptilebirds.com/json-to-xlsx" },
+    { "@type": "ListItem", "position": 5, "name": "Convert JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" }
   ]
 }
 </script>

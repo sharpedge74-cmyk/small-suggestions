@@ -39,16 +39,16 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "CSV Converter - Browser-Based CSV Conversion Tools",
-  "url": "https://smallsuggestions.com/csv-converter",
+  "url": "https://reptilebirds.com/csv-converter",
   "description": "Explore a complete collection of free, browser-based CSV converters. Instantly convert CSV files into JSON, Excel, XML, PDF, and more — with secure, in-browser data processing.",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "publisher": {
     "@type": "Organization",
-    "name": "SmallSuggestions",
-    "url": "https://smallsuggestions.com",
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
     }
   },
   "mainEntity": {
@@ -60,7 +60,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to Excel Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-excel",
+        "url": "https://reptilebirds.com/convert-csv-to-excel",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Easily convert CSV files into Excel formats (XLS/XLSX) with instant browser preview and export."
@@ -68,7 +68,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to HTML Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-html",
+        "url": "https://reptilebirds.com/convert-csv-to-html",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Transform CSV data into an HTML table format for display or embedding in web pages."
@@ -76,7 +76,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to JSON Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-json",
+        "url": "https://reptilebirds.com/convert-csv-to-json",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert structured CSV data into JSON format directly in your browser with zero data upload."
@@ -84,7 +84,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to PDF Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-pdf",
+        "url": "https://reptilebirds.com/convert-csv-to-pdf",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert CSV files into well-formatted, printable PDF tables in seconds."
@@ -92,7 +92,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to TXT Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-txt",
+        "url": "https://reptilebirds.com/convert-csv-to-txt",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert CSV files into plain text format, preserving column structure and readability."
@@ -100,7 +100,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to XML Converter",
-        "url": "https://smallsuggestions.com/convert-csv-to-xml",
+        "url": "https://reptilebirds.com/convert-csv-to-xml",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert CSV files into structured XML format — ideal for database or configuration file conversions."
@@ -108,7 +108,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "XLSX to CSV Converter",
-        "url": "https://smallsuggestions.com/convert-xlsx-to-csv",
+        "url": "https://reptilebirds.com/convert-xlsx-to-csv",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Easily convert Excel XLSX files into clean CSV format directly in the browser."
@@ -116,7 +116,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "XLSX to XML Converter",
-        "url": "https://smallsuggestions.com/convert-xlsx-to-xml",
+        "url": "https://reptilebirds.com/convert-xlsx-to-xml",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert Excel XLSX data into XML format quickly — perfect for data migration or system integration."
@@ -124,7 +124,7 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
       {
         "@type": "WebApplication",
         "name": "CSV to SQL Converter",
-        "url": "https://smallsuggestions.com/csv-to-sql",
+        "url": "https://reptilebirds.com/csv-to-sql",
         "applicationCategory": "Database Utility",
         "operatingSystem": "All",
         "description": "Generate SQL INSERT statements from CSV data to import directly into databases."

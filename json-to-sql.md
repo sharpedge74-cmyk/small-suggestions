@@ -237,8 +237,8 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "@type": "WebApplication",
       "name": "JSON to SQL Converter Online – Fast & Secure",
       "alternateName": "Convert JSON to SQL Queries",
-      "url": "https://smallsuggestions.com/json-to-sql",
-      "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+      "url": "https://reptilebirds.com/json-to-sql",
+      "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
       "description": "Convert JSON files to SQL scripts instantly with our free, browser-based tool. Generate database-ready queries offline, with full privacy and no uploads.",
       "applicationCategory": "UtilityApplication",
       "applicationSubCategory": "File Conversion",
@@ -248,8 +248,8 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "inLanguage": "en",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions",
-        "url": "https://smallsuggestions.com"
+        "name": "Reptile Birds",
+        "url": "https://reptilebirds.com"
       },
       "featureList": [
         "Instant JSON to SQL conversion",
@@ -284,12 +284,12 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
         "description": "Generated SQL table schema and insert queries converted from JSON data.",
          "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
       },
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://smallsuggestions.com/json-to-sql",
+        "urlTemplate": "https://reptilebirds.com/json-to-sql",
         "actionPlatform": [
           "https://schema.org/DesktopWebPlatform",
           "https://schema.org/MobileWebPlatform"
@@ -310,7 +310,7 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "description": "Raw JSON objects uploaded or pasted by the user for SQL generation.",
       "keywords": ["JSON", "SQL conversion", "database tools", "file transformation", "online converter"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     },
     {
       "@type": "Dataset",
@@ -319,7 +319,7 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "description": "SQL table creation and insert scripts produced from the uploaded JSON data.",
       "keywords": ["SQL", "database export", "MySQL", "PostgreSQL", "SQLite", "JSON to SQL"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     }
   ]
 },
@@ -361,12 +361,12 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "name": "Related JSON Conversion Tools",
       "itemListOrder": "Ascending",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "JSON to CSV", "url": "https://smallsuggestions.com/json-to-csv" },
-        { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://smallsuggestions.com/json-to-excel" },
-        { "@type": "ListItem", "position": 3, "name": "JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
-        { "@type": "ListItem", "position": 4, "name": "JSON to YAML", "url": "https://smallsuggestions.com/json-to-yaml" },
-        { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://smallsuggestions.com/json-to-txt" },
-        { "@type": "ListItem", "position": 6, "name": "JSON to PDF", "url": "https://smallsuggestions.com/json-to-pdf" }
+        { "@type": "ListItem", "position": 1, "name": "JSON to CSV", "url": "https://reptilebirds.com/json-to-csv" },
+        { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://reptilebirds.com/json-to-excel" },
+        { "@type": "ListItem", "position": 3, "name": "JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
+        { "@type": "ListItem", "position": 4, "name": "JSON to YAML", "url": "https://reptilebirds.com/json-to-yaml" },
+        { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://reptilebirds.com/json-to-txt" },
+        { "@type": "ListItem", "position": 6, "name": "JSON to PDF", "url": "https://reptilebirds.com/json-to-pdf" }
       ]
     },
 

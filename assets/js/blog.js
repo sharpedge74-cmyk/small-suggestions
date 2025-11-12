@@ -2,9 +2,9 @@ const posts = [
 // {
 //     id: 1,
 //     title: "JSON to Dart Converter – Create Flutter Models Instantly",
-//     url: "https://smallsuggestion.com/blog/json-to-dart-converter",
-//     img: "smallsuggestions.webp",
-//     authorName: "Small Suggestion Team",
+//     url: "https://reptilebirds.com/blog/json-to-dart-converter",
+//     img: "reptilebirds.webp",
+//     authorName: "Reptile Birds Team",
 //     date: "October 17, 2025",
 //     description:
 //       "Learn how to convert JSON data into Dart classes for Flutter apps with null safety. Discover online tools, code generation tips, and developer-friendly methods.",
@@ -19,9 +19,9 @@ const posts = [
 //   {
 //     id: 2,
 //     title: "Mastering Null Safety in JSON to Dart Conversion",
-//     url: "https://smallsuggestion.com/blog/json-to-dart-null-safety",
-//     img: "smallsuggestions1.webp",
-//     authorName: "Small Suggestion Team",
+//     url: "https://reptilebirds.com/blog/json-to-dart-null-safety",
+//     img: "reptilebirds1.webp",
+//     authorName: "Reptile Birds Team",
 //     date: "October 15, 2025",
 //     description:
 //       "Understand null safety in Dart and why it matters when converting JSON to Dart models. Explore examples, best practices, and quick fixes for safe Flutter code.",
@@ -35,9 +35,9 @@ const posts = [
 //   {
 //     id: 3,
 //     title: "From JSON to Dart – Simplifying Your Flutter Workflow",
-//     url: "https://smallsuggestion.com/blog/from-json-to-dart",
-//     img: "smallsuggestions2.webp",
-//     authorName: "Small Suggestion Team",
+//     url: "https://reptilebirds.com/blog/from-json-to-dart",
+//     img: "reptilebirds2.webp",
+//     authorName: "Reptile Birds Team",
 //     date: "October 10, 2025",
 //     description:
 //       "Boost your Flutter development with faster data model creation. This post shows how to move from JSON data to Dart classes in minutes using online generators.",

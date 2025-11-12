@@ -129,12 +129,12 @@ Our suite of JSON tools helps you transform structured data into multiple useful
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON data to professional, well-formatted PDF files instantly. This free, browser-based tool securely transforms your JSON into printable PDF tables — works offline and requires no uploads.",
-  "url": "https://smallsuggestions.com/json-to-pdf",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "url": "https://reptilebirds.com/json-to-pdf",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Instantly convert JSON to structured PDF documents",
@@ -159,11 +159,11 @@ Our suite of JSON tools helps you transform structured data into multiple useful
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
       "https://en.wikipedia.org/wiki/PDF",
-       "https://smallsuggestions.com/json-to-html",
-    "https://smallsuggestions.com/json-to-xml",
-    "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-xlsx",
-    "https://smallsuggestions.com/json-to-sql"
+       "https://reptilebirds.com/json-to-html",
+    "https://reptilebirds.com/json-to-xml",
+    "https://reptilebirds.com/json-to-csv",
+    "https://reptilebirds.com/json-to-xlsx",
+    "https://reptilebirds.com/json-to-sql"
     ]
   }
 }
@@ -188,12 +188,12 @@ Our suite of JSON tools helps you transform structured data into multiple useful
     "description": "Printable PDF file created from JSON input with preserved data structure.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/json-to-pdf",
+    "urlTemplate": "https://reptilebirds.com/json-to-pdf",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -213,7 +213,7 @@ Our suite of JSON tools helps you transform structured data into multiple useful
       "description": "Structured JSON data uploaded or pasted by the user for PDF conversion.",
       "keywords": ["JSON", "Data Conversion", "PDF Generator", "JavaScript Object Notation"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     },
     {
       "@type": "MediaObject",
@@ -223,7 +223,7 @@ Our suite of JSON tools helps you transform structured data into multiple useful
       "encodingFormat": "application/pdf",
       "keywords": ["PDF", "Data Export", "JSON Converter", "Offline Tool"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     }
   ]
 }
@@ -271,11 +271,11 @@ Our suite of JSON tools helps you transform structured data into multiple useful
   "name": "Related JSON Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Convert JSON to HTML", "url": "https://smallsuggestions.com/json-to-html" },
-    { "@type": "ListItem", "position": 2, "name": "Convert JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
-    { "@type": "ListItem", "position": 3, "name": "Convert JSON to CSV", "url": "https://smallsuggestions.com/json-to-csv" },
-    { "@type": "ListItem", "position": 4, "name": "Convert JSON to XLSX", "url": "https://smallsuggestions.com/json-to-xlsx" },
-    { "@type": "ListItem", "position": 5, "name": "Convert JSON to SQL", "url": "https://smallsuggestions.com/json-to-sql" }
+    { "@type": "ListItem", "position": 1, "name": "Convert JSON to HTML", "url": "https://reptilebirds.com/json-to-html" },
+    { "@type": "ListItem", "position": 2, "name": "Convert JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
+    { "@type": "ListItem", "position": 3, "name": "Convert JSON to CSV", "url": "https://reptilebirds.com/json-to-csv" },
+    { "@type": "ListItem", "position": 4, "name": "Convert JSON to XLSX", "url": "https://reptilebirds.com/json-to-xlsx" },
+    { "@type": "ListItem", "position": 5, "name": "Convert JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" }
   ]
 }
 </script>

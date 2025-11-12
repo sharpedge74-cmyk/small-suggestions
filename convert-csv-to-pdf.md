@@ -143,7 +143,7 @@ It’s ideal for anyone who needs professional, print-ready PDF documents create
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "CSV to PDF Converter",
-  "url": "https://smallsuggestions.com/convert-csv-to-pdf",
+  "url": "https://reptilebirds.com/convert-csv-to-pdf",
   "applicationCategory": "UtilitiesApplication",
   "description": "Convert CSV files to professional PDF documents instantly using our browser-based CSV to PDF converter. Fast, private, and free.",
   "operatingSystem": "All",
@@ -166,7 +166,7 @@ It’s ideal for anyone who needs professional, print-ready PDF documents create
   "description": "Upload your CSV and convert it into a professional PDF file directly in your browser.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-pdf",
+    "urlTemplate": "https://reptilebirds.com/convert-csv-to-pdf",
     "actionPlatform": [
       "http://schema.org/DesktopWebPlatform",
       "http://schema.org/MobileWebPlatform"
@@ -191,12 +191,12 @@ It’s ideal for anyone who needs professional, print-ready PDF documents create
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://smallsuggestions.com/sample.csv"
+      "contentUrl": "https://reptilebirds.com/sample.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/pdf",
-      "contentUrl": "https://smallsuggestions.com/sample.pdf"
+      "contentUrl": "https://reptilebirds.com/sample.pdf"
     }
   ]
 }
@@ -222,9 +222,9 @@ It’s ideal for anyone who needs professional, print-ready PDF documents create
   "@type": "ItemList",
   "name": "Related CSV Conversion Tools",
   "itemListElement": [
-    {"@type": "ListItem","position": 1,"name": "CSV to Excel","url": "https://smallsuggestions.com/convert-csv-to-excel"},
-    {"@type": "ListItem","position": 2,"name": "CSV to HTML","url": "https://smallsuggestions.com/convert-csv-to-html"},
-    {"@type": "ListItem","position": 3,"name": "CSV to JSON","url": "https://smallsuggestions.com/convert-csv-to-json"}
+    {"@type": "ListItem","position": 1,"name": "CSV to Excel","url": "https://reptilebirds.com/convert-csv-to-excel"},
+    {"@type": "ListItem","position": 2,"name": "CSV to HTML","url": "https://reptilebirds.com/convert-csv-to-html"},
+    {"@type": "ListItem","position": 3,"name": "CSV to JSON","url": "https://reptilebirds.com/convert-csv-to-json"}
   ]
 }
 </script>

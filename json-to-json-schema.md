@@ -246,12 +246,12 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Instantly generate JSON Schema (Draft-07) from any JSON input with this free, browser-based converter. Secure, private, and completely offline — no data uploads or installations required.",
-  "url": "https://smallsuggestions.com/json-to-json-schema",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "url": "https://reptilebirds.com/json-to-json-schema",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Auto-generate JSON Schema from any JSON input",
@@ -276,11 +276,11 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
       "https://json-schema.org/",
-      "https://smallsuggestions.com/json-to-html",
-    "https://smallsuggestions.com/json-to-xml",
-    "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-xlsx",
-    "https://smallsuggestions.com/json-to-sql"
+      "https://reptilebirds.com/json-to-html",
+    "https://reptilebirds.com/json-to-xml",
+    "https://reptilebirds.com/json-to-csv",
+    "https://reptilebirds.com/json-to-xlsx",
+    "https://reptilebirds.com/json-to-sql"
     ]
   }
 }
@@ -304,12 +304,12 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
     "description": "Auto-generated JSON Schema compliant with Draft-07 specification.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/json-to-json-schema",
+    "urlTemplate": "https://reptilebirds.com/json-to-json-schema",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -328,7 +328,7 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
       "description": "Structured JSON data uploaded or pasted by the user for schema generation.",
       "keywords": ["JSON", "Data Structure", "Schema Conversion", "JavaScript Object Notation"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     },
     {
       "@type": "Dataset",
@@ -337,7 +337,7 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
       "description": "Schema generated from JSON input based on JSON Schema Draft-07 standards.",
       "keywords": ["JSON Schema", "Draft-07", "Data Validation", "Automation"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": { "@type": "Organization", "name": "Small Suggestions" }
+      "creator": { "@type": "Organization", "name": "Reptile Birds" }
     }
   ]
 }
@@ -383,11 +383,11 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
   "name": "Related JSON Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Convert JSON to HTML", "url": "https://smallsuggestions.com/json-to-html" },
-    { "@type": "ListItem", "position": 2, "name": "Convert JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
-    { "@type": "ListItem", "position": 3, "name": "Convert JSON to CSV", "url": "https://smallsuggestions.com/json-to-csv" },
-    { "@type": "ListItem", "position": 4, "name": "Convert JSON to XLSX", "url": "https://smallsuggestions.com/json-to-xlsx" },
-    { "@type": "ListItem", "position": 5, "name": "Convert JSON to SQL", "url": "https://smallsuggestions.com/json-to-sql" }
+    { "@type": "ListItem", "position": 1, "name": "Convert JSON to HTML", "url": "https://reptilebirds.com/json-to-html" },
+    { "@type": "ListItem", "position": 2, "name": "Convert JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
+    { "@type": "ListItem", "position": 3, "name": "Convert JSON to CSV", "url": "https://reptilebirds.com/json-to-csv" },
+    { "@type": "ListItem", "position": 4, "name": "Convert JSON to XLSX", "url": "https://reptilebirds.com/json-to-xlsx" },
+    { "@type": "ListItem", "position": 5, "name": "Convert JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" }
   ]
 }
 </script>

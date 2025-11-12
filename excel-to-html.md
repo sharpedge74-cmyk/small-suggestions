@@ -164,12 +164,12 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Convert Excel files (XLS/XLSX) to clean, responsive HTML tables instantly using this free browser-based tool. No uploads, no installations — all data is processed locally in your browser.",
-  "url": "https://smallsuggestions.com/excel-to-html",
-  "image": "https://smallsuggestions.com/assets/img/excel-to-html-tool.webp",
+  "url": "https://reptilebirds.com/excel-to-html",
+  "image": "https://reptilebirds.com/assets/img/excel-to-html-tool.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Instant Excel to HTML conversion",
@@ -194,12 +194,12 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
     "sameAs": [
       "https://en.wikipedia.org/wiki/Microsoft_Excel",
       "https://en.wikipedia.org/wiki/HTML_table",
-      "https://smallsuggestions.com/excel-to-json",
-    "https://smallsuggestions.com/excel-to-txt",
-    "https://smallsuggestions.com/convert-xlsx-to-csv",
-    "https://smallsuggestions.com/convert-xlsx-to-xml",
-    "https://smallsuggestions.com/xlsx-to-pdf",
-    "https://smallsuggestions.com/xlsx-to-sql-converter"
+      "https://reptilebirds.com/excel-to-json",
+    "https://reptilebirds.com/excel-to-txt",
+    "https://reptilebirds.com/convert-xlsx-to-csv",
+    "https://reptilebirds.com/convert-xlsx-to-xml",
+    "https://reptilebirds.com/xlsx-to-pdf",
+    "https://reptilebirds.com/xlsx-to-sql-converter"
     ]
   }
 }
@@ -225,12 +225,12 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
     "description": "HTML table generated from uploaded Excel data, ready for embedding in web pages.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/excel-to-html",
+    "urlTemplate": "https://reptilebirds.com/excel-to-html",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -253,7 +253,7 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -265,7 +265,7 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -316,12 +316,12 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
   "name": "Related Excel Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Excel to JSON", "url": "https://smallsuggestions.com/excel-to-json" },
-    { "@type": "ListItem", "position": 2, "name": "Excel to TXT", "url": "https://smallsuggestions.com/excel-to-txt" },
-    { "@type": "ListItem", "position": 3, "name": "Convert XLSX to CSV", "url": "https://smallsuggestions.com/convert-xlsx-to-csv" },
-    { "@type": "ListItem", "position": 4, "name": "Convert XLSX to XML", "url": "https://smallsuggestions.com/convert-xlsx-to-xml" },
-    { "@type": "ListItem", "position": 5, "name": "XLSX to PDF", "url": "https://smallsuggestions.com/xlsx-to-pdf" },
-    { "@type": "ListItem", "position": 6, "name": "XLSX to SQL Converter", "url": "https://smallsuggestions.com/xlsx-to-sql-converter" }
+    { "@type": "ListItem", "position": 1, "name": "Excel to JSON", "url": "https://reptilebirds.com/excel-to-json" },
+    { "@type": "ListItem", "position": 2, "name": "Excel to TXT", "url": "https://reptilebirds.com/excel-to-txt" },
+    { "@type": "ListItem", "position": 3, "name": "Convert XLSX to CSV", "url": "https://reptilebirds.com/convert-xlsx-to-csv" },
+    { "@type": "ListItem", "position": 4, "name": "Convert XLSX to XML", "url": "https://reptilebirds.com/convert-xlsx-to-xml" },
+    { "@type": "ListItem", "position": 5, "name": "XLSX to PDF", "url": "https://reptilebirds.com/xlsx-to-pdf" },
+    { "@type": "ListItem", "position": 6, "name": "XLSX to SQL Converter", "url": "https://reptilebirds.com/xlsx-to-sql-converter" }
   ]
 }
 </script>

@@ -1,17 +1,17 @@
 ---
 layout: main
-title: "About SmallSuggestions - Free Data Conversion Tools"
-description: "Learn about SmallSuggestions, the free browser-based platform for data conversion and file management. No signup, no upload, works offline once loaded."
-keywords: about us, organization, SmallSuggestions, data conversion, browser-based tools, secure file converter, JSON tools, Excel tools, XML tools, CSV tools
+title: "About Reptile Birds - Free Data Conversion Tools"
+description: "Learn about Reptile Birds, the free browser-based platform for data conversion and file management. No signup, no upload, works offline once loaded."
+keywords: about us, organization, Reptile Birds, data conversion, browser-based tools, secure file converter, JSON tools, Excel tools, XML tools, CSV tools
 ---
 
 <div style="margin: 4rem; ">
 <h1>
-  About The Small Suggestions - Productivity Tools
+  About The Reptile Birds - Productivity Tools
 </h1>
 
 <p >
-  <strong>Small Suggestions</strong> is a platform built to simplify everyday technical tasks through smart, 
+  <strong>Reptile Birds</strong> is a platform built to simplify everyday technical tasks through smart, 
   reliable, and user-friendly online tools. Each feature is designed with precision to help developers, 
   analysts, and creators save time and improve accuracy. Our mission is to turn small ideas into powerful 
   digital utilities that make work faster, cleaner, and more meaningful.
@@ -102,21 +102,19 @@ keywords: about us, organization, SmallSuggestions, data conversion, browser-bas
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Small Suggestions",
-  "url": "https://smallsuggestions.com",
-  "logo": "https://smallsuggestions.com/assets/img/logo.png",
-  "description": "Small Suggestions is a technology solutions platform featuring expert software developers and business analysts delivering enterprise-grade applications.",
-  "sameAs": [
-    "https://www.linkedin.com/company/smallsuggestions"
-  ],
+  "name": "Reptile Birds",
+  "url": "https://reptilebirds.com",
+  "logo": "https://reptilebirds.com/assets/img/logo.png",
+  "description": "Reptile Birds is a technology solutions platform featuring expert software developers and business analysts delivering enterprise-grade applications.",
+
   "founder": {
     "@type": "Person",
     "name": "Sohail Anwar",
     "email": "sohailanwaralmani74@gmail.com",
     "telephone": "+923010136029",
     "jobTitle": "Senior Consultant – App Development",
-    "url": "https://smallsuggestions.com/sohail-anwar",
-    "image": "https://smallsuggestions.com/assets/img/sohail-anwar.png",
+    "url": "https://reptilebirds.com/sohail-anwar",
+    "image": "https://reptilebirds.com/assets/img/sohail-anwar.png",
     "sameAs": [
       "https://www.linkedin.com/in/sohail-anwar-a63063162/",
       "https://github.com/sohailanwaralmani74",
@@ -124,7 +122,7 @@ keywords: about us, organization, SmallSuggestions, data conversion, browser-bas
     ],
     "worksFor": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     },
     "description": "Senior Consultant in App Development with 12+ years experience in Java, Spring Boot, JSF, Struts, Angular, and Microservices, delivering enterprise solutions."
   },
@@ -135,15 +133,15 @@ keywords: about us, organization, SmallSuggestions, data conversion, browser-bas
       "jobTitle": "Full Stack Developer",
       "email": "mailto:saeed@example.com",
       "telephone": "+923147144647",
-      "url": "https://smallsuggestions.com/saeed-ahmed",
-      "image": "https://smallsuggestions.com/assets/img/saeed-ahmed.jpg",
+      "url": "https://reptilebirds.com/saeed-ahmed",
+      "image": "https://reptilebirds.com/assets/img/saeed-ahmed.jpg",
       "sameAs": [
         "https://www.linkedin.com/in/saeedahmedsheikh/",
         "https://wa.me/923147144647"
       ],
       "worksFor": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       },
       "description": "Full Stack Developer with 6+ years experience in Java, Spring Boot, Node.js, Electron, and DevOps, creating efficient enterprise-grade applications."
     },
@@ -153,15 +151,15 @@ keywords: about us, organization, SmallSuggestions, data conversion, browser-bas
       "jobTitle": "Business Analyst",
       "email": "mailto:gourav@example.com",
       "telephone": "+923147144647",
-      "url": "https://smallsuggestions.com/gourav-mishra",
-      "image": "https://smallsuggestions.com/assets/img/gourav-mishra.jpg",
+      "url": "https://reptilebirds.com/gourav-mishra",
+      "image": "https://reptilebirds.com/assets/img/gourav-mishra.jpg",
       "sameAs": [
         "https://www.linkedin.com/in/gourav-m-0a0584132/",
         "https://wa.me/923147144647"
       ],
       "worksFor": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       },
       "description": "Business Analyst with expertise in mortgage underwriting, fraud analysis, credit evaluation, and workflow optimization for financial applications."
     }

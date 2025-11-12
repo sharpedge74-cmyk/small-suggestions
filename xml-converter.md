@@ -35,16 +35,16 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "XML Converters - Browser-Based XML Conversion Tools",
-  "url": "https://smallsuggestions.com/xml-converters",
+  "url": "https://reptilebirds.com/xml-converters",
   "description": "Explore our free browser-based XML converters to transform XML files into JSON, CSV, Excel, HTML, PDF, and more — fast, secure, and completely client-side.",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "publisher": {
     "@type": "Organization",
-    "name": "SmallSuggestions",
-    "url": "https://smallsuggestions.com",
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
     }
   },
   "mainEntity": {
@@ -56,7 +56,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to JSON Converter",
-        "url": "https://smallsuggestions.com/xml-to-json",
+        "url": "https://reptilebirds.com/xml-to-json",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert XML files into readable JSON format instantly and securely in your browser."
@@ -64,7 +64,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to CSV Converter",
-        "url": "https://smallsuggestions.com/xml-to-csv",
+        "url": "https://reptilebirds.com/xml-to-csv",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Transform XML data into clean CSV output for spreadsheets or data analysis."
@@ -72,7 +72,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to Excel Converter",
-        "url": "https://smallsuggestions.com/xml-to-excel",
+        "url": "https://reptilebirds.com/xml-to-excel",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert XML files to Excel format (XLS/XLSX) with structured preview and export."
@@ -80,7 +80,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to HTML Converter",
-        "url": "https://smallsuggestions.com/xml-to-html",
+        "url": "https://reptilebirds.com/xml-to-html",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Turn XML data into formatted, human-readable HTML tables directly in your browser."
@@ -88,7 +88,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to XSD Generator",
-        "url": "https://smallsuggestions.com/xml-to-xsd-generator",
+        "url": "https://reptilebirds.com/xml-to-xsd-generator",
         "applicationCategory": "Developer Utility",
         "operatingSystem": "All",
         "description": "Generate XSD schema files automatically from your XML data for validation or development."
@@ -96,7 +96,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to SQL Converter",
-        "url": "https://smallsuggestions.com/xml-to-sql",
+        "url": "https://reptilebirds.com/xml-to-sql",
         "applicationCategory": "Database Utility",
         "operatingSystem": "All",
         "description": "Convert XML to SQL INSERT statements for quick database population or testing."
@@ -104,7 +104,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to PDF Converter",
-        "url": "https://smallsuggestions.com/xml-to-pdf",
+        "url": "https://reptilebirds.com/xml-to-pdf",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert XML files into structured PDF documents ready for download or sharing."
@@ -112,7 +112,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to TXT Converter",
-        "url": "https://smallsuggestions.com/xml-to-txt",
+        "url": "https://reptilebirds.com/xml-to-txt",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Extract text content from XML files for clean and simple plain text output."
@@ -120,7 +120,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "XML to YAML Converter",
-        "url": "https://smallsuggestions.com/xml-to-yaml",
+        "url": "https://reptilebirds.com/xml-to-yaml",
         "applicationCategory": "Developer Utility",
         "operatingSystem": "All",
         "description": "Convert XML structure into readable YAML format for configuration or deployment use."
@@ -128,7 +128,7 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
       {
         "@type": "WebApplication",
         "name": "Validate XML",
-        "url": "https://smallsuggestions.com/validate-xml",
+        "url": "https://reptilebirds.com/validate-xml",
         "applicationCategory": "Validation Utility",
         "operatingSystem": "All",
         "description": "Instantly validate your XML syntax and structure directly in the browser."

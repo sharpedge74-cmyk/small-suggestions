@@ -39,16 +39,16 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Excel Converter - Smart Browser Based Data Conversion Tools",
-  "url": "https://smallsuggestions.com/excel-converter",
+  "url": "https://reptilebirds.com/excel-converter",
   "description": "Access all Excel conversion tools in one place. Convert Excel files into JSON, CSV, PDF, XML, and SQL directly in your browser without uploads or privacy concerns.",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "publisher": {
     "@type": "Organization",
-    "name": "SmallSuggestions",
-    "url": "https://smallsuggestions.com",
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
     }
   },
   "mainEntity": {
@@ -60,7 +60,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "Excel to HTML Converter",
-        "url": "https://smallsuggestions.com/excel-to-html",
+        "url": "https://reptilebirds.com/excel-to-html",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert Excel files into structured HTML tables instantly — perfect for embedding spreadsheets on web pages."
@@ -68,7 +68,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "Excel to JSON Converter",
-        "url": "https://smallsuggestions.com/excel-to-json",
+        "url": "https://reptilebirds.com/excel-to-json",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert Excel data into JSON format with clean structure, maintaining key-value mapping automatically."
@@ -76,7 +76,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "Excel to TXT Converter",
-        "url": "https://smallsuggestions.com/excel-to-txt",
+        "url": "https://reptilebirds.com/excel-to-txt",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Export Excel data into plain text (.txt) format for simple sharing or raw data viewing."
@@ -84,7 +84,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "XLSX to PDF Converter",
-        "url": "https://smallsuggestions.com/xlsx-to-pdf",
+        "url": "https://reptilebirds.com/xlsx-to-pdf",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Transform Excel spreadsheets into professionally formatted PDFs for print and documentation."
@@ -92,7 +92,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "XLSX to SQL Converter",
-        "url": "https://smallsuggestions.com/xlsx-to-sql-converter",
+        "url": "https://reptilebirds.com/xlsx-to-sql-converter",
         "applicationCategory": "Database Utility",
         "operatingSystem": "All",
         "description": "Convert Excel data into SQL queries, enabling quick import into relational databases."
@@ -100,7 +100,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "XLSX to CSV Converter",
-        "url": "https://smallsuggestions.com/convert-xlsx-to-csv",
+        "url": "https://reptilebirds.com/convert-xlsx-to-csv",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Easily convert Excel XLSX files into lightweight CSV format with column accuracy and structure."
@@ -108,7 +108,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "XLSX to XML Converter",
-        "url": "https://smallsuggestions.com/convert-xlsx-to-xml",
+        "url": "https://reptilebirds.com/convert-xlsx-to-xml",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert Excel files into XML data format to integrate with systems requiring structured markup."
@@ -116,7 +116,7 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
       {
         "@type": "WebApplication",
         "name": "Excel Converter (Main Collection)",
-        "url": "https://smallsuggestions.com/excel-converter",
+        "url": "https://reptilebirds.com/excel-converter",
         "applicationCategory": "Data Conversion Collection",
         "operatingSystem": "All",
         "description": "Explore a complete suite of Excel data conversion tools — fast, free, and browser-based."

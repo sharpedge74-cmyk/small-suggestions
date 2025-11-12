@@ -189,12 +189,12 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Generate XSD schemas directly from XML files with this free browser-based XML to XSD generator. Fast, secure, and client-side — no uploads or installations required.",
-  "url": "https://smallsuggestions.com/xml-to-xsd-generator",
-  "image": "https://smallsuggestions.com/assets/img/xml-to-xsd-tool.webp",
+  "url": "https://reptilebirds.com/xml-to-xsd-generator",
+  "image": "https://reptilebirds.com/assets/img/xml-to-xsd-tool.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Generate XSD from XML instantly",
@@ -219,9 +219,9 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
     "sameAs": [
       "https://en.wikipedia.org/wiki/XML_Schema",
       "https://en.wikipedia.org/wiki/XML",
-      "https://smallsuggestions.com/xml-to-json",
-      "https://smallsuggestions.com/validate-xml",
-      "https://smallsuggestions.com/xml-to-html"
+      "https://reptilebirds.com/xml-to-json",
+      "https://reptilebirds.com/validate-xml",
+      "https://reptilebirds.com/xml-to-html"
     ]
   }
 }
@@ -241,7 +241,7 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -253,7 +253,7 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -350,12 +350,12 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
     "description": "Generated XSD file defining the XML structure, data types, and element hierarchy based on the provided XML document.",
     "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/xml-to-xsd",
+    "urlTemplate": "https://reptilebirds.com/xml-to-xsd",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"

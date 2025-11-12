@@ -165,9 +165,9 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
   "operatingSystem": "Any",
   "applicationCategory": "UtilityApplication",
   "description": "Convert Excel files (.xls/.xlsx) into structured JSON format instantly using this browser-based tool. Preview, edit, and export JSON locally without uploads.",
-  "url": "https://smallsuggestions.com/excel-to-json",
-  "image": "https://smallsuggestions.com/assets/img/excel-to-json-tool.webp",
-  "creator": { "@type": "Organization", "name": "Small Suggestions", "url": "https://smallsuggestions.com" },
+  "url": "https://reptilebirds.com/excel-to-json",
+  "image": "https://reptilebirds.com/assets/img/excel-to-json-tool.webp",
+  "creator": { "@type": "Organization", "name": "Reptile Birds", "url": "https://reptilebirds.com" },
   "featureList": [
     "Instant Excel to JSON conversion",
     "Preview and edit data before exporting",
@@ -187,7 +187,7 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
   "name": "Convert Excel to JSON",
   "description": "Convert Excel spreadsheets to JSON format in your browser instantly.",
   "actionStatus": "PotentialActionStatus",
-  "target": { "@type": "EntryPoint", "urlTemplate": "https://smallsuggestions.com/excel-to-json" }
+  "target": { "@type": "EntryPoint", "urlTemplate": "https://reptilebirds.com/excel-to-json" }
 }
 </script>
 
@@ -205,7 +205,7 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -217,7 +217,7 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -248,12 +248,12 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
   "name":"Related Excel Conversion Tools",
   "itemListOrder":"Ascending",
   "itemListElement":[
-    { "@type":"ListItem","position":1,"name":"Excel to HTML","url":"https://smallsuggestions.com/excel-to-html" },
-    { "@type":"ListItem","position":2,"name":"Excel to TXT","url":"https://smallsuggestions.com/excel-to-txt" },
-    { "@type":"ListItem","position":3,"name":"Convert XLSX to CSV","url":"https://smallsuggestions.com/convert-xlsx-to-csv" },
-    { "@type":"ListItem","position":4,"name":"Convert XLSX to XML","url":"https://smallsuggestions.com/convert-xlsx-to-xml" },
-    { "@type":"ListItem","position":5,"name":"XLSX to PDF","url":"https://smallsuggestions.com/xlsx-to-pdf" },
-    { "@type":"ListItem","position":6,"name":"XLSX to SQL Converter","url":"https://smallsuggestions.com/xlsx-to-sql-converter" }
+    { "@type":"ListItem","position":1,"name":"Excel to HTML","url":"https://reptilebirds.com/excel-to-html" },
+    { "@type":"ListItem","position":2,"name":"Excel to TXT","url":"https://reptilebirds.com/excel-to-txt" },
+    { "@type":"ListItem","position":3,"name":"Convert XLSX to CSV","url":"https://reptilebirds.com/convert-xlsx-to-csv" },
+    { "@type":"ListItem","position":4,"name":"Convert XLSX to XML","url":"https://reptilebirds.com/convert-xlsx-to-xml" },
+    { "@type":"ListItem","position":5,"name":"XLSX to PDF","url":"https://reptilebirds.com/xlsx-to-pdf" },
+    { "@type":"ListItem","position":6,"name":"XLSX to SQL Converter","url":"https://reptilebirds.com/xlsx-to-sql-converter" }
   ]
 }
 </script>

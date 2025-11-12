@@ -173,16 +173,16 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
     {
       "@type": "WebApplication",
       "name": "Convert CSV to Excel - Free Online Tool",
-      "url": "https://smallsuggestions.com/convert-csv-to-excel",
-      "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+      "url": "https://reptilebirds.com/convert-csv-to-excel",
+      "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
       "description": "Convert CSV files to Excel instantly with browser-based CSV to Excel converter. Fast, secure, and no installation required.",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "softwareVersion": "1.0.0",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions",
-        "url": "https://smallsuggestions.com"
+        "name": "Reptile Birds",
+        "url": "https://reptilebirds.com"
       },
       "offers": {
         "@type": "Offer",
@@ -207,7 +207,7 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
         "name": "Excel File (.xls / .xlsx)",
          "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
       }
     },
@@ -219,18 +219,18 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       },
       "@graph": [
         {
           "@type": "DataDownload",
           "encodingFormat": "text/csv",
-          "contentUrl": "https://smallsuggestions.com/convert-csv-to-excel"
+          "contentUrl": "https://reptilebirds.com/convert-csv-to-excel"
         },
         {
           "@type": "DataDownload",
           "encodingFormat": "application/vnd.ms-excel",
-          "contentUrl": "https://smallsuggestions.com/convert-csv-to-excel"
+          "contentUrl": "https://reptilebirds.com/convert-csv-to-excel"
         }
       ]
     },
@@ -271,22 +271,22 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
         {
           "@type": "ListItem",
           "position": 1,
-          "url": "https://smallsuggestions.com/convert-csv-to-json"
+          "url": "https://reptilebirds.com/convert-csv-to-json"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "url": "https://smallsuggestions.com/convert-csv-to-xml"
+          "url": "https://reptilebirds.com/convert-csv-to-xml"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "url": "https://smallsuggestions.com/convert-csv-to-txt"
+          "url": "https://reptilebirds.com/convert-csv-to-txt"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "url": "https://smallsuggestions.com/convert-excel-to-csv"
+          "url": "https://reptilebirds.com/convert-excel-to-csv"
         }
       ]
     },

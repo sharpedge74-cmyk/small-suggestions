@@ -175,7 +175,7 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "Convert XLSX to CSV Online – Free Excel to CSV Converter",
-  "url": "https://smallsuggestions.com/convert-xlsx-to-csv",
+  "url": "https://reptilebirds.com/convert-xlsx-to-csv",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Any",
   "description": "Convert XLSX spreadsheets to CSV format instantly using our free Excel to CSV converter. 100% browser-based, secure, and fast.",
@@ -198,7 +198,7 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "description": "Upload your Excel XLSX file to convert it to CSV format with just one click.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-xlsx-to-csv"
+    "urlTemplate": "https://reptilebirds.com/convert-xlsx-to-csv"
     },
   "result": {
     "@type": "Thing",
@@ -218,13 +218,13 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "distribution": {
     "@type": "DataDownload",
     "encodingFormat": "text/csv",
-    "contentUrl": "https://smallsuggestions.com/convert-xlsx-to-csv"
+    "contentUrl": "https://reptilebirds.com/convert-xlsx-to-csv"
   }
 }
 </script>
@@ -235,7 +235,7 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Convert XLSX to CSV",
-  "description": "Follow these steps to convert Excel XLSX files to CSV format using Small Suggestions’ online converter.",
+  "description": "Follow these steps to convert Excel XLSX files to CSV format using Reptile Birds’ online converter.",
   "step": [
     { "@type": "HowToStep", "name": "Upload Excel File", "text": "Click the Upload Excel button and choose your XLSX or XLS file." },
     { "@type": "HowToStep", "name": "Preview Data", "text": "Once uploaded, preview the Excel content in the table view for accuracy." },
@@ -252,11 +252,11 @@ It works on all modern browsers including Chrome, Firefox, Safari, Edge, and Ope
   "@type": "ItemList",
   "name": "Related Excel Conversion Tools",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "url": "https://smallsuggestions.com/excel-to-html", "name": "Excel to HTML Converter" },
-    { "@type": "ListItem", "position": 2, "url": "https://smallsuggestions.com/excel-to-json", "name": "Excel to JSON Converter" },
-    { "@type": "ListItem", "position": 3, "url": "https://smallsuggestions.com/convert-xlsx-to-xml", "name": "Convert XLSX to XML" },
-    { "@type": "ListItem", "position": 4, "url": "https://smallsuggestions.com/xlsx-to-pdf", "name": "XLSX to PDF Converter" },
-    { "@type": "ListItem", "position": 5, "url": "https://smallsuggestions.com/xlsx-to-sql-converter", "name": "XLSX to SQL Converter" }
+    { "@type": "ListItem", "position": 1, "url": "https://reptilebirds.com/excel-to-html", "name": "Excel to HTML Converter" },
+    { "@type": "ListItem", "position": 2, "url": "https://reptilebirds.com/excel-to-json", "name": "Excel to JSON Converter" },
+    { "@type": "ListItem", "position": 3, "url": "https://reptilebirds.com/convert-xlsx-to-xml", "name": "Convert XLSX to XML" },
+    { "@type": "ListItem", "position": 4, "url": "https://reptilebirds.com/xlsx-to-pdf", "name": "XLSX to PDF Converter" },
+    { "@type": "ListItem", "position": 5, "url": "https://reptilebirds.com/xlsx-to-sql-converter", "name": "XLSX to SQL Converter" }
   ]
 }
 </script>

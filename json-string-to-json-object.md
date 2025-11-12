@@ -188,12 +188,12 @@ keywords: json string to json object, convert string to json, convert json strin
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "Data Conversion",
   "description": "Convert JSON strings to formatted JSON objects instantly with this free browser-based parser. Copy or download results directly from your device.",
-  "url": "https://smallsuggestions.com/json-string-to-json-object",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "url": "https://reptilebirds.com/json-string-to-json-object",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Instant JSON string parsing",
@@ -218,7 +218,7 @@ keywords: json string to json object, convert string to json, convert json strin
     "name": "JSON String to JSON Object Conversion",
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
-      "https://smallsuggestions.com/json-to-dart"
+      "https://reptilebirds.com/json-to-dart"
     ]
   }
 }
@@ -243,12 +243,12 @@ keywords: json string to json object, convert string to json, convert json strin
     "description": "Formatted JSON object generated from the input string.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/json-string-to-json-object",
+    "urlTemplate": "https://reptilebirds.com/json-string-to-json-object",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -271,7 +271,7 @@ keywords: json string to json object, convert string to json, convert json strin
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -283,7 +283,7 @@ keywords: json string to json object, convert string to json, convert json strin
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -328,13 +328,13 @@ keywords: json string to json object, convert string to json, convert json strin
   "name": "Related JSON Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "JSON to Dart", "url": "https://smallsuggestions.com/json-to-dart" },
-    { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://smallsuggestions.com/json-to-excel" },
-    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://smallsuggestions.com/json-to-pdf" },
-    { "@type": "ListItem", "position": 4, "name": "JSON to SQL", "url": "https://smallsuggestions.com/json-to-sql" },
-    { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://smallsuggestions.com/json-to-txt" },
-    { "@type": "ListItem", "position": 6, "name": "JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
-    { "@type": "ListItem", "position": 7, "name": "JSON to JSON Schema", "url": "https://smallsuggestions.com/json-to-json-schema" }
+    { "@type": "ListItem", "position": 1, "name": "JSON to Dart", "url": "https://reptilebirds.com/json-to-dart" },
+    { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://reptilebirds.com/json-to-excel" },
+    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://reptilebirds.com/json-to-pdf" },
+    { "@type": "ListItem", "position": 4, "name": "JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" },
+    { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://reptilebirds.com/json-to-txt" },
+    { "@type": "ListItem", "position": 6, "name": "JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
+    { "@type": "ListItem", "position": 7, "name": "JSON to JSON Schema", "url": "https://reptilebirds.com/json-to-json-schema" }
   ]
 }
 </script>

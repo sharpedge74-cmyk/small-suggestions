@@ -152,7 +152,7 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "CSV to JSON Converter",
-  "url": "https://smallsuggestions.com/convert-csv-to-json",
+  "url": "https://reptilebirds.com/convert-csv-to-json",
   "applicationCategory": "UtilitiesApplication",
   "description": "Convert CSV files to JSON format online. Secure, browser-based CSV to JSON converter for developers and analysts.",
   "operatingSystem": "All",
@@ -175,7 +175,7 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
   "description": "Upload a CSV file and convert it into JSON instantly using a browser-based converter.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-json",
+    "urlTemplate": "https://reptilebirds.com/convert-csv-to-json",
     "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
   },
   "result": {
@@ -197,12 +197,12 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://smallsuggestions.com/sample.csv"
+      "contentUrl": "https://reptilebirds.com/sample.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
-      "contentUrl": "https://smallsuggestions.com/sample.json"
+      "contentUrl": "https://reptilebirds.com/sample.json"
     }
   ]
 }
@@ -228,9 +228,9 @@ Whether you are preparing API data, migrating databases, or cleaning datasets, t
   "@type": "ItemList",
   "name": "Related CSV Conversion Tools",
   "itemListElement": [
-    {"@type": "ListItem","position": 1,"name": "CSV to Excel","url": "https://smallsuggestions.com/convert-csv-to-excel"},
-    {"@type": "ListItem","position": 2,"name": "CSV to HTML","url": "https://smallsuggestions.com/convert-csv-to-html"},
-    {"@type": "ListItem","position": 3,"name": "CSV to XML","url": "https://smallsuggestions.com/convert-csv-to-xml"}
+    {"@type": "ListItem","position": 1,"name": "CSV to Excel","url": "https://reptilebirds.com/convert-csv-to-excel"},
+    {"@type": "ListItem","position": 2,"name": "CSV to HTML","url": "https://reptilebirds.com/convert-csv-to-html"},
+    {"@type": "ListItem","position": 3,"name": "CSV to XML","url": "https://reptilebirds.com/convert-csv-to-xml"}
   ]
 }
 </script>

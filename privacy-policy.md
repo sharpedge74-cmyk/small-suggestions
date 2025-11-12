@@ -1,20 +1,20 @@
 ---
 layout: main
-title: "SmallSuggestions Privacy Policy"
-description: "SmallSuggestions Privacy Policy — Learn how we protect your privacy with 100% local file processing. No uploads, no tracking, fully GDPR & CCPA compliant."
-keywords: privacy policy, GDPR, CCPA, data protection, local file processing, secure file converter, browser-based tools, no file upload, small suggestions privacy
+title: "Reptile Birds Privacy Policy"
+description: "Reptile Birds Privacy Policy — Learn how we protect your privacy with 100% local file processing. No uploads, no tracking, fully GDPR & CCPA compliant."
+keywords: privacy policy, GDPR, CCPA, data protection, local file processing, secure file converter, browser-based tools, no file upload, Reptile Birdss privacy
 ---
 
 <div class="tool-page" style="margin: 4rem;">
-  <h1>Privacy Policy - SmallSuggestions Protects Your Data</h1>
+  <h1>Privacy Policy - Reptile Birds Protects Your Data</h1>
   <p>
-    Welcome to <strong>SmallSuggestions.com</strong>. We value your privacy and have built all our tools to operate in a secure, transparent, and privacy-focused way. 
+    Welcome to <strong>Reptile Birds.com</strong>. We value your privacy and have built all our tools to operate in a secure, transparent, and privacy-focused way. 
     This Privacy Policy explains how our tools work, what (if any) data is handled, and your rights under privacy regulations including GDPR, CCPA, and others.
   </p>
 
-  <h2>1. How SmallSuggestions Works</h2>
+  <h2>1. How Reptile Birds Works</h2>
   <p>
-    All tools on SmallSuggestions are fully browser-based. This means:
+    All tools on Reptile Birds are fully browser-based. This means:
   </p>
   <ul>
     <li><strong>No file uploads:</strong> Your files never leave your device.</li>
@@ -39,7 +39,7 @@ keywords: privacy policy, GDPR, CCPA, data protection, local file processing, se
 
   <h2>3. Cookies and Tracking</h2>
   <p>
-    SmallSuggestions does not use cookies for tracking, fingerprinting, or advertising. Any future analytics will be anonymous and cookieless, fully GDPR and CCPA compliant.
+    Reptile Birds does not use cookies for tracking, fingerprinting, or advertising. Any future analytics will be anonymous and cookieless, fully GDPR and CCPA compliant.
   </p>
 
   <h2>4. Third-Party Services and Advertising</h2>
@@ -56,7 +56,7 @@ keywords: privacy policy, GDPR, CCPA, data protection, local file processing, se
 
   <h2>5. Compliance with Privacy Regulations</h2>
   <p>
-    SmallSuggestions respects global privacy laws:
+    Reptile Birds respects global privacy laws:
   </p>
   <ul>
     <li><strong>GDPR (EU):</strong> No personal data collection, no cross-border transfers.</li>
@@ -81,7 +81,7 @@ keywords: privacy policy, GDPR, CCPA, data protection, local file processing, se
 
   <h2>9. External Links</h2>
   <p>
-    Links to other websites are provided for convenience. SmallSuggestions is not responsible for their content or privacy practices.
+    Links to other websites are provided for convenience. Reptile Birds is not responsible for their content or privacy practices.
   </p>
 
   <h2>10. Policy Updates</h2>

@@ -160,12 +160,12 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to structured XML format with this free, browser-based converter. Preview, validate, and transform your JSON data into clean XML instantly — all client-side, with no uploads.",
-  "url": "https://smallsuggestions.com/json-to-xml",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "url": "https://reptilebirds.com/json-to-xml",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Instant JSON to XML conversion",
@@ -190,11 +190,11 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
       "https://en.wikipedia.org/wiki/XML",
-      "https://smallsuggestions.com/json-to-csv",
-    "https://smallsuggestions.com/json-to-excel",
-    "https://smallsuggestions.com/json-to-pdf",
-    "https://smallsuggestions.com/json-to-sql",
-    "https://smallsuggestions.com/json-to-txt"
+      "https://reptilebirds.com/json-to-csv",
+    "https://reptilebirds.com/json-to-excel",
+    "https://reptilebirds.com/json-to-pdf",
+    "https://reptilebirds.com/json-to-sql",
+    "https://reptilebirds.com/json-to-txt"
     ]
   }
 }
@@ -220,12 +220,12 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
     "description": "Clean XML data converted from the original JSON structure.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/json-to-xml",
+    "urlTemplate": "https://reptilebirds.com/json-to-xml",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -248,7 +248,7 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -260,7 +260,7 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -311,11 +311,11 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
   "name": "Related JSON Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "JSON to CSV", "url": "https://smallsuggestions.com/json-to-csv" },
-    { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://smallsuggestions.com/json-to-excel" },
-    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://smallsuggestions.com/json-to-pdf" },
-    { "@type": "ListItem", "position": 4, "name": "JSON to SQL", "url": "https://smallsuggestions.com/json-to-sql" },
-    { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://smallsuggestions.com/json-to-txt" }
+    { "@type": "ListItem", "position": 1, "name": "JSON to CSV", "url": "https://reptilebirds.com/json-to-csv" },
+    { "@type": "ListItem", "position": 2, "name": "JSON to Excel", "url": "https://reptilebirds.com/json-to-excel" },
+    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://reptilebirds.com/json-to-pdf" },
+    { "@type": "ListItem", "position": 4, "name": "JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" },
+    { "@type": "ListItem", "position": 5, "name": "JSON to TXT", "url": "https://reptilebirds.com/json-to-txt" }
   ]
 }
 </script>

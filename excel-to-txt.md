@@ -164,7 +164,7 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
     "contentUrl": "https://yourdomain.com/download/converted.txt",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   }
 }
@@ -184,7 +184,7 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -196,7 +196,7 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]

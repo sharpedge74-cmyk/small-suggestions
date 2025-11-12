@@ -156,12 +156,12 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to CSV instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
-  "url": "https://smallsuggestions.com/json-to-csv",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "url": "https://reptilebirds.com/json-to-csv",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Instant JSON to CSV conversion",
@@ -187,12 +187,12 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     "sameAs": [
       "https://en.wikipedia.org/wiki/JSON",
       "https://en.wikipedia.org/wiki/Comma-separated_values",
-      "https://smallsuggestions.com/json-to-excel",
-    "https://smallsuggestions.com/json-to-html",
-    "https://smallsuggestions.com/json-to-pdf",
-    "https://smallsuggestions.com/json-to-sql",
-    "https://smallsuggestions.com/json-to-txt",
-    "https://smallsuggestions.com/json-to-xml"
+      "https://reptilebirds.com/json-to-excel",
+    "https://reptilebirds.com/json-to-html",
+    "https://reptilebirds.com/json-to-pdf",
+    "https://reptilebirds.com/json-to-sql",
+    "https://reptilebirds.com/json-to-txt",
+    "https://reptilebirds.com/json-to-xml"
     ]
   }
 }
@@ -217,12 +217,12 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     "description": "CSV file generated from uploaded JSON data, including multiple tables for nested JSON.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/json-to-csv",
+    "urlTemplate": "https://reptilebirds.com/json-to-csv",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -244,7 +244,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -256,7 +256,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -306,14 +306,14 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
   "name": "Related JSON Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "JSON to Excel", "url": "https://smallsuggestions.com/json-to-excel" },
-    { "@type": "ListItem", "position": 2, "name": "JSON to HTML", "url": "https://smallsuggestions.com/json-to-html" },
-    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://smallsuggestions.com/json-to-pdf" },
-    { "@type": "ListItem", "position": 4, "name": "JSON to TXT", "url": "https://smallsuggestions.com/json-to-txt" },
-    { "@type": "ListItem", "position": 5, "name": "JSON to SQL", "url": "https://smallsuggestions.com/json-to-sql" },
-    { "@type": "ListItem", "position": 6, "name": "JSON to XML", "url": "https://smallsuggestions.com/json-to-xml" },
-    { "@type": "ListItem", "position": 7, "name": "JSON String to JSON Object", "url": "https://smallsuggestions.com/json-string-to-json-object" },
-    { "@type": "ListItem", "position": 8, "name": "JSON to JSON Schema", "url": "https://smallsuggestions.com/json-to-json-schema" }
+    { "@type": "ListItem", "position": 1, "name": "JSON to Excel", "url": "https://reptilebirds.com/json-to-excel" },
+    { "@type": "ListItem", "position": 2, "name": "JSON to HTML", "url": "https://reptilebirds.com/json-to-html" },
+    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://reptilebirds.com/json-to-pdf" },
+    { "@type": "ListItem", "position": 4, "name": "JSON to TXT", "url": "https://reptilebirds.com/json-to-txt" },
+    { "@type": "ListItem", "position": 5, "name": "JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" },
+    { "@type": "ListItem", "position": 6, "name": "JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
+    { "@type": "ListItem", "position": 7, "name": "JSON String to JSON Object", "url": "https://reptilebirds.com/json-string-to-json-object" },
+    { "@type": "ListItem", "position": 8, "name": "JSON to JSON Schema", "url": "https://reptilebirds.com/json-to-json-schema" }
   ]
 }
 </script>

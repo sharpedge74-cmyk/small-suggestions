@@ -146,12 +146,12 @@ It’s safe, private, and ideal for sensitive business or academic use.
   "applicationCategory": "UtilityApplication",
   "applicationSubCategory": "File Conversion",
   "description": "Convert Excel XLSX and XLS spreadsheets to XML format instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
-  "url": "https://smallsuggestions.com/convert-xlsx-to-xml",
-  "image": "https://smallsuggestions.com/assets/img/xlsx-to-xml-tool.webp",
+  "url": "https://reptilebirds.com/convert-xlsx-to-xml",
+  "image": "https://reptilebirds.com/assets/img/xlsx-to-xml-tool.webp",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "featureList": [
     "Instant XLSX to XML conversion",
@@ -176,11 +176,11 @@ It’s safe, private, and ideal for sensitive business or academic use.
     "sameAs": [
       "https://en.wikipedia.org/wiki/Microsoft_Excel",
       "https://en.wikipedia.org/wiki/XML",
-      "https://smallsuggestions.com/excel-to-html",
-    "https://smallsuggestions.com/excel-to-json",
-    "https://smallsuggestions.com/convert-xlsx-to-csv",
-    "https://smallsuggestions.com/xlsx-to-pdf",
-    "https://smallsuggestions.com/xlsx-to-sql-converter"
+      "https://reptilebirds.com/excel-to-html",
+    "https://reptilebirds.com/excel-to-json",
+    "https://reptilebirds.com/convert-xlsx-to-csv",
+    "https://reptilebirds.com/xlsx-to-pdf",
+    "https://reptilebirds.com/xlsx-to-sql-converter"
     ]
   }
 }
@@ -206,12 +206,12 @@ It’s safe, private, and ideal for sensitive business or academic use.
     "description": "XML file generated from the uploaded Excel data.",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   },
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-xlsx-to-xml",
+    "urlTemplate": "https://reptilebirds.com/convert-xlsx-to-xml",
     "actionPlatform": [
       "https://schema.org/DesktopWebPlatform",
       "https://schema.org/MobileWebPlatform"
@@ -234,7 +234,7 @@ It’s safe, private, and ideal for sensitive business or academic use.
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -246,7 +246,7 @@ It’s safe, private, and ideal for sensitive business or academic use.
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]
@@ -297,11 +297,11 @@ It’s safe, private, and ideal for sensitive business or academic use.
   "name": "Related Excel Conversion Tools",
   "itemListOrder": "Ascending",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Excel to HTML", "url": "https://smallsuggestions.com/excel-to-html" },
-    { "@type": "ListItem", "position": 2, "name": "Excel to JSON", "url": "https://smallsuggestions.com/excel-to-json" },
-    { "@type": "ListItem", "position": 3, "name": "Convert XLSX to CSV", "url": "https://smallsuggestions.com/convert-xlsx-to-csv" },
-    { "@type": "ListItem", "position": 4, "name": "XLSX to PDF", "url": "https://smallsuggestions.com/xlsx-to-pdf" },
-    { "@type": "ListItem", "position": 5, "name": "XLSX to SQL Converter", "url": "https://smallsuggestions.com/xlsx-to-sql-converter" }
+    { "@type": "ListItem", "position": 1, "name": "Excel to HTML", "url": "https://reptilebirds.com/excel-to-html" },
+    { "@type": "ListItem", "position": 2, "name": "Excel to JSON", "url": "https://reptilebirds.com/excel-to-json" },
+    { "@type": "ListItem", "position": 3, "name": "Convert XLSX to CSV", "url": "https://reptilebirds.com/convert-xlsx-to-csv" },
+    { "@type": "ListItem", "position": 4, "name": "XLSX to PDF", "url": "https://reptilebirds.com/xlsx-to-pdf" },
+    { "@type": "ListItem", "position": 5, "name": "XLSX to SQL Converter", "url": "https://reptilebirds.com/xlsx-to-sql-converter" }
   ]
 }
 </script>

@@ -144,7 +144,7 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "CSV to TXT Converter",
-  "url": "https://smallsuggestions.com/convert-csv-to-txt",
+  "url": "https://reptilebirds.com/convert-csv-to-txt",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Any",
   "description": "Convert CSV files to plain text format with structured columns using our free online CSV to TXT converter. Fast, secure, and fully browser-based.",
@@ -167,7 +167,7 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
   "description": "Online CSV to TXT converter that transforms CSV data into column-aligned plain text instantly.",
   "target": {
     "@type": "EntryPoint",
-    "urlTemplate": "https://smallsuggestions.com/convert-csv-to-txt"
+    "urlTemplate": "https://reptilebirds.com/convert-csv-to-txt"
   },
   "result": {
     "@type": "Thing",
@@ -187,13 +187,13 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "creator": {
     "@type": "Organization",
-    "name": "Small Suggestions",
-    "url": "https://smallsuggestions.com"
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com"
   },
   "distribution": {
     "@type": "DataDownload",
     "encodingFormat": "text/plain",
-    "contentUrl": "https://smallsuggestions.com/convert-csv-to-txt"
+    "contentUrl": "https://reptilebirds.com/convert-csv-to-txt"
   }
 }
 </script>
@@ -240,31 +240,31 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
     {
       "@type": "ListItem",
       "position": 1,
-      "url": "https://smallsuggestions.com/convert-csv-to-excel",
+      "url": "https://reptilebirds.com/convert-csv-to-excel",
       "name": "Convert CSV to Excel"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "url": "https://smallsuggestions.com/convert-csv-to-html",
+      "url": "https://reptilebirds.com/convert-csv-to-html",
       "name": "Convert CSV to HTML"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "url": "https://smallsuggestions.com/convert-csv-to-json",
+      "url": "https://reptilebirds.com/convert-csv-to-json",
       "name": "Convert CSV to JSON"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "url": "https://smallsuggestions.com/convert-csv-to-pdf",
+      "url": "https://reptilebirds.com/convert-csv-to-pdf",
       "name": "Convert CSV to PDF"
     },
     {
       "@type": "ListItem",
       "position": 5,
-      "url": "https://smallsuggestions.com/convert-csv-to-xml",
+      "url": "https://reptilebirds.com/convert-csv-to-xml",
       "name": "Convert CSV to XML"
     }
   ]

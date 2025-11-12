@@ -150,7 +150,7 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
     "contentUrl": "https://yourdomain.com/download/converted.pdf",
      "creator": {
       "@type": "Organization",
-      "name": "Small Suggestions"
+      "name": "Reptile Birds"
     }
   }
 }
@@ -170,7 +170,7 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     },
     {
@@ -182,7 +182,7 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Small Suggestions"
+        "name": "Reptile Birds"
       }
     }
   ]

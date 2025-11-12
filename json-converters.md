@@ -36,16 +36,16 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "JSON Converters - Browser-Based JSON Conversion Tools",
-  "url": "https://smallsuggestions.com/json-converters",
+  "url": "https://reptilebirds.com/json-converters",
   "description": "Explore our complete collection of free, browser-based JSON converters. Instantly convert JSON to XML, CSV, Excel, PDF, HTML, and more — securely in your browser with no data uploads.",
-  "image": "https://smallsuggestions.com/assets/img/smallsuggestions.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
   "publisher": {
     "@type": "Organization",
-    "name": "SmallSuggestions",
-    "url": "https://smallsuggestions.com",
+    "name": "Reptile Birds",
+    "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://smallsuggestions.com/assets/img/smallsuggestions.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
     }
   },
   "mainEntity": {
@@ -57,7 +57,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON String to JSON Object Converter",
-        "url": "https://smallsuggestions.com/json-string-to-json-object",
+        "url": "https://reptilebirds.com/json-string-to-json-object",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Easily convert JSON strings into readable JSON objects directly in your browser."
@@ -65,7 +65,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to CSV Converter",
-        "url": "https://smallsuggestions.com/json-to-csv",
+        "url": "https://reptilebirds.com/json-to-csv",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert JSON data to CSV format instantly — preview and export clean, structured CSV files."
@@ -73,7 +73,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to Dart Converter",
-        "url": "https://smallsuggestions.com/json-to-dart",
+        "url": "https://reptilebirds.com/json-to-dart",
         "applicationCategory": "Developer Utility",
         "operatingSystem": "All",
         "description": "Generate Dart classes automatically from JSON data for Flutter and Dart development."
@@ -81,7 +81,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to Excel Converter",
-        "url": "https://smallsuggestions.com/json-to-excel",
+        "url": "https://reptilebirds.com/json-to-excel",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert JSON into Excel format (XLS/XLSX) with instant preview and export support."
@@ -89,7 +89,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to HTML Converter",
-        "url": "https://smallsuggestions.com/json-to-html",
+        "url": "https://reptilebirds.com/json-to-html",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Transform your JSON data into a structured, formatted HTML table instantly in the browser."
@@ -97,7 +97,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to JSON Schema Converter",
-        "url": "https://smallsuggestions.com/json-to-json-schema",
+        "url": "https://reptilebirds.com/json-to-json-schema",
         "applicationCategory": "Developer Utility",
         "operatingSystem": "All",
         "description": "Generate JSON Schema definitions directly from your JSON structure for validation or API design."
@@ -105,7 +105,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to PDF Converter",
-        "url": "https://smallsuggestions.com/json-to-pdf",
+        "url": "https://reptilebirds.com/json-to-pdf",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert JSON into a downloadable, printable PDF document with formatted layout."
@@ -113,7 +113,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to SQL Converter",
-        "url": "https://smallsuggestions.com/json-to-sql",
+        "url": "https://reptilebirds.com/json-to-sql",
         "applicationCategory": "Database Utility",
         "operatingSystem": "All",
         "description": "Generate SQL INSERT statements directly from your JSON data for quick database imports."
@@ -121,7 +121,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to TXT Converter",
-        "url": "https://smallsuggestions.com/json-to-txt",
+        "url": "https://reptilebirds.com/json-to-txt",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Convert JSON data into plain text format, preserving structure and indentation."
@@ -129,7 +129,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to XML Converter",
-        "url": "https://smallsuggestions.com/json-to-xml",
+        "url": "https://reptilebirds.com/json-to-xml",
         "applicationCategory": "Data Conversion Tool",
         "operatingSystem": "All",
         "description": "Easily convert JSON to XML with instant browser-based preview and export support."
@@ -137,7 +137,7 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
       {
         "@type": "WebApplication",
         "name": "JSON to YAML Converter",
-        "url": "https://smallsuggestions.com/json-to-yaml",
+        "url": "https://reptilebirds.com/json-to-yaml",
         "applicationCategory": "Developer Utility",
         "operatingSystem": "All",
         "description": "Convert JSON to clean YAML syntax for configuration, deployment, or data migration tasks."

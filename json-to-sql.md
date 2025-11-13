@@ -238,7 +238,7 @@ VALUES ('Alice', 'alice@example.com', '["admin","editor"]');</code></pre>
       "name": "JSON to SQL Converter Online – Fast & Secure",
       "alternateName": "Convert JSON to SQL Queries",
       "url": "https://reptilebirds.com/json-to-sql",
-      "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+      "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
       "description": "Convert JSON files to SQL scripts instantly with our free, browser-based tool. Generate database-ready queries offline, with full privacy and no uploads.",
       "applicationCategory": "UtilityApplication",
       "applicationSubCategory": "File Conversion",

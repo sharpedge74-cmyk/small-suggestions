@@ -130,7 +130,7 @@ Our suite of JSON tools helps you transform structured data into multiple useful
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON data to professional, well-formatted PDF files instantly. This free, browser-based tool securely transforms your JSON into printable PDF tables — works offline and requires no uploads.",
   "url": "https://reptilebirds.com/json-to-pdf",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

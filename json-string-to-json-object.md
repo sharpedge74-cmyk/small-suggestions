@@ -189,7 +189,7 @@ keywords: json string to json object, convert string to json, convert json strin
   "applicationSubCategory": "Data Conversion",
   "description": "Convert JSON strings to formatted JSON objects instantly with this free browser-based parser. Copy or download results directly from your device.",
   "url": "https://reptilebirds.com/json-string-to-json-object",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

@@ -41,14 +41,14 @@ To generate CSV files from Excel or JSON, visit our <a href="/excel-converter" s
   "name": "CSV Converter - Browser-Based CSV Conversion Tools",
   "url": "https://reptilebirds.com/csv-converter",
   "description": "Explore a complete collection of free, browser-based CSV converters. Instantly convert CSV files into JSON, Excel, XML, PDF, and more — with secure, in-browser data processing.",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "publisher": {
     "@type": "Organization",
     "name": "Reptile Birds",
     "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.png"
     }
   },
   "mainEntity": {

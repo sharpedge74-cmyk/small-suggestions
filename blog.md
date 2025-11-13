@@ -63,7 +63,7 @@ keywords: reptilebirds blog, productivity tools, data conversion blog, online co
     "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.png"
     }
   }
 }

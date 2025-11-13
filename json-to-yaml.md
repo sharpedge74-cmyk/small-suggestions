@@ -271,7 +271,7 @@ details:
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to structured YAML format instantly with this free browser-based tool. No data uploads, no installations — secure, fast, and private conversion directly in your browser.",
   "url": "https://reptilebirds.com/json-to-yaml",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

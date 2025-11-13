@@ -37,14 +37,14 @@ If you want to generate XML data from JSON or Excel files, explore our <a href="
   "name": "XML Converters - Browser-Based XML Conversion Tools",
   "url": "https://reptilebirds.com/xml-converters",
   "description": "Explore our free browser-based XML converters to transform XML files into JSON, CSV, Excel, HTML, PDF, and more — fast, secure, and completely client-side.",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "publisher": {
     "@type": "Organization",
     "name": "Reptile Birds",
     "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.png"
     }
   },
   "mainEntity": {

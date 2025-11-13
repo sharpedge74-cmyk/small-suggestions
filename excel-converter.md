@@ -41,14 +41,14 @@ If you need to turn JSON or CSV files into Excel spreadsheets, our <a href="/jso
   "name": "Excel Converter - Smart Browser Based Data Conversion Tools",
   "url": "https://reptilebirds.com/excel-converter",
   "description": "Access all Excel conversion tools in one place. Convert Excel files into JSON, CSV, PDF, XML, and SQL directly in your browser without uploads or privacy concerns.",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "publisher": {
     "@type": "Organization",
     "name": "Reptile Birds",
     "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.png"
     }
   },
   "mainEntity": {

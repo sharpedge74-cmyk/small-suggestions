@@ -161,7 +161,7 @@ keywords: json-to-xml, JSON to XML converter, convert JSON files to XML, online 
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to structured XML format with this free, browser-based converter. Preview, validate, and transform your JSON data into clean XML instantly — all client-side, with no uploads.",
   "url": "https://reptilebirds.com/json-to-xml",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

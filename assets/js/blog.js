@@ -3,7 +3,7 @@ const posts = [
 //     id: 1,
 //     title: "JSON to Dart Converter – Create Flutter Models Instantly",
 //     url: "https://reptilebirds.com/blog/json-to-dart-converter",
-//     img: "reptilebirds.webp",
+//     img: "reptilebirds.png",
 //     authorName: "Reptile Birds Team",
 //     date: "October 17, 2025",
 //     description:

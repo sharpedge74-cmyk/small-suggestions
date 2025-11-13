@@ -247,7 +247,7 @@ Ready to begin? Paste your JSON now and watch the schema appear instantly.
   "applicationSubCategory": "File Conversion",
   "description": "Instantly generate JSON Schema (Draft-07) from any JSON input with this free, browser-based converter. Secure, private, and completely offline — no data uploads or installations required.",
   "url": "https://reptilebirds.com/json-to-json-schema",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

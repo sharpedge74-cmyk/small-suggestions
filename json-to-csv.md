@@ -157,7 +157,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to CSV instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
   "url": "https://reptilebirds.com/json-to-csv",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

@@ -172,7 +172,7 @@ keywords: json-to-html, JSON to HTML converter, convert JSON files to HTML, onli
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON data into structured HTML instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
   "url": "https://reptilebirds.com/json-to-html",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

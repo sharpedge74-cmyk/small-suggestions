@@ -227,7 +227,7 @@ class Root {
   "applicationSubCategory": "Code Generation",
   "description": "Convert JSON into Dart models/classes instantly using this free browser-based converter. Supports null safety, private fields, required fields, and default values. Works fully offline.",
   "url": "https://reptilebirds.com/json-to-dart",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

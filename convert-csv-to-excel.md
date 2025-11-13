@@ -174,7 +174,7 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
       "@type": "WebApplication",
       "name": "Convert CSV to Excel - Free Online Tool",
       "url": "https://reptilebirds.com/convert-csv-to-excel",
-      "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+      "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
       "description": "Convert CSV files to Excel instantly with browser-based CSV to Excel converter. Fast, secure, and no installation required.",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",

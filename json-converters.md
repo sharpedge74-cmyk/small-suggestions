@@ -38,14 +38,14 @@ If you want to create JSON files from Excel or CSV data, check our <a href="/exc
   "name": "JSON Converters - Browser-Based JSON Conversion Tools",
   "url": "https://reptilebirds.com/json-converters",
   "description": "Explore our complete collection of free, browser-based JSON converters. Instantly convert JSON to XML, CSV, Excel, PDF, HTML, and more — securely in your browser with no data uploads.",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "publisher": {
     "@type": "Organization",
     "name": "Reptile Birds",
     "url": "https://reptilebirds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://reptilebirds.com/assets/img/reptilebirds.webp"
+      "url": "https://reptilebirds.com/assets/img/reptilebirds.png"
     }
   },
   "mainEntity": {

@@ -185,7 +185,7 @@ background-color: #66fcf1;
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to Excel (XLS/XLSX) instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
   "url": "https://reptilebirds.com/json-to-excel",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

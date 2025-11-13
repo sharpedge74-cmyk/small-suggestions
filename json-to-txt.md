@@ -198,7 +198,7 @@ keywords: json-to-txt, JSON to TXT converter, convert JSON files to TXT, online 
   "applicationSubCategory": "File Conversion",
   "description": "Convert JSON files to plain TXT instantly with this free, browser-based converter. Choose from multiple text formats like raw, flattened, readable, or values-only, and export directly — all offline and secure.",
   "url": "https://reptilebirds.com/json-to-txt",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.webp",
+  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
   "creator": {
     "@type": "Organization",
     "name": "Reptile Birds",

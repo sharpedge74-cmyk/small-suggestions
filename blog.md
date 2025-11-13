@@ -37,7 +37,7 @@ keywords: reptilebirds blog, productivity tools, data conversion blog, online co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://reptilebirds.com/"
+      "item": "https://reptilebirds.com"
     },
     {
       "@type": "ListItem",

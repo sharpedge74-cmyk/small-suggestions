@@ -40,7 +40,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
 
 <div id="convertedFile">
 <!-- CSV/Text Output Section -->
-<div class="jsonx-container">
+ <div class="jsonx-container">
   <div class="jsonx-panel" id="outputPanel">
     <div class="jsonx-header">
       <div>
@@ -54,7 +54,7 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
     </div>
     <textarea id="outputArea" class="jsonx-output" placeholder="Converted data will appear here..." readonly></textarea>
   </div>
-</div>
+ </div>
 </div>
 <!-- Toast -->
 <div id="toastJson" class="jsonx-toast">✅ Conversion Successful!</div>

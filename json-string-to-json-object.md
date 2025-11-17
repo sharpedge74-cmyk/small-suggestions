@@ -235,7 +235,7 @@ keywords: json string to json object, convert string to json, convert json strin
   "object": {
     "@type": "Dataset",
     "name": "JSON String Input",
-    "description": "Raw JSON string input from the user."
+    "description": "Raw JSON string input from the user. Simple JSON String input with standard input type"
   },
   "result": {
     "@type": "Dataset",

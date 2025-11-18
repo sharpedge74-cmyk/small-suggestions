@@ -7,8 +7,6 @@ const tools = [
     tags: [
         'xml to xsd generator online',
         'xml to xsd generator online free',
-        'xml to schema generator',
-        'xml to schema generator online',
         'xml to xsd schema generator',
         'freeformatter xml to xsd generator',
         'free xml to xsd generator',
@@ -16,8 +14,22 @@ const tools = [
     ],
     category: 'XML',
     url: 'xml-to-xsd-generator'
+},
+{
+    id: 101,
+    icon: 'fa-file-csv',
+    title: 'XML to CSV Converter',
+    description: 'Convert XML files to CSV format quickly and easily with our free online tool.',
+    tags: [
+        'xml to csv',
+        'convert xml to csv',
+        'xml csv conversion',
+        'xml file to csv',
+        'online xml to csv'
+    ],
+    category: 'XML',
+    url: 'xml-to-csv'
 }
-
 
 ];
 

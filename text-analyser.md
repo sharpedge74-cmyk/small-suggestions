@@ -5,7 +5,12 @@ description: Analyze text online for free with our Text Analyzer. Count words, c
 keywords: text analyzer, text analyser, text analysis, word counter, lexical analyzer, free word counter, best word counter in world
 ---
 <script src="/assets/js/jspdf.umd.min.js"></script>
-  <h1>Text Analyser – Free Comprehensive Online Tool For Text Analysis</h1>
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+
+  <h1>Text Analyser – Free Comprehensive Tool For Text Analysis</h1>
 <section class="tool-section container">
     <div style="display: flex; justify-content: end;">
         <label style="font-size: 1rem; margin-top: 1px; color: orange;">Export To → → </label>
@@ -356,7 +361,10 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
     </div>
 
 </section>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <style>
     h1,
     h2,

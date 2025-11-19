@@ -5,6 +5,11 @@ description: Quickly convert your CSV data into well-formatted XML files using  
 keywords: convert csv to xml, CSV to XML converter, convert CSV files to XML, online CSV to XML tool, free CSV to XML
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+  <h1>Convert CSV to XML Online – Free, Fast & Secure Tool</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelXml">
@@ -46,12 +51,14 @@ keywords: convert csv to xml, CSV to XML converter, convert CSV files to XML, on
   </div>
 </div>
 
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/csv-to-xml.js"></script>
 
 <div style="margin:4rem;">
 
-  <h1>Convert CSV to XML Online – Free, Fast & Secure Tool</h1>
   <p>
     The <strong>CSV to XML Converter</strong> allows you to transform comma-separated data into structured, well-formatted XML files instantly. 
     Built for simplicity, this browser-based tool performs conversions locally on your device—ensuring your data stays private, secure, and never uploaded to any server.

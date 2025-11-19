@@ -6,7 +6,11 @@ keywords: xlsx to sql converter, XLSX to SQL converter, convert XLSX files to SQ
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <!-- JSONView (depends on jQuery) -->
+<section style="display: flex; justify-content: center">
 
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>XLSX to SQL Converter - Production Ready SQL Generator</h1>
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelSql">
     <div class="panel-header">
@@ -46,12 +50,15 @@ keywords: xlsx to sql converter, XLSX to SQL converter, convert XLSX files to SQ
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-sql.js"></script>
 
 <div style="margin:4rem;">
 
-<h1>XLSX to SQL Converter</h1>
+
 <p>Convert your Excel spreadsheets into SQL statements instantly using our browser-based XLSX to SQL converter. Perfect for developers, data analysts, and database administrators who need accurate and fast Excel to SQL conversion without installing any software.</p>
 
 <h2>What is an XLSX to SQL Converter?</h2>

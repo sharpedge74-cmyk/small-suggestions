@@ -5,7 +5,11 @@ description: Convert your CSV files to JSON format instantly with  free browser-
 keywords: Convert CSV To JSON, Convert CSV file To JSON, Convert CSV To JSON file, Convert CSV file To JSON file, CSV To JSON, CSV To JSON Converter
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
 
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Convert CSV To JSON Online - Fast And Free</h1>
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanel">
     <div class="panel-header">
@@ -46,14 +50,16 @@ keywords: Convert CSV To JSON, Convert CSV file To JSON, Convert CSV To JSON fil
   </div>
 </div>
 
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 
 <script src="/assets/js/csv-to-json.js"></script>
 
 
 <div style="margin: 4rem">
 
-<h1>Convert CSV To JSON Online</h1>
 <p>
 Our <strong>CSV to JSON Converter</strong> helps you quickly transform your CSV data into clean and structured JSON format. 
 This free browser-based tool offers fast conversion, complete privacy, and an editable output area for instant adjustments. 

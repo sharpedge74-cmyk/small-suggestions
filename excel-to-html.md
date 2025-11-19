@@ -6,6 +6,11 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <!-- JSONView (depends on jQuery) -->
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Excel to HTML Converter – Convert Excel Files to Web Tables</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelHtml">
@@ -46,12 +51,14 @@ keywords: excel-to-html, Excel to HTML converter, convert Excel files to HTML, o
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-html.js"></script>
 
 <div style="margin: 4rem;">
 
-<h1>Excel to HTML Converter – Convert XLSX and XLS Files to Web Tables</h1>
 <p>Transform your Excel spreadsheets into clean, responsive HTML tables instantly using our browser-based Excel to HTML converter. Whether you’re publishing data on websites, preparing reports, or sharing interactive tables, this tool lets you upload, preview, and export Excel files (.xls or .xlsx) into structured HTML — all without installing software or uploading files to a server.</p>
 
 <h2>What Is an Excel to HTML Converter?</h2>

@@ -7,8 +7,25 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <!-- JSONView (depends on jQuery) -->
+<section style="display: flex; justify-content: center">
 
-
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>CSV to Excel Converter – Free Online Tool</h1>
+<div style="margin: 1rem 3rem; display: flex; flex-wrap: wrap; gap: 12px; font-family: sans-serif; justify-content: center">
+  <a href="convert-csv-to-html" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
+    Convert CSV to HTML
+  </a>
+  <a href="convert-csv-to-json" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
+    Convert CSV to JSON
+  </a>
+  <a href="convert-csv-to-pdf" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
+    Convert CSV to PDF
+  </a>
+  <a href="convert-csv-to-txt" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
+    Convert CSV to TXT
+  </a>
+</div>
 
 <div class="csvx-container">
     <div class="csvx-panel" id="csvPanel">
@@ -48,11 +65,15 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
         </div>
   </div>
 </div>  
+</div>
+
+<div style="width: 10%;"></div>
+</section>
+
 <script src="/assets/js/csv-to-excel.js"></script>
 
 <div style="margin: 4rem;">
 
-<h1>CSV to Excel Converter – Free Online Tool</h1>
 <p>Convert CSV files into fully formatted Excel spreadsheets in seconds using our free, browser-based CSV to Excel converter. Whether you’re managing data, generating reports, or preparing analytics, this tool lets you upload, preview, and export CSV files into Excel (.xls or .xlsx) instantly — all without installing any software or uploading files to a server.</p>
 
 <h2>What Is a CSV to Excel Converter?</h2>

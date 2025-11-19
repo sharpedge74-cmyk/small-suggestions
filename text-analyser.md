@@ -5,7 +5,7 @@ description: Analyze text online for free with our Text Analyzer. Count words, c
 keywords: text analyzer, text analyser, text analysis, word counter, lexical analyzer, free word counter, best word counter in world
 ---
 <script src="/assets/js/jspdf.umd.min.js"></script>
-
+  <h1>Text Analyser – Free Comprehensive Online Tool For Text Analysis</h1>
 <section class="tool-section container">
     <div style="display: flex; justify-content: end;">
         <label style="font-size: 1rem; margin-top: 1px; color: orange;">Export To → → </label>
@@ -375,7 +375,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
 <script src="/assets/js/essay-word-counter.js"></script>
 
 <div style="margin: 4rem;">
-  <h1>ReptileBirds Text Analyser – Free Comprehensive Online Tool for Writers, Students, and Professionals</h1>
+
   <p>ReptileBirds Text Analyser is a powerful online tool designed to provide detailed insights into any written content. Whether you are a writer, student, editor, or content creator, this tool offers extensive functionality to analyze, evaluate, and optimize your text. With features like word and character counting, sentence and paragraph analysis, punctuation and capitalization checking, filler word detection, lexical density analysis, and reading time estimation, it helps you refine your writing for clarity, precision, and engagement.</p>
 
   <!-- Word and Character Counter -->

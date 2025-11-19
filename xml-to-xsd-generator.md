@@ -4,6 +4,12 @@ title: Generate XSD from XML Effortlessly
 description: Quickly create XSD schemas from XML documents with our browser-based XML to XSD generator. Fast, secure, and offline-friendly.
 keywords: xml to xsd generator online, xml to xsd generator online free, xml to schema generator, xml to schema generator online, xml to xsd schema generator, freeformatter xml to xsd generator, free xml to xsd generator, xml to xsd converter, xml to xsd converter online, xml to xsd converter free formatter, xml to xsd converter java, xml to xsd converter online free, xml to xsd converter for large files, online xml to xsd generator
 ---
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+  <h1>XML to XSD Generator Online – Create Standard XML Schema </h1>
+
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelXsd">
     <div class="panel-header">
@@ -43,11 +49,15 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
     </div>
   </div>
 </div>
+
+</div>
+
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xml-to-xsd-generator.js"></script>
 
 <div style="margin:4rem">
 
-  <h1>XML to XSD Generator Online – Free and Secure Converter</h1>
 
   <p>
     The <strong>XML to XSD Generator Online</strong> is an advanced browser-based tool that automatically converts any XML file into a valid XSD (XML Schema Definition). 

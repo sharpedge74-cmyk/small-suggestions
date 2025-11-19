@@ -5,7 +5,11 @@ description: Transform your Excel files into clean JSON format for web applicati
 keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, online Excel to JSON tool, free Excel to JSON
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
 
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Excel to JSON Converter – API Ready JSON Converter</h1>
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanel">
     <div class="panel-header">
@@ -46,11 +50,15 @@ keywords: excel to json, Excel to JSON converter, convert Excel files to JSON, o
   </div>
 </div>
 
+</div>
+
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-json.js"></script>
 
 <div style="margin: 4rem">
 
-<h1>Excel to JSON Converter – Convert Spreadsheets to Structured Data</h1>
+
 <p>Transform your Excel spreadsheets into clean, structured JSON format instantly using our browser-based Excel to JSON converter. Preview, edit, and export your data locally — no server uploads, no installations.</p>
 
 <h2>What Is an Excel to JSON Converter?</h2>

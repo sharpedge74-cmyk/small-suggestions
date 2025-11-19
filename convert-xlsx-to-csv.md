@@ -5,6 +5,11 @@ description: Instantly convert your XLSX spreadsheets into CSV files with  brows
 keywords: convert-xlsx-to-csv, XLSX to CSV converter, convert Excel XLSX to CSV, online XLSX to CSV tool, free XLSX to CSV
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Convert XLSX to CSV Online – Free Excel to CSV Converter</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="excelToCsvPanel">
@@ -46,13 +51,15 @@ keywords: convert-xlsx-to-csv, XLSX to CSV converter, convert Excel XLSX to CSV,
   </div>
 </div>
 
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-csv.js"></script>
 
 
 <div style="margin:4rem">
 
-<h1>Convert XLSX to CSV Online – Free Excel to CSV Converter</h1>
 <p>
 Easily convert your Excel spreadsheets into clean, shareable CSV files using our secure browser-based <strong>XLSX to CSV converter</strong>. Designed for simplicity and accuracy, this free tool lets you transform <strong>Excel XLSX to CSV</strong> instantly without uploading data anywhere. Whether you’re preparing datasets, importing into applications, or just cleaning spreadsheets, this tool gives you fast, private, and reliable conversions.
 </p>

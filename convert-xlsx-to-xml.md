@@ -7,6 +7,11 @@ keywords: convert-xlsx-to-xml, XLSX to XML converter, convert Excel XLSX to XML,
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Convert XLSX to XML Instantly – Free Excel Converter</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelXml">
@@ -47,12 +52,14 @@ keywords: convert-xlsx-to-xml, XLSX to XML converter, convert Excel XLSX to XML,
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-xml.js"></script>
 
 <div style="margin:4rem">
 
-<h1>Convert XLSX to XML Instantly – Free Excel to XML Converter</h1>
 
 <p>
 Easily <strong>convert XLSX to XML</strong> directly in your browser with our fast, secure, and offline-ready tool. 

@@ -6,6 +6,11 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <!-- JSONView (depends on jQuery) -->
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+  <h1>Convert CSV To SQL - Generate Database Ready Queries</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelSql">
@@ -46,13 +51,15 @@ keywords: csv-to-sql, CSV to SQL converter, convert CSV files to SQL, online CSV
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 
 <script src="/assets/js/csv-to-sql.js"></script>
 
 <div style="margin:4rem;">
 
-  <h1>Convert CSV To SQL - Generate Database Insert Queries</h1>
   <p>
     The <strong>CSV to SQL</strong> tool converts your CSV data into ready-to-use SQL <code>INSERT</code> statements. 
     It generates generic SQL insert queries that are compatible with most relational databases (MySQL, PostgreSQL, SQLite, SQL Server, etc.). 

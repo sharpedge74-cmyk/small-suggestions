@@ -6,8 +6,11 @@ keywords: convert csv to html, CSV to HTML converter, convert CSV files to HTML,
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <!-- JSONView (depends on jQuery) -->
+<section style="display: flex; justify-content: center">
 
-
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>CSV to HTML Converter – Free Browser Based Converter</h1>
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelHtml">
     <div class="panel-header">
@@ -47,13 +50,16 @@ keywords: convert csv to html, CSV to HTML converter, convert CSV files to HTML,
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 
 <script src="/assets/js/csv-to-html.js"></script>
 
 <div style="margin: 4rem;">
 
-<h1>CSV to HTML Converter – Free Online Tool</h1>
+
 <p>Convert CSV files into clean, responsive HTML tables in seconds with our free, browser-based CSV to HTML converter. Upload a CSV, preview and edit the table directly in your browser, then copy or download the generated HTML — no installation or server uploads required.</p>
 
 <h2>What Is a CSV to HTML Converter?</h2>

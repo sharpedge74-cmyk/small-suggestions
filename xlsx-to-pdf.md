@@ -7,6 +7,11 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.26/jspdf.plugin.autotable.min.js"></script>
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>XLSX to PDF Converter - Convert Excel To Tabular PDF</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelPdf">
@@ -39,12 +44,14 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-pdf.js"></script>
 
 <div style="margin: 4rem;">
 
-<h1>XLSX to PDF Converter</h1>
 <p>Convert your XLSX files to PDF quickly and securely using our browser-based XLSX to PDF converter. Preserve tables, charts, and formatting without installing any software. Upload, preview, edit, and download your spreadsheets as professional PDF documents instantly.</p>
 
 <h2>What Is an XLSX to PDF Converter?</h2>

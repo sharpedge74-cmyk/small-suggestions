@@ -8,6 +8,11 @@ keywords: convert csv to pdf, CSV to PDF converter, convert CSV files to PDF, on
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.26/jspdf.plugin.autotable.min.js"></script>
 
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Convert CSV To PDF Online - Secure And Faster</h1>
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelPdf">
     <div class="panel-header">
@@ -39,12 +44,15 @@ keywords: convert csv to pdf, CSV to PDF converter, convert CSV files to PDF, on
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/csv-to-pdf.js"></script>
 
 <div style="margin: 4rem">
 
-<h1>Convert CSV To PDF Online</h1>
+
 <p>
 Our <strong>CSV to PDF Converter</strong> allows you to instantly transform CSV data into a clean, professional PDF document. 
 This free browser-based tool is built for simplicity, speed, and privacy — no file uploads to any server. 

@@ -5,8 +5,11 @@ description: Easily convert your CSV data into clear, readable TXT files with  b
 keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, online CSV to TXT tool, free CSV to TXT
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
 
-
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+<h1>Convert CSV To TXT – Column Structure Output</h1>
 
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelText">
@@ -48,11 +51,14 @@ keywords: convert csv to txt, CSV to TXT converter, convert CSV files to TXT, on
   </div>
 </div>
 
+</div>
+
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/csv-to-txt.js"></script>
 
 <div style="margin: 4rem;">
 
-<h1>Convert CSV To TXT – Column Structure Output</h1>
 <p>Our CSV to TXT converter allows you to transform structured CSV data into plain text format with preserved column alignment. This online tool helps in generating readable text outputs from CSV files for documentation, testing, or code integration purposes.</p>
 
 <h2>What is a CSV to TXT Converter?</h2>

@@ -5,6 +5,12 @@ description: Convert your Excel files into plain-text TXT format while preservin
 keywords: Convert excel to text, excel to text, Convert excel file to text, Convert excel to text file, Convert excel file to text file, excel to text converter
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<section style="display: flex; justify-content: center">
+
+<div style="width: 10%;"></div>
+<div style="width: 69%;">
+
+<h1>Excel to TXT Converter – Export Excel Files as Plain Text</h1>
 <div class="csvx-container">
   <div class="csvx-panel" id="csvPanelText">
     <div class="panel-header">
@@ -44,12 +50,15 @@ keywords: Convert excel to text, excel to text, Convert excel file to text, Conv
     </div>
   </div>
 </div>
+</div>
 
+<div style="width: 10%;"></div>
+</section>
 <script src="/assets/js/xlsx-to-txt.js"></script>
 
 <div style="margin: 4rem">
 
-<h1>Excel to TXT Converter – Export Excel Files as Plain Text</h1>
+
 <p>Convert your Excel spreadsheets into clean, structured plain-text (TXT) files instantly using our browser-based Excel to TXT converter. Preserve the data layout, headers, and formatting for easy sharing, analysis, or processing — all without installing any software.</p>
 
 <h2>What Is an Excel to TXT Converter?</h2>

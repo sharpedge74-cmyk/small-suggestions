@@ -52,7 +52,7 @@ keywords: pdf to powerpoint, pdf to ppt, pdf to pptx, pdf to ms office powerpoin
   </div>
  </div>
 
- <div id="toast" class="csvx-toast">✅ Conversion Successful!</div>
+ <div id="toast" class="jsonx-toast">✅ Conversion Successful!</div>
 </div>
 
 <div style="width: 10%;"></div>
@@ -147,6 +147,14 @@ This is intentional because editable conversions often break designs. Our method
 <p>
 That’s all. A clean and accurate PDF-to-PPTX process.
 </p>
+<h2>More Related Office Tools</h2>
+<ul>
+    <li>
+        <a href="/pptx-to-pdf" title="PPTX to PDF Converter">
+            Convert PowerPoint to PDF
+        </a>
+    </li>
+</ul>
 
 <h2>Frequently Asked Questions</h2>
 

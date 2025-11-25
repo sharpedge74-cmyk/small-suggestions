@@ -131,7 +131,6 @@ keywords: about us, organization, Reptile Birds, data conversion, browser-based 
       "@type": "Person",
       "name": "Saeed Ahmed",
       "jobTitle": "Full Stack Developer",
-      "email": "mailto:saeed@example.com",
       "telephone": "+923147144647",
       "url": "https://reptilebirds.com/saeed-ahmed",
       "image": "https://reptilebirds.com/assets/img/saeed-ahmed.jpg",
@@ -149,8 +148,6 @@ keywords: about us, organization, Reptile Birds, data conversion, browser-based 
       "@type": "Person",
       "name": "Gourav Mishra",
       "jobTitle": "Business Analyst",
-      "email": "mailto:gourav@example.com",
-      "telephone": "+923147144647",
       "url": "https://reptilebirds.com/gourav-mishra",
       "image": "https://reptilebirds.com/assets/img/gourav-mishra.jpg",
       "sameAs": [

@@ -384,178 +384,223 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
 
 <div style="margin: 4rem;">
 
-  <p>ReptileBirds Text Analyser is a powerful online tool designed to provide detailed insights into any written content. Whether you are a writer, student, editor, or content creator, this tool offers extensive functionality to analyze, evaluate, and optimize your text. With features like word and character counting, sentence and paragraph analysis, punctuation and capitalization checking, filler word detection, lexical density analysis, and reading time estimation, it helps you refine your writing for clarity, precision, and engagement.</p>
+<article>
 
-  <!-- Word and Character Counter -->
-  <h2>Word and Character Counter – Accurately Track Content Length</h2>
-  <h3>What It Does</h3>
-  <p>The Word and Character Counter analyzes your text and provides precise counts for words, characters (with and without spaces), lines, and paragraphs. It also distinguishes between unique words and total words, helping you understand the overall length and composition of your content.</p>
-  <h3>How It Works</h3>
-  <p>To use the counter, paste your text into the analyser box. Instantly, the tool calculates the word and character counts, displays the number of lines and paragraphs, and highlights the longest and shortest words. It also provides real-time updates as you type or edit your text.</p>
-  <h4>Who Should Use It</h4>
-  <p>Writers, students, content creators, and editors who need to meet word count requirements, optimize text length, or track changes in writing over time.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Ensures you meet word count requirements for assignments or publications.</li>
-    <li>Helps detect overly long or short words that may affect readability.</li>
-    <li>Saves time compared to manual counting and reduces errors.</li>
-  </ul>
+    <section aria-labelledby="intro">
+        <p id="intro">
+            ReptileBirds Text Analyser is a powerful online tool designed to provide detailed insights into any written content. Whether you are a writer, student, editor, or content creator, this tool offers extensive functionality to analyze, evaluate, and optimize your text. Features include word and character counting, sentence and paragraph analysis, punctuation and capitalization checking, filler word detection, lexical density analysis, and reading time estimation, helping you refine your writing for clarity, precision, and engagement.
+        </p>
+    </section>
 
-  <!-- Sentence and Paragraph Analysis -->
-  <h2>Sentence and Paragraph Analysis – Improve Structure and Flow</h2>
-  <h3>What It Does</h3>
-  <p>This feature breaks your text into sentences and paragraphs, calculates average sentence length, identifies the shortest and longest sentences, and highlights paragraph sizes. This enables you to optimize content flow, readability, and coherence.</p>
-  <h3>How It Works</h3>
-  <p>Once your text is entered, the tool analyzes each sentence and paragraph individually. It calculates statistics such as:</p>
-  <ul>
-    <li>Average sentence length in words and characters</li>
-    <li>Sentence length distribution</li>
-    <li>Paragraph length and structure</li>
-  </ul>
-  <h4>Who Should Use It</h4>
-  <p>Editors, content writers, students, and academics looking to improve the structure and readability of essays, articles, or manuscripts.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Identifies sentences that are too long and difficult to read.</li>
-    <li>Ensures paragraphs are neither too long nor too short.</li>
-    <li>Helps improve overall text coherence and flow.</li>
-  </ul>
+    <section aria-labelledby="word-char-counter">
+        <h2 id="word-char-counter">Word and Character Counter – Accurately Track Content Length</h2>
 
-  <!-- Punctuation and Capitalization Analysis -->
-  <h2>Punctuation and Capitalization Checker – Ensure Professional and Error-Free Text</h2>
-  <h3>What It Does</h3>
-  <p>This feature scans your text for punctuation errors, overused punctuation marks, and capitalization issues. It highlights inconsistencies and provides actionable suggestions to make your text grammatically correct and easy to read.</p>
-  <h3>How It Works</h3>
-  <p>Paste your text into the tool, and it identifies issues such as:</p>
-  <ul>
-    <li>Missing punctuation at sentence ends</li>
-    <li>Excessive or repeated punctuation</li>
-    <li>Incorrect capitalization of proper nouns and sentence starts</li>
-  </ul>
-  <h4>Who Should Use It</h4>
-  <p>Students, writers, editors, and professionals who need to proofread quickly and efficiently without relying on manual checking.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Prevents grammatical and punctuation errors.</li>
-    <li>Saves time on proofreading and editing.</li>
-    <li>Ensures a polished, professional output.</li>
-  </ul>
+        <h3>What It Does</h3>
+        <p>The Word and Character Counter provides precise counts for words, characters (with and without spaces), lines, and paragraphs. It distinguishes between unique words and total words, helping you understand content length and composition.</p>
 
-  <!-- Filler Words and Lexical Density Analysis -->
-  <h2>Filler Words and Lexical Density Analysis – Enhance Content Clarity and Engagement</h2>
-  <h3>What It Does</h3>
-  <p>This functionality identifies overused filler words, calculates lexical density, and provides insights into word diversity. It highlights redundant phrases and stop words that can make writing verbose or less engaging.</p>
-  <h3>How It Works</h3>
-  <p>The tool scans your text for common filler words such as "basically", "actually", "very", and calculates lexical density by comparing the ratio of unique words to total words. It also provides statistics on stop words usage.</p>
-  <h4>Who Should Use It</h4>
-  <p>Content writers, bloggers, and copywriters aiming to make writing concise, engaging, and effective.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Reduces redundancy and unnecessary filler words.</li>
-    <li>Improves readability and clarity of text.</li>
-    <li>Enhances audience engagement by making writing concise.</li>
-  </ul>
+        <h3>How It Works</h3>
+        <p>Paste your text into the analyser box. The tool calculates counts, displays the number of lines and paragraphs, and highlights the longest and shortest words. Updates occur in real-time as you type or edit.</p>
 
-  <!-- Word Frequency Analysis -->
-  <h2>Word Frequency Analysis – Optimize Writing and Improve SEO</h2>
-  <h3>What It Does</h3>
-  <p>This feature lists the most frequently used words in your text, helping identify repetition, potential keywords, or overused phrases. It supports both US and UK English spellings.</p>
-  <h3>How It Works</h3>
-  <p>The tool analyzes your text and provides a ranked list of words along with their frequency count. It also identifies unique words and rare words that can make your writing more varied and interesting.</p>
-  <h4>Who Should Use It</h4>
-  <p>SEO specialists, content creators, writers, and editors who want to optimize text for readability and search engine performance.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Identifies repetitive or overused words that can bore readers.</li>
-    <li>Highlights potential SEO keywords for online content.</li>
-    <li>Improves word variety and lexical richness.</li>
-  </ul>
+        <h4>Who Should Use It</h4>
+        <p>Writers, students, content creators, and editors needing to meet word count requirements or track writing changes.</p>
 
-  <!-- Time Estimates -->
-  <h2>Reading, Typing, and Proofreading Time Estimates – Plan Your Work Efficiently</h2>
-  <h3>What It Does</h3>
-  <p>The Text Analyser estimates reading, typing, handwriting, proofreading, speaking, and translation times based on text length and complexity. This helps users plan tasks and manage deadlines effectively.</p>
-  <h3>How It Works</h3>
-  <p>Based on standard reading and typing speeds, the tool calculates approximate times for various activities. For example, it estimates how long it would take to read a document aloud or type it manually.</p>
-  <h4>Who Should Use It</h4>
-  <p>Students, authors, content creators, and professionals who need to manage time efficiently for writing, editing, or presentation tasks.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Helps plan study, writing, or presentation schedules.</li>
-    <li>Provides realistic estimates for reading and editing tasks.</li>
-    <li>Reduces time management errors in professional and academic work.</li>
-  </ul>
+        <h4>Benefits</h4>
+        <ul>
+            <li>Ensures word count requirements are met for assignments or publications.</li>
+            <li>Detects overly long or short words affecting readability.</li>
+            <li>Saves time compared to manual counting and reduces errors.</li>
+        </ul>
+    </section>
 
-  <!-- Export Options -->
-  <h2>Export Analysis Results – Save and Share Your Insights</h2>
-  <h3>What It Does</h3>
-  <p>After analyzing text, you can export your results in TXT, Word, or PDF format. This is useful for reporting, sharing, or keeping a record of your writing analysis.</p>
-  <h3>How It Works</h3>
-  <p>Simply click the export button, select your preferred file format, and download your analysis results. The export includes all counts, statistics, and identified issues for complete reference.</p>
-  <h4>Who Should Use It</h4>
-  <p>Writers, editors, content strategists, and students who need to document their text analysis for review, collaboration, or submission purposes.</p>
-  <h4>Benefits and Pain Points Solved</h4>
-  <ul>
-    <li>Allows easy sharing of text analysis reports.</li>
-    <li>Supports collaboration by providing detailed insights in a portable format.</li>
-    <li>Helps in maintaining a record of revisions and improvements over time.</li>
-  </ul>
+    <section aria-labelledby="sentence-paragraph-analysis">
+        <h2 id="sentence-paragraph-analysis">Sentence and Paragraph Analysis – Improve Structure and Flow</h2>
 
-  <!-- FAQs -->
-  <h2>Frequently Asked Questions About ReptileBirds Text Analyser</h2>
-  
-  <h3>What is ReptileBirds Text Analyser?</h3>
-  <p>It is a free online tool that provides detailed insights into text, including word and character counts, sentence and paragraph statistics, readability, punctuation, capitalization, filler words, lexical density, and time estimates.</p>
-  
-  <h3>How do I analyze my text?</h3>
-  <p>Paste your text into the tool's input box. The analyser will automatically generate detailed statistics, including counts, readability metrics, and time estimates. You can also edit your text and see live updates.</p>
-  
-  <h3>Can it detect filler words and redundant phrases?</h3>
-  <p>Yes, it identifies common filler words, repetitive phrases, and stop words, helping you improve text clarity and conciseness.</p>
-  
-  <h3>Does it help with sentence length and readability?</h3>
-  <p>Yes, it breaks your text into sentences and paragraphs, providing average sentence lengths, shortest and longest sentences, and overall readability insights.</p>
-  
-  <h3>Who can benefit from this tool?</h3>
-  <p>Students, writers, editors, bloggers, content creators, and professionals who want to optimize content quality, clarity, and readability.</p>
-  
-  <h3>Can I export the analysis results?</h3>
-  <p>Yes, results can be exported as TXT, Word, or PDF files for sharing, reporting, or record-keeping.</p>
-  
-  <h3>Is this tool suitable for both short and long text?</h3>
-  <p>Yes, the Text Analyser handles anything from a single paragraph to long-form articles, essays, or books, providing detailed analysis for all types of content.</p>
+        <h3>What It Does</h3>
+        <p>Breaks text into sentences and paragraphs, calculates average sentence length, identifies shortest and longest sentences, and highlights paragraph sizes to optimize readability and coherence.</p>
 
-  <h3>How can I count words, characters, and sentences in my text?</h3>
-<p>Our Text Analyser tool automatically counts words, characters, sentences, paragraphs, and lines as you type or paste your text. It gives a real-time summary so you can track your writing instantly.</p>
+        <h3>How It Works</h3>
+        <p>Analyzes each sentence and paragraph individually, providing statistics such as:</p>
+        <ul>
+            <li>Average sentence length (words and characters)</li>
+            <li>Sentence length distribution</li>
+            <li>Paragraph length and structure</li>
+        </ul>
 
-<h3>Can I find unique words and their frequency in my text?</h3>
-<p>Yes! The tool identifies unique words and lists the most frequent words, helping you analyze repetition and improve vocabulary usage for better readability and SEO.</p>
+        <h4>Who Should Use It</h4>
+        <p>Editors, content writers, students, and academics improving essay, article, or manuscript readability.</p>
 
-<h3>Does the analyser check capitalization errors?</h3>
-<p>Absolutely. It detects incorrect capitalization in sentences and suggests corrections, making it easier to maintain proper grammar and a professional writing style.</p>
+        <h4>Benefits</h4>
+        <ul>
+            <li>Identifies sentences that are too long and difficult to read.</li>
+            <li>Ensures paragraphs are appropriately sized.</li>
+            <li>Improves overall text coherence and flow.</li>
+        </ul>
+    </section>
 
-<h3>Can I see sentence length and structure statistics?</h3>
-<p>The tool breaks down your text into sentences and provides statistics like longest and shortest sentences, average sentence length, and the number of words per sentence, helping you refine flow and clarity.</p>
+    <section aria-labelledby="punctuation-capitalization">
+        <h2 id="punctuation-capitalization">Punctuation and Capitalization Checker – Ensure Professional and Error-Free Text</h2>
 
-<h3>Does it analyse punctuation usage?</h3>
-<p>Yes, it counts all punctuation marks including periods, commas, colons, semicolons, quotation marks, dashes, parentheses, and more, helping you identify overuse or missing punctuation.</p>
+        <h3>What It Does</h3>
+        <p>Scans text for punctuation and capitalization errors, highlighting inconsistencies and providing suggestions for grammatical correctness.</p>
 
-<h3>Can the tool detect filler words and stop words?</h3>
-<p>Our analyser identifies common filler words like "actually," "literally," or "just" and stop words, allowing you to tighten your writing for clarity and conciseness.</p>
+        <h3>How It Works</h3>
+        <p>Detects issues such as:</p>
+        <ul>
+            <li>Missing sentence-ending punctuation</li>
+            <li>Excessive or repeated punctuation</li>
+            <li>Incorrect capitalization of proper nouns and sentence starts</li>
+        </ul>
 
-<h3>Does the tool estimate reading, speaking, and writing time?</h3>
-<p>Yes, it calculates estimated reading, speaking, typing, handwriting, proofreading, and translation times, which is useful for planning presentations, articles, or study material.</p>
+        <h4>Who Should Use It</h4>
+        <p>Students, writers, editors, and professionals proofreading efficiently.</p>
 
-<h3>Can I export the analysed text?</h3>
-<p>You can export your text and analysis results as TXT, Word, or PDF files for easy sharing or record-keeping.</p>
+        <h4>Benefits</h4>
+        <ul>
+            <li>Prevents grammatical and punctuation errors.</li>
+            <li>Saves time on proofreading.</li>
+            <li>Ensures polished, professional output.</li>
+        </ul>
+    </section>
 
-<h3>Who can benefit from using this tool?</h3>
-<p>Writers, students, editors, teachers, content creators, and professionals can use this tool to improve writing quality, analyze text structure, and save time on editing and proofreading.</p>
+    <section aria-labelledby="filler-lexical">
+        <h2 id="filler-lexical">Filler Words and Lexical Density Analysis – Enhance Clarity and Engagement</h2>
 
-<h3>Is there a limit to how much text I can analyse?</h3>
-<p>The tool supports large amounts of text efficiently, making it suitable for everything from short notes to long documents, without losing performance.</p>
+        <h3>What It Does</h3>
+        <p>Identifies overused filler words, calculates lexical density, and highlights redundant phrases and stop words to make writing concise.</p>
+
+        <h3>How It Works</h3>
+        <p>Scans for common filler words like "basically", "actually", and calculates lexical density as the ratio of unique words to total words. Provides stop word usage stats.</p>
+
+        <h4>Who Should Use It</h4>
+        <p>Content writers, bloggers, and copywriters aiming for concise and effective writing.</p>
+
+        <h4>Benefits</h4>
+        <ul>
+            <li>Reduces redundancy and unnecessary filler words.</li>
+            <li>Improves readability and clarity.</li>
+            <li>Enhances audience engagement.</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="word-frequency">
+        <h2 id="word-frequency">Word Frequency Analysis – Optimize Writing and Improve SEO</h2>
+
+        <h3>What It Does</h3>
+        <p>Lists most frequently used words to identify repetition, potential keywords, and improve vocabulary diversity.</p>
+
+        <h3>How It Works</h3>
+        <p>Provides a ranked list of words with frequency counts and highlights unique and rare words for varied writing.</p>
+
+        <h4>Who Should Use It</h4>
+        <p>SEO specialists, content creators, and editors optimizing readability and search performance.</p>
+
+        <h4>Benefits</h4>
+        <ul>
+            <li>Identifies repetitive or overused words.</li>
+            <li>Highlights potential SEO keywords.</li>
+            <li>Improves lexical variety.</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="time-estimates">
+        <h2 id="time-estimates">Reading, Typing, and Proofreading Time Estimates – Plan Efficiently</h2>
+
+        <h3>What It Does</h3>
+        <p>Estimates reading, typing, handwriting, proofreading, speaking, and translation times based on text length and complexity.</p>
+
+        <h3>How It Works</h3>
+        <p>Calculates times based on standard reading and typing speeds, helping plan tasks and manage deadlines effectively.</p>
+
+        <h4>Who Should Use It</h4>
+        <p>Students, authors, and professionals managing time for writing, editing, or presentation tasks.</p>
+
+        <h4>Benefits</h4>
+        <ul>
+            <li>Helps plan schedules for study, writing, or presentations.</li>
+            <li>Provides realistic task time estimates.</li>
+            <li>Reduces time management errors.</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="export-options">
+        <h2 id="export-options">Export Analysis Results – Save and Share Insights</h2>
+
+        <h3>What It Does</h3>
+        <p>Exports analysis results in TXT, Word, or PDF formats for reporting, sharing, or record-keeping.</p>
+
+        <h3>How It Works</h3>
+        <p>Click the export button, select the desired format, and download all counts, statistics, and identified issues.</p>
+
+        <h4>Who Should Use It</h4>
+        <p>Writers, editors, content strategists, and students documenting text analysis.</p>
+
+        <h4>Benefits</h4>
+        <ul>
+            <li>Easily share text analysis reports.</li>
+            <li>Supports collaboration with detailed insights.</li>
+            <li>Keeps a record of revisions and improvements.</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="faq">
+        <h2 id="faq">Frequently Asked Questions</h2>
+
+        <details>
+            <summary>What is ReptileBirds Text Analyser?</summary>
+            <p>It is a free online tool providing detailed insights into text, including word counts, sentence and paragraph statistics, readability, punctuation, capitalization, filler words, lexical density, and time estimates.</p>
+        </details>
+
+        <details>
+            <summary>How do I analyze my text?</summary>
+            <p>Paste your text into the input box. The analyser automatically generates detailed statistics and updates live as you type or edit.</p>
+        </details>
+
+        <details>
+            <summary>Can it detect filler words and redundant phrases?</summary>
+            <p>Yes, it identifies common filler words, repetitive phrases, and stop words to improve text clarity and conciseness.</p>
+        </details>
+
+        <details>
+            <summary>Does it help with sentence length and readability?</summary>
+            <p>Yes, it provides statistics on sentence and paragraph lengths and overall readability insights.</p>
+        </details>
+
+        <details>
+            <summary>Who can benefit from this tool?</summary>
+            <p>Students, writers, editors, bloggers, content creators, and professionals optimizing content quality, clarity, and readability.</p>
+        </details>
+
+        <details>
+            <summary>Can I export the analysis results?</summary>
+            <p>Yes, results can be exported as TXT, Word, or PDF files for sharing, reporting, or record-keeping.</p>
+        </details>
+
+        <details>
+            <summary>Is this tool suitable for both short and long text?</summary>
+            <p>Yes, it handles everything from single paragraphs to long-form articles or books, providing detailed analysis for all content types.</p>
+        </details>
+
+        <details>
+            <summary>Does it analyze punctuation and capitalization?</summary>
+            <p>Yes, it checks punctuation usage and capitalization, highlighting errors and suggesting corrections.</p>
+        </details>
+
+        <details>
+            <summary>Can it estimate reading, speaking, and writing time?</summary>
+            <p>Yes, it calculates approximate times for reading, speaking, typing, handwriting, proofreading, and translation tasks.</p>
+        </details>
+
+        <details>
+            <summary>Is there a limit to how much text I can analyze?</summary>
+            <p>The tool efficiently supports large amounts of text, from short notes to long documents, without performance issues.</p>
+        </details>
+
+    </section>
+
+</article>
 
 </div>
+
 
 <script type="application/ld+json">
 {

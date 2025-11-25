@@ -119,59 +119,166 @@ background-color: #66fcf1;
 }
 </style>
 
-<div style="margin:4rem;">
+<div style="margin: 4rem">
 
-  
+<article>
 
-  <p>Our JSON to Excel Converter is a powerful, browser-based tool that allows you to transform JSON data into Excel spreadsheets (XLSX or XLS) instantly. Designed for both beginners and professionals, this tool provides a seamless way to visualize, manage, and export structured JSON data into a tabular Excel format, all while keeping your data private and offline.</p>
+    <section aria-labelledby="intro">
+        <h2 id="intro">JSON to Excel Converter</h2>
+        <p>
+            Instantly convert your JSON data into Excel spreadsheets (XLSX or XLS) with our <strong>free, browser-based JSON to Excel converter</strong>. Whether your JSON is simple or deeply nested, this tool generates structured Excel sheets, all <strong>offline and securely in your browser</strong>.
+        </p>
+    </section>
 
-  <h2>Key Features of JSON to Excel Converter</h2>
+    <section aria-labelledby="features">
+        <h2 id="features">Key Features of JSON to Excel Converter</h2>
 
-  <ul>
-    <li><strong>Fast and Secure Conversion:</strong> Convert JSON to Excel directly in your browser without uploading data to any server, ensuring complete privacy and offline functionality.</li>
-    <li><strong>Nested Data Handling:</strong> Automatically transforms nested arrays and objects into separate sheets (tabs) for easy navigation and structured representation of complex JSON data.</li>
-    <li><strong>Dynamic Sheet Naming:</strong> Sheet names are sanitized and automatically made unique, avoiding Excel limitations on length and invalid characters.</li>
-    <li><strong>Real-Time JSON Preview:</strong> Provides a live, collapsible tree view of your JSON data, helping you validate and understand your data structure before conversion.</li>
-    <li><strong>Multiple Export Options:</strong> Download your Excel workbook as XLSX or XLS with a single click. Supports exporting all nested structures in one organized file.</li>
-    <li><strong>Robust Error Handling:</strong> Invalid JSON is immediately flagged with clear error messages, ensuring you only export clean and structured data.</li>
-    <li><strong>Responsive Interface:</strong> Intuitive layout with separate panes for JSON input and Excel preview, including sheet tabs for easy access to nested data.</li>
-    <li><strong>Toast Notifications:</strong> Interactive notifications provide immediate feedback on conversion success or errors.</li>
-  </ul>
- <br>
-  <h2>How JSON to Excel Data Conversion Works</h2>
+        <article>
+            <h3>Fast and Secure Conversion</h3>
+            <p>All conversions are performed client-side in your browser. No data is uploaded to any server, keeping your JSON data private.</p>
+        </article>
 
-  <p>Simply paste your JSON data or upload a JSON file using the upload button. The tool will display a structured preview, highlighting nested arrays and objects. When you click the Convert button, the tool automatically generates an Excel workbook:</p>
+        <article>
+            <h3>Nested Data Handling</h3>
+            <p>Nested arrays and objects are automatically converted into separate sheets, preserving relationships for structured analysis.</p>
+        </article>
 
-  <ul>
-    <li>Each top-level JSON object becomes a row in the main sheet.</li>
-    <li>Nested arrays or objects automatically generate separate sheets, linked via parent identifiers for relational mapping.</li>
-    <li>Dynamic sheet tabs allow you to preview each generated sheet before exporting.</li>
-  </ul>
+        <article>
+            <h3>Dynamic Sheet Naming</h3>
+            <p>Sheet names are sanitized and made unique to avoid Excel limitations and invalid characters.</p>
+        </article>
 
-  <p>Once conversion is complete, you can export the workbook in XLSX or XLS format with a single click. The tool ensures your data remains well-structured, organized, and ready for analysis in Excel or any other spreadsheet software.</p>
+        <article>
+            <h3>Real-Time JSON Preview</h3>
+            <p>Collapsible tree view allows you to explore and validate your JSON structure before conversion.</p>
+        </article>
 
-  <h2>Why Use This JSON to Excel Converter?</h2>
+        <article>
+            <h3>Multiple Export Options</h3>
+            <p>Download your workbook as XLSX or XLS. Nested objects generate separate sheets for easy navigation.</p>
+        </article>
 
-  <ul>
-    <li>No installations or server-side processing required — works entirely in your browser.</li>
-    <li>Supports complex JSON structures with multiple nested levels.</li>
-    <li>Instantly converts JSON to fully formatted Excel sheets, saving time and effort.</li>
-    <li>Perfect for data analysts, developers, and business users who need clean Excel outputs from JSON files.</li>
-  </ul>
+        <article>
+            <h3>Robust Error Handling</h3>
+            <p>Invalid JSON is immediately flagged with clear messages, ensuring only clean data is exported.</p>
+        </article>
 
-  <h2>Other Useful JSON Tools</h2>
-  <ul>
-    <li><a href="json-to-csv" style="color:#0066cc; text-decoration:underline;">JSON to CSV</a></li>
-    <li><a href="json-to-pdf" style="color:#0066cc; text-decoration:underline;">JSON to PDF</a></li>
-    <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
-    <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
-    <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
-    <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">Json String To Json Object</a></li>
-    <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">Json To Json Schema</a></li>
-    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
-  </ul>
+        <article>
+            <h3>Responsive Interface & Notifications</h3>
+            <p>Separate panes for JSON input and Excel preview, with interactive toast notifications to confirm successful conversions or errors.</p>
+        </article>
+    </section>
+
+    <section aria-labelledby="how-to-use">
+        <h2 id="how-to-use">How to Convert JSON to Excel</h2>
+        <ol>
+            <li>
+                <h3>Step 1: Paste or Upload JSON</h3>
+                <p>Paste your JSON string into the editor or use the <strong>Upload JSON</strong> button to select a JSON file from your device.</p>
+            </li>
+            <li>
+                <h3>Step 2: Preview Your JSON</h3>
+                <p>The collapsible preview tree helps you inspect nested structures and validate data before conversion.</p>
+            </li>
+            <li>
+                <h3>Step 3: Convert JSON</h3>
+                <p>Click the <strong>Convert JSON</strong> button. Nested arrays or objects automatically generate separate sheets.</p>
+            </li>
+            <li>
+                <h3>Step 4: Export Excel File</h3>
+                <p>Download the workbook as XLSX or XLS. All nested data is included in structured sheets for analysis.</p>
+            </li>
+        </ol>
+    </section>
+
+    <section aria-labelledby="related-tools">
+        <h2 id="related-tools">Other Useful JSON Tools</h2>
+        <ul>
+            <li><a href="json-to-csv" style="color:#0066cc; text-decoration:underline;">JSON to CSV</a></li>
+            <li><a href="json-to-pdf" style="color:#0066cc; text-decoration:underline;">JSON to PDF</a></li>
+            <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
+            <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
+            <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
+            <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String to JSON Object</a></li>
+            <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
+            <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="faq">
+        <h2 id="faq">Frequently Asked Questions (FAQ)</h2>
+
+        <details>
+            <summary>Is this JSON to Excel converter free?</summary>
+            <p>Yes, it is completely free and works entirely in your browser.</p>
+        </details>
+
+        <details>
+            <summary>Does conversion happen online or offline?</summary>
+            <p>All processing is performed client-side. No data leaves your device.</p>
+        </details>
+
+        <details>
+            <summary>Can the tool handle nested JSON?</summary>
+            <p>Yes, nested arrays and objects are converted into separate sheets while maintaining relationships.</p>
+        </details>
+
+        <details>
+            <summary>Which Excel formats are supported?</summary>
+            <p>You can export XLSX or XLS files depending on your preference.</p>
+        </details>
+
+        <details>
+            <summary>Can I preview my JSON before conversion?</summary>
+            <p>Yes, the collapsible tree preview shows the full JSON structure including nested objects.</p>
+        </details>
+
+        <details>
+            <summary>Is my data secure?</summary>
+            <p>Yes, all conversions happen locally in your browser. No data is uploaded to any server.</p>
+        </details>
+
+        <details>
+            <summary>What happens if my JSON is invalid?</summary>
+            <p>The tool displays a clear error message and disables conversion until corrected.</p>
+        </details>
+
+        <details>
+            <summary>Can I export multiple nested sheets separately?</summary>
+            <p>Yes, nested objects or arrays generate separate sheets automatically in a single workbook.</p>
+        </details>
+
+        <details>
+            <summary>Does the tool work on mobile devices?</summary>
+            <p>Yes, it is fully responsive and works on smartphones and tablets.</p>
+        </details>
+
+        <details>
+            <summary>Do I need to install software?</summary>
+            <p>No installation is required; the tool runs directly in your browser.</p>
+        </details>
+
+        <details>
+            <summary>Can I edit JSON before conversion?</summary>
+            <p>Yes, the live preview panel allows editing JSON before exporting.</p>
+        </details>
+
+        <details>
+            <summary>Will sheet names be sanitized automatically?</summary>
+            <p>Yes, all sheet names are adjusted to be valid and unique in Excel.</p>
+        </details>
+
+        <details>
+            <summary>Is there a file size limit for JSON?</summary>
+            <p>While there’s no strict limit, extremely large JSON files may take longer to process depending on your device performance.</p>
+        </details>
+
+    </section>
+
+</article>
 
 </div>
+
 
 <!-- ✅ WebApplication Schema -->
 <script type="application/ld+json">

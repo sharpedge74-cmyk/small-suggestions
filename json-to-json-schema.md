@@ -112,69 +112,71 @@ keywords: json-to-jsonschema, JSON to JSON Schema converter, convert JSON files 
 </style>
 <script src="assets/js/json-to-json-schema.js"></script>
 
-<div style="margin: 4rem;">
+<div style="margin: 4rem">
 
+<article>
 
-<p>
-The <strong>JSON to JSON Schema Converter</strong> is a smart, browser-based utility that automatically generates a valid <strong>JSON Schema Draft-07</strong> from any JSON input. Whether you’re a developer working with API data, a schema designer defining structure validation, or simply need to document JSON formats, this tool instantly transforms your JSON into a properly structured and formatted schema.
-</p>
+    <section aria-labelledby="intro">
+        <p id="intro">
+            The <strong>JSON to JSON Schema Converter</strong> is a smart, browser-based utility that generates a valid <strong>JSON Schema Draft-07</strong> from any JSON input. Whether you’re a developer working with API data, a schema designer defining structure validation, or need to document JSON formats, this tool instantly transforms your JSON into a properly structured and formatted schema.
+        </p>
+    </section>
 
-<h2>What is JSON Schema and Why It Matters?</h2>
+    <section aria-labelledby="what-is-schema">
+        <h2 id="what-is-schema">What is JSON Schema and Why It Matters?</h2>
+        <p>
+            A <strong>JSON Schema</strong> defines the structure and rules of a JSON document. It specifies data types, required fields, nesting, and valid values. This makes it essential for:
+        </p>
+        <ul>
+            <li><strong>API Validation:</strong> Ensure consistent JSON format for incoming or outgoing data.</li>
+            <li><strong>Automation:</strong> Generate documentation and data contracts automatically.</li>
+            <li><strong>Integration:</strong> Guide interoperability between systems and applications.</li>
+            <li><strong>Error Prevention:</strong> Detect malformed JSON before deployment.</li>
+        </ul>
+    </section>
 
-<p>
-A <strong>JSON Schema</strong> defines the structure and rules of a JSON document. It specifies data types, required fields, nesting, and valid values. This makes it a key standard for:
-</p>
+    <section aria-labelledby="how-to-use">
+        <h2 id="how-to-use">How to Use the JSON to JSON Schema Converter</h2>
+        <ol>
+            <li>
+                <strong>Upload or Paste Your JSON:</strong> Import a <code>.json</code> file or paste JSON directly into the editor.
+            </li>
+            <li>
+                <strong>Auto Schema Generation:</strong> The tool parses your JSON and instantly generates the corresponding JSON Schema.
+            </li>
+            <li>
+                <strong>Preview the Schema:</strong> View the schema in a collapsible, color-coded JSON viewer.
+            </li>
+            <li>
+                <strong>Copy or Download:</strong> Copy to clipboard or download as a <code>.json</code> file for integration.
+            </li>
+        </ol>
+    </section>
 
-<ul>
-  <li>📘 <strong>API Validation:</strong> Ensure incoming or outgoing JSON data follows a consistent format.</li>
-  <li>🧩 <strong>Automation:</strong> Generate documentation and data contracts automatically.</li>
-  <li>🧠 <strong>Integration:</strong> Use schemas to guide system interoperability between applications.</li>
-  <li>🛠️ <strong>Error Prevention:</strong> Detect malformed JSON before deploying to production.</li>
-</ul>
+    <section aria-labelledby="features">
+        <h2 id="features">Key Features</h2>
+        <ul>
+            <li><strong>JSON Upload Support:</strong> Import any <code>.json</code> file for instant schema generation.</li>
+            <li><strong>Real-Time Conversion:</strong> Automatically converts JSON as you type or paste.</li>
+            <li><strong>Draft-07 Compatible:</strong> Includes <code>$schema</code> metadata and correct type mappings (<em>string</em>, <em>number</em>, <em>boolean</em>, <em>array</em>, <em>object</em>).</li>
+            <li><strong>Lightweight & Browser-Based:</strong> Runs fully client-side; data never leaves your browser.</li>
+            <li><strong>Easy Copy & Download:</strong> Quickly export or copy schema for development workflows.</li>
+            <li><strong>JSON Viewer Preview:</strong> Collapsible, syntax-highlighted schema display for easy reading.</li>
+        </ul>
+    </section>
 
-<h2>How to Use the JSON to JSON Schema Converter</h2>
-
-<p>
-Our tool provides a simple, instant process that runs entirely in your browser — no backend server or data storage involved. Follow these easy steps:
-</p>
-
-<ol>
-  <li><strong>Upload or Paste Your JSON:</strong> Use the <em>“Upload JSON”</em> button to import a file, or paste your JSON directly into the editor box.</li>
-  <li><strong>Auto Schema Generation:</strong> The tool automatically detects and parses your JSON input, then generates the corresponding JSON Schema instantly.</li>
-  <li><strong>Preview the Schema:</strong> The generated schema is displayed in an interactive, color-coded JSON viewer powered by <code>JSONView</code>.</li>
-  <li><strong>Copy or Download:</strong> Click <em>“Copy to Clipboard”</em> to copy the formatted schema, or <em>“Download Schema”</em> to save it as a <code>.json</code> file.</li>
-</ol>
-<br>
-<h2>Features of JSON to JSON Schema Converter</h2>
-
-<ul>
-  <li><strong>📂 JSON Upload Support:</strong> Import any <code>.json</code> file for instant schema generation.</li>
-  <li><strong>⚡ Real-Time Conversion:</strong> Automatically converts your JSON structure into a JSON Schema as you type or paste.</li>
-  <li><strong>🧩 Draft-07 Compatible:</strong> Each schema includes <code>$schema</code> metadata and correct type mappings (<em>string</em>, <em>number</em>, <em>boolean</em>, <em>array</em>, <em>object</em>).</li>
-  <li><strong>🪶 Lightweight & Browser-Based:</strong> Runs entirely on the client side — your JSON data never leaves your browser.</li>
-  <li><strong>📋 Easy Copy & Download:</strong> Quickly export or copy schema for integration into development workflows.</li>
-  <li><strong>🎨 JSON Viewer Preview:</strong> View the generated schema in a collapsible, syntax-highlighted format for easy reading.</li>
-</ul>
-<br>
-<h2>Example Use Case</h2>
-
-<p>
-Let’s say you have the following JSON:
-</p>
-
-<pre><code>{
+    <section aria-labelledby="example">
+        <h2 id="example">Example Use Case</h2>
+        <p>Input JSON:</p>
+        <pre><code>{
   "name": "John Doe",
   "age": 30,
   "skills": ["JavaScript", "Python"],
   "active": true
-}
-</code></pre>
+}</code></pre>
 
-<p>
-The converter will instantly produce this corresponding JSON Schema:
-</p>
-
-<pre><code>{
+        <p>Generated JSON Schema:</p>
+        <pre><code>{
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Generated JSON Schema",
   "type": "object",
@@ -188,53 +190,108 @@ The converter will instantly produce this corresponding JSON Schema:
     "active": { "type": "boolean" }
   },
   "required": ["name", "age", "skills", "active"]
-}
-</code></pre>
-<br>
-<h2>Why Choose This JSON Schema Generator?</h2>
+}</code></pre>
+    </section>
 
-<ul>
-  <li><strong>No Sign-Up or Installation:</strong> 100% browser-based and free.</li>
-  <li><strong>Instant Conversion:</strong> The schema appears as soon as you paste your JSON.</li>
-  <li><strong>Accurate Draft Metadata:</strong> Uses the correct <code>$schema</code> URL for JSON Schema Draft-07.</li>
-  <li><strong>Developer Friendly:</strong> Clean, formatted output ready for validation or documentation tools.</li>
-</ul>
-<br>
-<h3>Security Note</h3>
-<p>
-This JSON to JSON Schema converter operates entirely client-side. Your uploaded data is never transmitted or stored on any server, ensuring complete privacy and data safety.
-</p>
+    <section aria-labelledby="why-choose">
+        <h2 id="why-choose">Why Choose This JSON Schema Generator?</h2>
+        <ul>
+            <li>No Sign-Up or Installation — 100% browser-based and free.</li>
+            <li>Instant Conversion — schema appears as soon as you paste JSON.</li>
+            <li>Accurate Draft Metadata — correct <code>$schema</code> URL for Draft-07.</li>
+            <li>Developer Friendly — clean, formatted output ready for validation or documentation.</li>
+        </ul>
+    </section>
 
-<h3>Practical Applications</h3>
-<ul>
-  <li>🧾 API Documentation Generation</li>
-  <li>⚙️ OpenAPI / Swagger Schema Preparation</li>
-  <li>🧱 Data Validation Rule Setup</li>
-  <li>💻 Software Testing and Automation</li>
-</ul>
-<br>
-<h4>Start Converting JSON to Schema Instantly</h4>
+    <section aria-labelledby="security">
+        <h2 id="security">Security Note</h2>
+        <p>
+            This converter operates entirely client-side. Your data is never transmitted or stored on any server, ensuring complete privacy and safety.
+        </p>
+    </section>
 
-<p>
-Experience seamless and instant <strong>JSON to JSON Schema conversion</strong> directly from your browser. Upload, paste, preview, copy, or download — all within seconds.  
-<br><br>
-Ready to begin? Paste your JSON now and watch the schema appear instantly.
-</p>
-<br>
-<h2>Other JSON Data Conversion Tools You Might Be Looking</h2>
+    <section aria-labelledby="applications">
+        <h2 id="applications">Practical Applications</h2>
+        <ul>
+            <li>API Documentation Generation</li>
+            <li>OpenAPI / Swagger Schema Preparation</li>
+            <li>Data Validation Rule Setup</li>
+            <li>Software Testing and Automation</li>
+        </ul>
+    </section>
 
-<ul>
-  <li><a href="json-to-csv" style="color:#0066cc; text-decoration:underline;">JSON to CSV</a></li>
-  <li><a href="json-to-excel" style="color:#0066cc; text-decoration:underline;">JSON to Excel</a></li>
-  <li><a href="json-to-pdf" style="color:#0066cc; text-decoration:underline;">JSON to PDF</a></li>
-  <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
-  <li><a href="json-to-dart" style="color:#0066cc; text-decoration:underline;">JSON to Dart</a></li>
-  <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
-  <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">Json String To Json Object</a></li>
-  <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
-</ul>
+    <section aria-labelledby="related-tools">
+        <h2 id="related-tools">Other JSON Data Conversion Tools</h2>
+        <ul>
+            <li><a href="json-to-csv" style="color:#0066cc; text-decoration:underline;">JSON to CSV</a></li>
+            <li><a href="json-to-excel" style="color:#0066cc; text-decoration:underline;">JSON to Excel</a></li>
+            <li><a href="json-to-pdf" style="color:#0066cc; text-decoration:underline;">JSON to PDF</a></li>
+            <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
+            <li><a href="json-to-dart" style="color:#0066cc; text-decoration:underline;">JSON to Dart</a></li>
+            <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
+            <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String To JSON Object</a></li>
+            <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="faq">
+        <h2 id="faq">Frequently Asked Questions (FAQ)</h2>
+
+        <details>
+            <summary>Is this JSON to JSON Schema converter free?</summary>
+            <p>Yes, it is completely free and works entirely in your browser.</p>
+        </details>
+
+        <details>
+            <summary>Does conversion happen online or offline?</summary>
+            <p>All operations happen client-side. Your JSON data never leaves your device.</p>
+        </details>
+
+        <details>
+            <summary>Which JSON Schema draft is used?</summary>
+            <p>The tool generates JSON Schema Draft-07 compatible output.</p>
+        </details>
+
+        <details>
+            <summary>Can I copy or download the generated schema?</summary>
+            <p>Yes, copy to clipboard or download as a <code>.json</code> file.</p>
+        </details>
+
+        <details>
+            <summary>Can I handle nested JSON structures?</summary>
+            <p>Yes, nested objects and arrays are correctly represented in the schema.</p>
+        </details>
+
+        <details>
+            <summary>Does the tool provide a preview?</summary>
+            <p>Yes, the generated schema is shown in a collapsible, syntax-highlighted viewer.</p>
+        </details>
+
+        <details>
+            <summary>Is my data secure?</summary>
+            <p>Yes, all processing happens client-side; nothing is transmitted to a server.</p>
+        </details>
+
+        <details>
+            <summary>Do I need any installation?</summary>
+            <p>No installation is required; the converter runs fully in the browser.</p>
+        </details>
+
+        <details>
+            <summary>Can this tool help with API documentation?</summary>
+            <p>Yes, it can generate JSON Schema for API contracts and validation rules.</p>
+        </details>
+
+        <details>
+            <summary>Does it support arrays and primitive types?</summary>
+            <p>Yes, arrays, objects, strings, numbers, and booleans are all handled correctly.</p>
+        </details>
+    </section>
+
+</article>
 
 </div>
+
 
 <script type="application/ld+json">
 {

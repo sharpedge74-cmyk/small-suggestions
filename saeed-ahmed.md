@@ -84,7 +84,6 @@ description: Full Stack Developer with 6+ years experience in Java, Spring Boot,
   <div style="margin-top:3rem;">
     <h2 style="font-size:1.6rem; margin-bottom:1rem;">Connect with Saeed</h2>
     <div style="display:flex; flex-wrap:wrap; gap:1rem;">
-      <a href="mailto:saeed@example.com" style="text-decoration:none; background:#007bff; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">📧 Email</a>
       <a href="https://www.linkedin.com/in/saeedahmedsheikh/" target="_blank" style="text-decoration:none; background:#0a66c2; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">💼 LinkedIn</a>
       <a href="https://wa.me/923147144647" target="_blank" style="text-decoration:none; background:#25d366; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">💬 WhatsApp</a>
 

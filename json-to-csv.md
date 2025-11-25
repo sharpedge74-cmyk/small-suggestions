@@ -62,88 +62,144 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
 <script src="/assets/js/json-to-csv.js"></script>
 
 
-<div style="margin:4rem;">
+<div style="margin:4rem">
 
-  <p>Instantly convert your JSON files or strings into fully structured CSV format with our free, browser-based JSON to CSV converter. Whether your JSON is simple or deeply nested, this tool efficiently transforms it into CSV tables while preserving relationships, and lets you preview, copy, or download the result. All processing happens client-side in your browser — no uploads, no servers, and full privacy.</p>
+<article>
 
-  <h2>Key Features of the JSON to CSV Converter</h2>
+    <section aria-labelledby="intro">
+        <p>
+            Instantly convert your JSON files or strings into fully structured CSV format with our free, browser-based JSON to CSV converter. Whether your JSON is simple or deeply nested, this tool efficiently transforms it into CSV tables while preserving relationships, and lets you preview, copy, or download the result. All processing happens client-side in your browser — no uploads, no servers, and full privacy.
+        </p>
+    </section>
 
-  <h3>Fast and Accurate Conversion</h3>
-  <p>Upload or paste your JSON data, click convert, and get accurate CSV output instantly. Nested JSON objects and arrays are automatically transformed into separate CSV tables with parent-child relationships maintained using reference keys.</p>
+    <section aria-labelledby="features">
+        <h2 id="features">Key Features of the JSON to CSV Converter</h2>
 
-  <h3>Live Preview of JSON</h3>
-  <p>The preview panel displays your JSON in a clear, syntax-highlighted format. It helps you validate your data before conversion and ensures that all nested objects are visible.</p>
+        <article>
+            <h3>Fast and Accurate Conversion</h3>
+            <p>Upload or paste your JSON data, click convert, and get accurate CSV output instantly. Nested JSON objects and arrays are automatically transformed into separate CSV tables with parent-child relationships maintained using reference keys.</p>
+        </article>
 
-  <h3>Copy and Download Options</h3>
-  <p>After conversion, you can either copy the CSV output to your clipboard or download it as a <code>.csv</code> file. Nested JSON generates multiple CSV tables labeled for clarity, making it easy to manage complex data structures.</p>
+        <article>
+            <h3>Live Preview of JSON</h3>
+            <p>The preview panel displays your JSON in a clear, syntax-highlighted format. It helps you validate your data before conversion and ensures that all nested objects are visible.</p>
+        </article>
 
-  <h3>Client-Side, Secure, and Offline</h3>
-  <p>All conversion happens entirely in your browser. No data is sent to external servers, keeping your JSON data private and secure.</p>
+        <article>
+            <h3>Copy and Download Options</h3>
+            <p>After conversion, you can either copy the CSV output to your clipboard or download it as a <code>.csv</code> file. Nested JSON generates multiple CSV tables labeled for clarity, making it easy to manage complex data structures.</p>
+        </article>
 
-  <h3>Error Handling and Validation</h3>
-  <p>The tool automatically detects invalid JSON. If the JSON is invalid, the preview shows <em>“❌ Invalid JSON”</em> and disables the convert button until the JSON is corrected.</p>
+        <article>
+            <h3>Client-Side, Secure, and Offline</h3>
+            <p>All conversion happens entirely in your browser. No data is sent to external servers, keeping your JSON data private and secure.</p>
+        </article>
 
-  <h2>How to Convert JSON to CSV</h2>
+        <article>
+            <h3>Error Handling and Validation</h3>
+            <p>The tool automatically detects invalid JSON. If the JSON is invalid, the preview shows <em>❌ Invalid JSON</em> and disables the convert button until the JSON is corrected.</p>
+        </article>
+    </section>
 
-  <h3>Step 1: Paste or Upload JSON</h3>
-  <p>Paste your JSON string directly into the editor or use the <strong>Upload JSON</strong> button to select a JSON file from your device.</p>
+    <section aria-labelledby="how-to-use">
+        <h2 id="how-to-use">How to Convert JSON to CSV</h2>
+        <ol>
+            <li>
+                <h3>Step 1: Paste or Upload JSON</h3>
+                <p>Paste your JSON string directly into the editor or use the <strong>Upload JSON</strong> button to select a JSON file from your device.</p>
+            </li>
+            <li>
+                <h3>Step 2: Preview Your JSON</h3>
+                <p>The tool automatically shows a syntax-highlighted preview of your JSON. Nested objects and arrays are fully displayed for clarity.</p>
+            </li>
+            <li>
+                <h3>Step 3: Convert JSON to CSV</h3>
+                <p>Click the <strong>Convert JSON</strong> button. The converter parses your JSON, creates one or more CSV tables if necessary, and displays them in the output section.</p>
+            </li>
+            <li>
+                <h3>Step 4: Copy or Download CSV</h3>
+                <p>Use the <strong>Copy Output</strong> button to copy the CSV to your clipboard or <strong>Export File</strong> to download it as a CSV file. Multiple tables from nested JSON are included with clear section headings for easy reference.</p>
+            </li>
+        </ol>
+    </section>
 
-  <h3>Step 2: Preview Your JSON</h3>
-  <p>The tool automatically shows a syntax-highlighted preview of your JSON. Nested objects and arrays are fully displayed for clarity.</p>
+    <section aria-labelledby="advanced">
+        <h2 id="advanced">Advanced Functionality</h2>
 
-  <h3>Step 3: Convert JSON to CSV</h3>
-  <p>Click the <strong>Convert JSON</strong> button. The converter parses your JSON, creates one or more CSV tables if necessary, and displays them in the output section.</p>
+        <article>
+            <h3>Nested JSON Handling</h3>
+            <p>The converter automatically detects nested arrays and objects and generates separate CSV tables for each nested structure. Parent-child relationships are maintained with reference IDs, making the exported data ready for complex spreadsheet analysis.</p>
+        </article>
 
-  <h3>Step 4: Copy or Download CSV</h3>
-  <p>Use the <strong>Copy Output</strong> button to copy the CSV to your clipboard or <strong>Export File</strong> to download it as a CSV file. Multiple tables from nested JSON are included with clear section headings for easy reference.</p>
+        <article>
+            <h3>Toast Notifications</h3>
+            <p>Visual feedback confirms successful conversions or copy actions. The toast appears at the top of the output panel, ensuring you never miss a confirmation.</p>
+        </article>
 
-  <h2>Advanced Functionality</h2>
+        <article>
+            <h3>Multiple File Download (Optional)</h3>
+            <p>For JSON with multiple nested structures, you can export each table as separate CSV files for organized data handling.</p>
+        </article>
+    </section>
 
-  <h3>Nested JSON Handling</h3>
-  <p>The converter automatically detects nested arrays and objects and generates separate CSV tables for each nested structure. Parent-child relationships are maintained with reference IDs, making the exported data ready for complex spreadsheet analysis.</p>
+    <section aria-labelledby="related-tools">
+        <h2 id="related-tools">Other Useful JSON Converters</h2>
+        <ul>
+            <li><a href="json-to-excel" style="color:#0066cc; text-decoration:underline;">JSON to Excel</a></li>
+            <li><a href="json-to-html" style="color:#0066cc; text-decoration:underline;">JSON to HTML</a></li>
+            <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
+            <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
+            <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
+            <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String to JSON Object</a></li>
+            <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
+            <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
+        </ul>
+    </section>
 
-  <h3>Toast Notifications</h3>
-  <p>Visual feedback confirms successful conversions or copy actions. The toast appears at the top of the output panel, ensuring you never miss a confirmation.</p>
+    <section aria-labelledby="faq">
+        <h2 id="faq">Frequently Asked Questions (FAQ)</h2>
 
-  <h3>Multiple File Download (Optional)</h3>
-  <p>For JSON with multiple nested structures, you can export each table as separate CSV files for organized data handling.</p>
+        <details>
+            <summary>Is this JSON to CSV converter free?</summary>
+            <p>Yes, it is completely free and works entirely in your browser without any installations.</p>
+        </details>
 
-  <h2>Other Useful JSON Converters</h2>
-  <ul>
-    <li><a href="json-to-excel" style="color:#0066cc; text-decoration:underline;">JSON to Excel</a></li>
-    <li><a href="json-to-html" style="color:#0066cc; text-decoration:underline;">JSON to HTML</a></li>
-    <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
-    <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
-    <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
-    <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String to JSON Object</a></li>
-    <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
-    <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
-  </ul>
+        <details>
+            <summary>Does the conversion happen online or offline?</summary>
+            <p>All conversion is performed client-side in your browser. No data is uploaded to any server.</p>
+        </details>
 
-  <h2>Frequently Asked Questions (FAQ)</h2>
+        <details>
+            <summary>Can this tool handle nested JSON?</summary>
+            <p>Yes, nested objects and arrays are automatically converted into separate CSV tables with proper parent-child relationships.</p>
+        </details>
 
-  <h3>Is this JSON to CSV converter free?</h3>
-  <p>Yes, it is completely free and works entirely in your browser without any installations.</p>
+        <details>
+            <summary>Can I copy or download the CSV output?</summary>
+            <p>Yes, you can copy the CSV to your clipboard or download it as a .csv file using the buttons provided.</p>
+        </details>
 
-  <h3>Does the conversion happen online or offline?</h3>
-  <p>All conversion is performed client-side in your browser. No data is uploaded to any server.</p>
+        <details>
+            <summary>What happens if my JSON is invalid?</summary>
+            <p>The preview panel will show <em>❌ Invalid JSON</em> and the convert button will remain disabled until the JSON is corrected.</p>
+        </details>
 
-  <h3>Can this tool handle nested JSON?</h3>
-  <p>Yes, nested objects and arrays are automatically converted into separate CSV tables with proper parent-child relationships.</p>
+        <details>
+            <summary>Is my data secure during conversion?</summary>
+            <p>Yes, all processing is done locally in your browser. Your JSON data never leaves your device.</p>
+        </details>
 
-  <h3>Can I copy or download the CSV output?</h3>
-  <p>Yes, you can copy the CSV to your clipboard or download it as a .csv file using the buttons provided.</p>
+        <details>
+            <summary>Do I need to install any software?</summary>
+            <p>No, the converter runs entirely in your browser, supporting all modern browsers like Chrome, Firefox, Edge, and Safari.</p>
+        </details>
 
-  <h3>What happens if my JSON is invalid?</h3>
-  <p>The preview panel will show <em>❌ Invalid JSON</em> and the convert button will remain disabled until the JSON is corrected.</p>
+    </section>
 
-  <h3>Is my data secure during conversion?</h3>
-  <p>Yes, all processing is done locally in your browser. Your JSON data never leaves your device.</p>
-
-  <h3>Do I need to install any software?</h3>
-  <p>No, the converter runs entirely in your browser, supporting all modern browsers like Chrome, Firefox, Edge, and Safari.</p>
+</article>
 
 </div>
+
 
 <!-- ✅ WebApplication Schema -->
 <script type="application/ld+json">

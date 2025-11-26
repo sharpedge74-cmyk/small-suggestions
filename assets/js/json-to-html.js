@@ -133,11 +133,10 @@ function jsonToHtml(jsonInput) {
   <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Converted JSON to HTML Preview</title>
+    <title>Data HTML File</title>
     ${style}
   </head>
   <body>
-    <h2>Converted JSON → HTML Output</h2>
     ${renderHtml(data)}
   </body>
   </html>`;

@@ -11,23 +11,8 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
 
 <div style="width: 10%;"></div>
 <div style="width: 69%;">
-<h1>CSV to Excel Converter – Free Online Tool</h1>
-<div style="margin: 1rem 3rem; display: flex; flex-wrap: wrap; gap: 12px; font-family: sans-serif; justify-content: center">
-  <a href="convert-csv-to-html" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
-    Convert CSV to HTML
-  </a>
-  <a href="convert-csv-to-json" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
-    Convert CSV to JSON
-  </a>
-  <a href="convert-csv-to-pdf" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
-    Convert CSV to PDF
-  </a>
-  <a href="convert-csv-to-txt" style="color:#0066cc; text-decoration: underline; white-space: nowrap;">
-    Convert CSV to TXT
-  </a>
-</div>
-
-<div class="csvx-container">
+ <h1>CSV to Excel Converter – Free Online Tool</h1>
+ <div class="csvx-container">
     <div class="csvx-panel" id="csvPanel">
       <div class="panel-header">
         <div>
@@ -48,7 +33,7 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
       <div id="toast" class="csvx-toast">✅ Conversion Successful!</div>
     </div>
   </div>
-<div class="csvx-container">  
+ <div class="csvx-container">  
   <div id="excelPanel" class="csvx-excel-panel">
         <div class="csvx-panel" style="padding:12px;">
           <div class="excel-header">
@@ -64,7 +49,7 @@ keywords: convert csv to excel, CSV to Excel converter, convert CSV files to Exc
           <div id="excelPreview" class="csvx-preview" contenteditable></div>
         </div>
   </div>
-</div>  
+ </div>  
 </div>
 
 <div style="width: 10%;"></div>

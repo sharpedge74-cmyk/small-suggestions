@@ -242,28 +242,4 @@ keywords: pptx to pdf, ppt to pdf, powerpoint to pdf, convert pptx to pdf, conve
 }
 </script>
 
-<!-- SoftwareApplication / Dataset JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "PPTX to PDF Converter",
-  "url": "https://reptilebirds.com/pptx-to-pdf",
-  "description": "A secure browser-based tool to convert PPTX files to PDF. Files are converted locally in your browser with no upload to the server.",
-  "applicationCategory": "Utility",
-  "operatingSystem": "Web",
-  "featureList": [
-    "Upload PPTX file and preview",
-    "Convert PPTX to PDF locally in browser",
-    "Preview PDF after conversion",
-    "Download PDF securely"
-  ],
-  "offers": {
-    "@type": "Offer",
-    "url": "https://reptilebirds.com/pptx-to-pdf",
-    "price": "0",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
+

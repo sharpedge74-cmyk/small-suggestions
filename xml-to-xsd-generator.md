@@ -6,11 +6,11 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
 ---
 <section style="display: flex; justify-content: center">
 
-<div style="width: 10%;"></div>
+<div style="width: 15%;"></div>
 <div style="width: 69%;">
   <h1>XML to XSD Generator Online – Create Standard XML Schema </h1>
 
-<div class="csvx-container">
+<div class="jsonx-container">
   <div class="csvx-panel" id="csvPanelXsd">
     <div class="panel-header">
       <div>
@@ -32,7 +32,7 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
   </div>
 </div>
 
-<div class="csvx-container">  
+<div class="jsonx-container">  
   <div id="xsdPanel" class="csvx-excel-panel">
     <div class="csvx-panel" style="padding:12px;">
       <div class="excel-header">
@@ -50,11 +50,7 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
   </div>
 </div>
 
-</div>
 
-<div style="width: 10%;"></div>
-</section>
-<script src="/assets/js/xml-to-xsd-generator.js"></script>
 
 <div style="margin:4rem;">
 
@@ -192,7 +188,66 @@ keywords: xml to xsd generator online, xml to xsd generator online free, xml to 
 
 </div>
 
+</div>
 
+<div style="width: 15%;">
+<div style="min-width: 99%; margin-top:3.5rem;">
+<lable>You May Also Like</lable>
+<ul style="list-style-type:none; padding:0; margin:0;">
+  <li style="margin-bottom:8px;">
+    <a href="json-to-xml" 
+       style="text-decoration:underline; color:#007BFF;"
+       onmouseover="this.style.color='orange';" 
+       onmouseout="this.style.color='#007BFF';">
+      JSON to XML
+    </a>
+  </li>
+  <li style="margin-bottom:8px;">
+    <a href="convert-csv-to-xml" 
+       style="text-decoration:underline; color:#007BFF;"
+       onmouseover="this.style.color='orange';" 
+       onmouseout="this.style.color='#007BFF';">
+      CSV to XML
+    </a>
+  </li>
+  <li style="margin-bottom:8px;">
+    <a href="convert-xlsx-to-xml" 
+       style="text-decoration:underline; color:#007BFF;"
+       onmouseover="this.style.color='orange';" 
+       onmouseout="this.style.color='#007BFF';">
+      XLSX to XML
+    </a>
+  </li>
+  <li style="margin-bottom:8px;">
+    <a href="json-to-json-schema" 
+       style="text-decoration:underline; color:#007BFF;"
+       onmouseover="this.style.color='orange';" 
+       onmouseout="this.style.color='#007BFF';">
+      JSON to JSON Schema
+    </a>
+  </li>
+  <li style="margin-bottom:8px;">
+    <a href="excel-to-json" 
+       style="text-decoration:underline; color:#007BFF;"
+       onmouseover="this.style.color='orange';" 
+       onmouseout="this.style.color='#007BFF';">
+      Excel to JSON
+    </a>
+  </li>
+  <li style="margin-bottom:8px;">
+    <a href="convert-csv-to-json" 
+       style="text-decoration:underline; color:#007BFF;"
+       onmouseover="this.style.color='orange';" 
+       onmouseout="this.style.color='#007BFF';">
+      CSV to JSON
+    </a>
+  </li>
+</ul>
+</div>
+
+</div>
+</section>
+<script src="/assets/js/xml-to-xsd-generator.js"></script>
 <!-- ✅ WebApplication Schema -->
 <script type="application/ld+json">
 {

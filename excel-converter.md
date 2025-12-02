@@ -13,7 +13,7 @@ You can easily transform your Excel data into multiple formats including <strong
 all without uploading or sharing your files online. Fast, private, and designed for smooth workflow.</p>
  <div class="search-container">
    <i class="fas fa-search search-icon"></i>
-   <input type="text" class="search-bar" id="searchInput" placeholder="Search The Tool Like JSON To Excel ....">
+   <input type="text" class="search-bar" id="searchInput" placeholder="Search The Tool Like Excel To CSV ....">
  </div>
 
   

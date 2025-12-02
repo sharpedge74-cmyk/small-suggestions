@@ -261,29 +261,32 @@ keywords: convert-xlsx-to-xml, XLSX to XML converter, convert Excel XLSX to XML,
       "@type": "Dataset",
       "@id": "#inputExcelDataset",
       "name": "Excel Data Input",
-      "description": "Structured Excel (XLS/XLSX) data uploaded by users for conversion into XML format.",
+      "description": "User-uploaded Excel (XLS/XLSX) data for conversion into XML format.",
       "keywords": ["Excel", "XLSX", "Spreadsheet", "Data conversion"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Reptile Birds"
+        "name": "Reptile Birds",
+        "url": "https://reptilebirds.com"
       }
     },
     {
       "@type": "Dataset",
       "@id": "#outputXmlDataset",
       "name": "XML File Output",
-      "description": "XML file generated from the input Excel data, properly formatted and ready for use.",
+      "description": "XML file generated from the input Excel data, formatted and ready for use.",
       "keywords": ["XML", "Spreadsheet", "Data export", "Structured XML"],
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "creator": {
         "@type": "Organization",
-        "name": "Reptile Birds"
+        "name": "Reptile Birds",
+        "url": "https://reptilebirds.com"
       }
     }
   ]
 }
 </script>
+
 
 <!-- ✅ HowTo Schema -->
 <script type="application/ld+json">

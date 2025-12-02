@@ -15,6 +15,22 @@ const tools = [
     category: 'XML',
     url: 'xml-to-xsd-generator'
 },
+{
+    id: 2,
+    icon: 'fa-code',
+    title: 'XML to JSON Converter',
+    description: 'Convert XML files to clean, structured JSON format instantly in your browser — free, fast, and fully offline.',
+    tags: [
+        'xml to json converter online',
+        'convert xml to json free',
+        'xml to structured json',
+        'online xml to json tool',
+        'free xml to json converter',
+        'browser xml to json converter'
+    ],
+    category: 'XML',
+    url: 'xml-to-json'
+},
 
 ];
 

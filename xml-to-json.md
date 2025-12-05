@@ -2,7 +2,7 @@
 layout: main
 title: XML to JSON Converter Online – Free & Secure
 description: Convert XML files to clean, structured JSON format instantly with our free browser-based tool. Transform nested XML into formatted JSON.
-keywords: xml-to-json, convert XML to JSON, XML to structured JSON, browser XML to JSON converter, free XML to JSON tool
+keywords: xml to json, convert XML to JSON, XML to structured JSON, browser XML to JSON converter, free XML to JSON tool
 ---
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

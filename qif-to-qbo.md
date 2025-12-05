@@ -195,66 +195,28 @@ MInvoice #123
 ^
 </pre>
     <p><strong>Converted QBO Output:</strong></p>
-<pre>
-OFXHEADER:100
-DATA:OFXSGML
-VERSION:102
-SECURITY:NONE
-ENCODING:USASCII
-CHARSET:1252
-COMPRESSION:NONE
-OLDFILEUID:NONE
-NEWFILEUID:NONE
+    <pre>
 <OFX>
-  <SIGNONMSGSRSV1>
-    <SONRS>
-      <STATUS>
-        <CODE>0
-        <SEVERITY>INFO
-      </STATUS>
-      <DTSERVER>20251205
-      <LANGUAGE>ENG
-    </SONRS>
-  </SIGNONMSGSRSV1>
-  <BANKMSGSRSV1>
-    <STMTTRNRS>
-      <TRNUID>1
-      <STATUS>
-        <CODE>0
-        <SEVERITY>INFO
-      </STATUS>
-      <STMTRS>
-        <CURDEF>USD
-        <BANKTRANLIST>
-          <STMTTRN>
-            <TRNTYPE>DEBIT
-            <DTPOSTED>20251115
-            <TRNAMT>-150.00
-            <FITID>20251115-1-omfkf2
-            <NAME>Starbucks
-            <MEMO>Coffee and snacks
-          </STMTTRN>
-          <STMTTRN>
-            <TRNTYPE>CREDIT
-            <DTPOSTED>20251116
-            <TRNAMT>2000.00
-            <FITID>20251116-2-xj2hq2
-            <NAME>Salary
-          </STMTTRN>
-          <STMTTRN>
-            <TRNTYPE>DEBIT
-            <DTPOSTED>20251117
-            <TRNAMT>-75.50
-            <FITID>20251117-3-7xg1bf
-            <NAME>Grocery Store
-            <MEMO>Fruits and vegetables
-          </STMTTRN>
-        </BANKTRANLIST>
-      </STMTRS>
-    </STMTTRNRS>
-  </BANKMSGSRSV1>
+  <BANKTRANLIST>
+    <STMTTRN>
+      <TRNTYPE>DEBIT</TRNTYPE>
+      <DTPOSTED>20251201</DTPOSTED>
+      <TRNAMT>-100.00</TRNAMT>
+      <NAME>John Doe</NAME>
+      <MEMO>Office Supplies</MEMO>
+      <FITID>TXN001</FITID>
+    </STMTTRN>
+    <STMTTRN>
+      <TRNTYPE>CREDIT</TRNTYPE>
+      <DTPOSTED>20251203</DTPOSTED>
+      <TRNAMT>200.00</TRNAMT>
+      <NAME>Client Payment</NAME>
+      <MEMO>Invoice #123</MEMO>
+      <FITID>TXN002</FITID>
+    </STMTTRN>
+  </BANKTRANLIST>
 </OFX>
-</pre>
+    </pre>
   </article>
 </section>
 

@@ -134,7 +134,27 @@ keywords: convert QIF to Excel, QIF to Excel converter, convert QIF files to Exc
 
        
   </div>
-  <div style="width: 10%;"></div>
+  <div style="width: 10%;">
+  <label>You May Also Like ?</label>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+  <li style="margin-bottom: 8px;">
+    <a href="/qif-to-csv" 
+       style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
+       onmouseover="this.style.color='orange';"
+       onmouseout="this.style.color='#0c0c42ff';">
+       QIF to CSV
+    </a>
+  </li>
+  <li style="margin-bottom: 8px;">
+    <a href="/qif-to-qbo" 
+       style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
+       onmouseover="this.style.color='orange';"
+       onmouseout="this.style.color='#0c0c42ff';">
+       QIF to QBO
+    </a>
+  </li>
+</ul>
+  </div>
 </section>
 
 <script src="/assets/js/qif-to-excel.js"></script>

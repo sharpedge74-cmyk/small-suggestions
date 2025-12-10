@@ -130,7 +130,27 @@ keywords: convert QIF to CSV, QIF to CSV converter, convert QIF files to CSV, on
 </section>
 
   </div>
-  <div style="width: 10%;"></div>
+  <div style="width: 10%;">
+  <label>Other QIF Tools</label>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+  <li style="margin-bottom: 8px;">
+    <a href="/qif-to-qbo" 
+       style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
+       onmouseover="this.style.color='orange';"
+       onmouseout="this.style.color='#0c0c42ff';">
+       QIF to QBO
+    </a>
+  </li>
+  <li style="margin-bottom: 8px;">
+    <a href="/qif-to-excel" 
+       style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
+       onmouseover="this.style.color='orange';"
+       onmouseout="this.style.color='#0c0c42ff';">
+       QIF to Excel
+    </a>
+  </li>
+</ul>
+  </div>
 </section>
 
 <script src="/assets/js/qif-to-csv.js"></script>

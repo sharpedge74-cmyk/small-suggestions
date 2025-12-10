@@ -90,7 +90,7 @@ const tools = [
         url: 'json-to-dart'
     },
     {
-        id: 11,
+        id: 12,
         icon: 'fa-file-code',
         title: 'JSON to YAML Converter',
         description: 'Instantly convert JSON objects and files to clean, readable YAML format. Perfect for configuration files, Docker Compose, Kubernetes manifests, and CI/CD pipelines. Supports nested structures and preserves data integrity.',
@@ -98,6 +98,16 @@ const tools = [
         category: 'JSON',
         url: 'json-to-yaml'
     },
+    {
+    id: 13,
+    icon: 'fa-file-code',
+    title: 'YAML to JSON Converter',
+    description: 'Instantly convert YAML files and objects to clean, readable JSON format. Perfect for configuration files, Docker Compose, Kubernetes manifests, and CI/CD pipelines. Supports nested structures and preserves data integrity.',
+    tags: ['YAML to JSON Converter', 'YAML to JSON Online', 'Convert YAML to JSON', 'YAML to JSON Parser', 'YAML to JSON Free', 'YAML to JSON Config', 'YAML to JSON Kubernetes', 'YAML to JSON Docker', 'YAML to JSON Browser'],
+    category: 'JSON',
+    url: 'yaml-to-json'
+},
+
 ];
 
         

@@ -251,7 +251,7 @@ keywords: yaml to json, convert YAML to JSON, YAML to structured JSON, browser Y
     </a>
   </li>
   <li style="margin-bottom: 8px;">
-    <a href="/csv-to-json" 
+    <a href="/convert-csv-to-json" 
        style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
        onmouseover="this.style.color='orange';"
        onmouseout="this.style.color='#0c0c42ff';">

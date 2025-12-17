@@ -22,7 +22,7 @@ keywords: contact us, feedback, support, Reptile Birds
   </p>
 
   <p style="font-size:1.1em; margin-bottom:40px; color:#555;">
-    Or reach out via our contributor pages for specific team members:
+    Checkout our team members:
   </p>
 
   <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap; margin-bottom:50px;">
@@ -31,6 +31,9 @@ keywords: contact us, feedback, support, Reptile Birds
     </a>
     <a href="saeed-ahmed" style="display:flex; align-items:center; gap:8px; padding:12px 20px; background:#17a2b8; color:#fff; text-decoration:none; border-radius:5px; font-weight:bold; transition: transform 0.3s;">
       Saeed Ahmed
+    </a>
+    <a href="gourav-mishra" style="display:flex; align-items:center; gap:8px; padding:12px 20px; background:#17a2b8; color:#fff; text-decoration:none; border-radius:5px; font-weight:bold; transition: transform 0.3s;">
+      Gourav Mishra
     </a>
   </div>
 

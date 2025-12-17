@@ -76,7 +76,6 @@ description: Business Analyst with experience in mortgage underwriting, fraud an
   <div style="margin-top:3rem;">
     <h2 style="font-size:1.6rem; margin-bottom:1rem;">Connect with Gourav</h2>
     <div style="display:flex; flex-wrap:wrap; gap:1rem;">
-      <a href="mailto:officwork6@gmail.com" style="text-decoration:none; background:#007bff; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">📧 Email</a>
       <a href="https://www.linkedin.com/in/gourav-m-0a0584132/" target="_blank" style="text-decoration:none; background:#0a66c2; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">💼 LinkedIn</a>
     </div>
   </div>

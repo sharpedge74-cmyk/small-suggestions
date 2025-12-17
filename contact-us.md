@@ -18,7 +18,7 @@ keywords: contact us, feedback, support, Reptile Birds
 
   <p style="font-size:1.1em; margin-bottom:20px; color:#555;">
     📧 Email us directly at: 
-    <a href="mailto:sohailanwaralmani74@gmail.com" style="color:#007BFF; text-decoration:underline;">sohailanwaralmani74@gmail.com</a>
+    <a href="mailto:sharpedge74@gmail.com" style="color:#007BFF; text-decoration:underline;">sharpedge74@gmail.com</a>
   </p>
 
   <p style="font-size:1.1em; margin-bottom:40px; color:#555;">

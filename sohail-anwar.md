@@ -8,14 +8,12 @@ description: Senior Consultant in App Development with 12+ years experience in J
 
   <!-- Main Intro Grid -->
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:2rem; align-items:center;">
-
     <!-- Profile Image -->
     <div style="display:flex; justify-content:center;">
       <img src="/assets/img/sohail-anwar.png" alt="Sohail Anwar - Senior Consultant App Development"
            style="width:100%; max-width:320px; border-radius:1rem; box-shadow:0 0 20px rgba(0,0,0,0.1); transition: transform 0.3s ease-in-out;"
            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </div>
-
     <!-- Intro & Summary -->
     <div>
       <h1 style="font-size:2rem; margin-bottom:0.5rem;">Sohail Anwar</h1>
@@ -56,27 +54,22 @@ description: Senior Consultant in App Development with 12+ years experience in J
   <div style="margin-top:3rem;">
     <h2 style="font-size:1.6rem; margin-bottom:1rem;">Career Journey</h2>
     <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem;">
-
       <div style="background:#fafafa; border-left:4px solid #007bff; padding:1rem 1.5rem; border-radius:0.5rem;">
         <strong>Systems Ltd.</strong> — Senior Consultant, App Development (Nov 2021 – Present)<br>
         Leading backend and full-stack enterprise development, designing scalable microservices and Spring Boot applications for high-performance systems.
       </div>
-
       <div style="background:#fafafa; border-left:4px solid #28a745; padding:1rem 1.5rem; border-radius:0.5rem;">
         <strong>Best Breed PM</strong> — Software Engineer (Jan 2019 – May 2020)<br>
         Delivered project management solutions using Spring Boot & Angular 8, integrated with Jira and project management tools.
       </div>
-
       <div style="background:#fafafa; border-left:4px solid #ffc107; padding:1rem 1.5rem; border-radius:0.5rem;">
         <strong>Skill Orbit Pvt Ltd</strong> — Software Engineer (Sep 2017 – Aug 2018)<br>
         Developed voter management and e-commerce platforms using Spring Boot, JPA, Angular, and Android applications.
       </div>
-
       <div style="background:#fafafa; border-left:4px solid #dc3545; padding:1rem 1.5rem; border-radius:0.5rem;">
         <strong>Bahria Enterprise Systems & Technologies</strong> — Software Engineer (Sep 2013 – Aug 2016)<br>
         Built customized ERP solutions, order tracking systems, and desktop applications using JSF, Hibernate, Swing, and AWT.
       </div>
-
     </div>
   </div>
 
@@ -84,10 +77,8 @@ description: Senior Consultant in App Development with 12+ years experience in J
   <div style="margin-top:3rem;">
     <h2 style="font-size:1.6rem; margin-bottom:1rem;">Connect with Sohail</h2>
     <div style="display:flex; flex-wrap:wrap; gap:1rem;">
-      <a href="mailto:sohailanwaralmani74@gmail.com" style="text-decoration:none; background:#007bff; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">📧 Email</a>
       <a href="https://www.linkedin.com/in/sohail-anwar-a63063162/" target="_blank" style="text-decoration:none; background:#0a66c2; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">💼 LinkedIn</a>
       <a href="https://github.com/sohailanwaralmani74" target="_blank" style="text-decoration:none; background:#24292e; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">💻 GitHub</a>
-      <a href="https://wa.me/923010136029" target="_blank" style="text-decoration:none; background:#25d366; color:#fff; padding:0.7rem 1.5rem; border-radius:0.5rem;">💬 WhatsApp</a>
     </div>
   </div>
 

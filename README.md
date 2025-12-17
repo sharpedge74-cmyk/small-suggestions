@@ -9,7 +9,7 @@ Welcome to **Reptile Birds** — your one-stop hub for converting and managing *
 ### JSON Tools
 Manage and convert your JSON data with precision and ease:
 
-- [JSON Converters](https://reptilebirds.com/json-converters) — Explore all JSON conversion utilities in one place for seamless data transformations.  
+#### JSON Converters one place for seamless data transformations.  
 - [JSON String to JSON Object](https://reptilebirds.com/json-string-to-json-object) — Quickly convert JSON strings from APIs, logs, or raw data into structured JSON objects.  
 - [JSON to CSV](https://reptilebirds.com/json-to-csv) — Convert JSON files into CSV format for spreadsheets, reporting, or legacy systems.  
 - [JSON to Dart](https://reptilebirds.com/json-to-dart) — Instantly generate Dart models from JSON data with null safety, private fields, and default values.  
@@ -25,7 +25,7 @@ Manage and convert your JSON data with precision and ease:
 ### Excel Tools
 Convert and manage spreadsheets quickly and efficiently:
 
-- [Excel Converter](https://reptilebirds.com/excel-converter) — Access all Excel conversion tools in one place.  
+#### Access all Excel conversion tools in one place.  
 - [Convert XLSX to CSV](https://reptilebirds.com/convert-xlsx-to-csv) — Turn Excel sheets into CSV files for reporting or database import.  
 - [Convert XLSX to XML](https://reptilebirds.com/convert-xlsx-to-xml) — Export Excel data into structured XML for integrations.  
 - [Excel to HTML](https://reptilebirds.com/excel-to-html) — Embed Excel sheets into web pages or reports with clean HTML.  
@@ -37,7 +37,7 @@ Convert and manage spreadsheets quickly and efficiently:
 ### CSV Tools
 Quickly transform CSV files for multiple applications:
 
-- [CSV Converter](https://reptilebirds.com/csv-converter) — Browse all CSV tools for fast conversions.  
+#### Browse all CSV tools for fast conversions.  
 - [Convert CSV to Excel](https://reptilebirds.com/convert-csv-to-excel) — Convert CSV files into Excel spreadsheets for easier data management.  
 - [Convert CSV to HTML](https://reptilebirds.com/convert-csv-to-html) — Generate HTML tables from CSV files.  
 - [Convert CSV to JSON](https://reptilebirds.com/convert-csv-to-json) — Transform CSV data into JSON for apps, APIs, or integrations.  
@@ -49,7 +49,7 @@ Quickly transform CSV files for multiple applications:
 ### XML Tools
 Handle XML files efficiently and convert to other formats:
 
-- [XML Converter](https://reptilebirds.com/xml-converter) — Convert XML files into JSON, CSV, or Excel formats instantly.  
+#### Convert XML files into JSON, CSV, or Excel formats instantly.  
 - [XML to XSD Generator](https://reptilebirds.com/xml-to-xsd-generator) — Generate XSD schema files from XML data for validation and documentation.  
 
 ---

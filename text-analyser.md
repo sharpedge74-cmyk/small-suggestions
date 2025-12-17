@@ -381,431 +381,118 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
 </style>
 
 <script src="/assets/js/essay-word-counter.js"></script>
-
-<div style="margin: 4rem;">
-
-<article>
-
-    <section aria-labelledby="intro">
-        <p id="intro">
-            ReptileBirds Text Analyser is a powerful online tool designed to provide detailed insights into any written content. Whether you are a writer, student, editor, or content creator, this tool offers extensive functionality to analyze, evaluate, and optimize your text. Features include word and character counting, sentence and paragraph analysis, punctuation and capitalization checking, filler word detection, lexical density analysis, and reading time estimation, helping you refine your writing for clarity, precision, and engagement.
-        </p>
-    </section>
-
-    <section aria-labelledby="word-char-counter">
-        <h2 id="word-char-counter">Word and Character Counter – Accurately Track Content Length</h2>
-
-        <h3>What It Does</h3>
-        <p>The Word and Character Counter provides precise counts for words, characters (with and without spaces), lines, and paragraphs. It distinguishes between unique words and total words, helping you understand content length and composition.</p>
-
-        <h3>How It Works</h3>
-        <p>Paste your text into the analyser box. The tool calculates counts, displays the number of lines and paragraphs, and highlights the longest and shortest words. Updates occur in real-time as you type or edit.</p>
-
-        <h4>Who Should Use It</h4>
-        <p>Writers, students, content creators, and editors needing to meet word count requirements or track writing changes.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Ensures word count requirements are met for assignments or publications.</li>
-            <li>Detects overly long or short words affecting readability.</li>
-            <li>Saves time compared to manual counting and reduces errors.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="sentence-paragraph-analysis">
-        <h2 id="sentence-paragraph-analysis">Sentence and Paragraph Analysis – Improve Structure and Flow</h2>
-
-        <h3>What It Does</h3>
-        <p>Breaks text into sentences and paragraphs, calculates average sentence length, identifies shortest and longest sentences, and highlights paragraph sizes to optimize readability and coherence.</p>
-
-        <h3>How It Works</h3>
-        <p>Analyzes each sentence and paragraph individually, providing statistics such as:</p>
-        <ul>
-            <li>Average sentence length (words and characters)</li>
-            <li>Sentence length distribution</li>
-            <li>Paragraph length and structure</li>
-        </ul>
-
-        <h4>Who Should Use It</h4>
-        <p>Editors, content writers, students, and academics improving essay, article, or manuscript readability.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Identifies sentences that are too long and difficult to read.</li>
-            <li>Ensures paragraphs are appropriately sized.</li>
-            <li>Improves overall text coherence and flow.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="punctuation-capitalization">
-        <h2 id="punctuation-capitalization">Punctuation and Capitalization Checker – Ensure Professional and Error-Free Text</h2>
-
-        <h3>What It Does</h3>
-        <p>Scans text for punctuation and capitalization errors, highlighting inconsistencies and providing suggestions for grammatical correctness.</p>
-
-        <h3>How It Works</h3>
-        <p>Detects issues such as:</p>
-        <ul>
-            <li>Missing sentence-ending punctuation</li>
-            <li>Excessive or repeated punctuation</li>
-            <li>Incorrect capitalization of proper nouns and sentence starts</li>
-        </ul>
-
-        <h4>Who Should Use It</h4>
-        <p>Students, writers, editors, and professionals proofreading efficiently.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Prevents grammatical and punctuation errors.</li>
-            <li>Saves time on proofreading.</li>
-            <li>Ensures polished, professional output.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="filler-lexical">
-        <h2 id="filler-lexical">Filler Words and Lexical Density Analysis – Enhance Clarity and Engagement</h2>
-
-        <h3>What It Does</h3>
-        <p>Identifies overused filler words, calculates lexical density, and highlights redundant phrases and stop words to make writing concise.</p>
-
-        <h3>How It Works</h3>
-        <p>Scans for common filler words like "basically", "actually", and calculates lexical density as the ratio of unique words to total words. Provides stop word usage stats.</p>
-
-        <h4>Who Should Use It</h4>
-        <p>Content writers, bloggers, and copywriters aiming for concise and effective writing.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Reduces redundancy and unnecessary filler words.</li>
-            <li>Improves readability and clarity.</li>
-            <li>Enhances audience engagement.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="word-frequency">
-        <h2 id="word-frequency">Word Frequency Analysis – Optimize Writing and Improve SEO</h2>
-
-        <h3>What It Does</h3>
-        <p>Lists most frequently used words to identify repetition, potential keywords, and improve vocabulary diversity.</p>
-
-        <h3>How It Works</h3>
-        <p>Provides a ranked list of words with frequency counts and highlights unique and rare words for varied writing.</p>
-
-        <h4>Who Should Use It</h4>
-        <p>SEO specialists, content creators, and editors optimizing readability and search performance.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Identifies repetitive or overused words.</li>
-            <li>Highlights potential SEO keywords.</li>
-            <li>Improves lexical variety.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="time-estimates">
-        <h2 id="time-estimates">Reading, Typing, and Proofreading Time Estimates – Plan Efficiently</h2>
-
-        <h3>What It Does</h3>
-        <p>Estimates reading, typing, handwriting, proofreading, speaking, and translation times based on text length and complexity.</p>
-
-        <h3>How It Works</h3>
-        <p>Calculates times based on standard reading and typing speeds, helping plan tasks and manage deadlines effectively.</p>
-
-        <h4>Who Should Use It</h4>
-        <p>Students, authors, and professionals managing time for writing, editing, or presentation tasks.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Helps plan schedules for study, writing, or presentations.</li>
-            <li>Provides realistic task time estimates.</li>
-            <li>Reduces time management errors.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="export-options">
-        <h2 id="export-options">Export Analysis Results – Save and Share Insights</h2>
-
-        <h3>What It Does</h3>
-        <p>Exports analysis results in TXT, Word, or PDF formats for reporting, sharing, or record-keeping.</p>
-
-        <h3>How It Works</h3>
-        <p>Click the export button, select the desired format, and download all counts, statistics, and identified issues.</p>
-
-        <h4>Who Should Use It</h4>
-        <p>Writers, editors, content strategists, and students documenting text analysis.</p>
-
-        <h4>Benefits</h4>
-        <ul>
-            <li>Easily share text analysis reports.</li>
-            <li>Supports collaboration with detailed insights.</li>
-            <li>Keeps a record of revisions and improvements.</li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="faq">
-        <h2 id="faq">Frequently Asked Questions</h2>
-
-        <details>
-            <summary>What is ReptileBirds Text Analyser?</summary>
-            <p>It is a free online tool providing detailed insights into text, including word counts, sentence and paragraph statistics, readability, punctuation, capitalization, filler words, lexical density, and time estimates.</p>
-        </details>
-
-        <details>
-            <summary>How do I analyze my text?</summary>
-            <p>Paste your text into the input box. The analyser automatically generates detailed statistics and updates live as you type or edit.</p>
-        </details>
-
-        <details>
-            <summary>Can it detect filler words and redundant phrases?</summary>
-            <p>Yes, it identifies common filler words, repetitive phrases, and stop words to improve text clarity and conciseness.</p>
-        </details>
-
-        <details>
-            <summary>Does it help with sentence length and readability?</summary>
-            <p>Yes, it provides statistics on sentence and paragraph lengths and overall readability insights.</p>
-        </details>
-
-        <details>
-            <summary>Who can benefit from this tool?</summary>
-            <p>Students, writers, editors, bloggers, content creators, and professionals optimizing content quality, clarity, and readability.</p>
-        </details>
-
-        <details>
-            <summary>Can I export the analysis results?</summary>
-            <p>Yes, results can be exported as TXT, Word, or PDF files for sharing, reporting, or record-keeping.</p>
-        </details>
-
-        <details>
-            <summary>Is this tool suitable for both short and long text?</summary>
-            <p>Yes, it handles everything from single paragraphs to long-form articles or books, providing detailed analysis for all content types.</p>
-        </details>
-
-        <details>
-            <summary>Does it analyze punctuation and capitalization?</summary>
-            <p>Yes, it checks punctuation usage and capitalization, highlighting errors and suggesting corrections.</p>
-        </details>
-
-        <details>
-            <summary>Can it estimate reading, speaking, and writing time?</summary>
-            <p>Yes, it calculates approximate times for reading, speaking, typing, handwriting, proofreading, and translation tasks.</p>
-        </details>
-
-        <details>
-            <summary>Is there a limit to how much text I can analyze?</summary>
-            <p>The tool efficiently supports large amounts of text, from short notes to long documents, without performance issues.</p>
-        </details>
-
-    </section>
-
-</article>
-
-</div>
-
-
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-
-    {
-      "@type": "WebApplication",
-      "name": "Text Analyser - Free Online Tool",
-      "url": "https://reptilebirds.com/text-analyser",
-      "image": "https://reptilebirds.com/assets/img/text-analyser.png",
-      "description": "Analyze and count words, sentences, characters, punctuation, and lexical statistics of any text. Get detailed insights instantly with our free online Text Analyser.",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "softwareVersion": "1.0.0",
-      "creator": {
-        "@type": "Organization",
-        "name": "Reptile Birds",
-        "url": "https://reptilebirds.com"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "license": "https://creativecommons.org/licenses/by/4.0/"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://reptilebirds.com/text-analyser#webapp",
+    "name": "Text Analyser - Free Online Text Analysis Tool",
+    "url": "https://reptilebirds.com/text-analyser",
+    "description": "A free, browser-based tool that instantly analyzes text to provide detailed statistics. It counts words and characters, calculates reading time, identifies keyword density, and extracts metadata, with all processing happening offline for privacy.",
+    "applicationCategory": "TextAnalysisTool",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
     },
-
-    {
-      "@type": "Action",
-      "name": "Text Analysis",
-      "description": "Perform word count, character count, sentence statistics, lexical analysis, punctuation count, and frequency of words in any text input.",
-      "object": {
-        "@type": "MediaObject",
-        "encodingFormat": "text/plain",
-        "name": "Text Input"
+    "featureList": [
+      "Secure client-side analysis (no data uploaded to servers)",
+      "Detailed word count, character count (with and without spaces)",
+      "Calculates estimated reading and speaking time",
+      "Analyzes sentence and paragraph count, average sentence length",
+      "Shows keyword density and frequency for SEO insights",
+      "Identifies text sentiment (positive, negative, neutral) and formality",
+      "Extracts metadata and provides a text preview"
+    ],
+    "softwareRequirements": "A modern web browser",
+    "softwareVersion": "1.0",
+    "datePublished": "2025-11-06",
+    "dateModified": "2025-12-14"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://reptilebirds.com/text-analyser#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a Text Analyser?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is a tool that processes text to extract statistics and metadata such as word count, character count, reading time, keyword frequency, and sentiment, useful for writers, editors, and content creators."
+        }
       },
-      "result": {
-        "@type": "MediaObject",
-        "encodingFormat": "application/json",
-        "name": "Analysis Report",
-        "description": "JSON containing counts of words, characters, sentences, unique words, capitalization issues, punctuation, lexical density, filler words, stop words, reading/speaking/typing times, and more.",
-        "creator": {
-          "@type": "Organization",
-          "name": "Reptile Birds"
+      {
+        "@type": "Question",
+        "name": "Is this Text Analyser free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it is completely free and runs entirely in your browser with no installation required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my text data secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All analysis happens locally in your browser. Your text is never sent to or stored on any external server."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What kind of analysis does it perform?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It provides counts for words, characters, sentences, and paragraphs. It also calculates reading time, speaking time, keyword density, and assesses text sentiment and formality."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is this tool for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It's designed for writers, students, editors, SEO specialists, marketers, and anyone who needs to quickly understand the structure and properties of a piece of text."
         }
       }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "@id": "https://reptilebirds.com/text-analyser#howto",
+    "name": "How to Analyze Text",
+    "description": "Step-by-step guide to analyze text for detailed statistics using the free online Text Analyser.",
+    "tool": {
+      "@type": "HowToTool",
+      "name": "Text Analyser"
     },
-
-    {
-      "@type": "Dataset",
-      "name": "Text Analyser Input/Output Dataset",
-      "description": "Dataset representing various text analysis metrics derived from any input text including counts, lexical stats, and time estimates.",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Reptile Birds"
+    "supply": {
+      "@type": "HowToSupply",
+      "name": "Text to Analyze"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Input Your Text",
+        "text": "Paste the text you want to analyze into the main input area. The analysis begins instantly.",
+        "url": "https://reptilebirds.com/text-analyser"
       },
-      "@graph": [
-        {
-          "@type": "DataDownload",
-          "encodingFormat": "text/plain",
-          "contentUrl": "https://reptilebirds.com/text-analyser"
-        },
-        {
-          "@type": "DataDownload",
-          "encodingFormat": "application/json",
-          "contentUrl": "https://reptilebirds.com/text-analyser/output"
-        }
-      ]
-    },
-
-    {
-      "@type": "HowTo",
-      "name": "How to Use Text Analyser Online",
-      "description": "Step-by-step guide to analyze and count text metrics online.",
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Input Your Text",
-          "text": "Paste or type your text into the input box or upload a text file to get started."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Analyze Your Text",
-          "text": "Click the 'Analyze' button to get word count, character count, sentence stats, lexical density, punctuation counts, and other metrics."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Review Capitalization and Punctuation",
-          "text": "The tool highlights capitalization mistakes and punctuation patterns to improve text readability."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Export Results",
-          "text": "Download the analysis as TXT, Word, or PDF for further review or reporting."
-        }
-      ]
-    },
-
-    {
-      "@type": "ItemList",
-      "name": "Related Tools",
-      "itemListOrder": "Ascending",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "url": "https://reptilebirds.com/word-counter"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "url": "https://reptilebirds.com/character-counter"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "url": "https://reptilebirds.com/grammar-checker"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "url": "https://reptilebirds.com/reading-time-calculator"
-        }
-      ]
-    },
-
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is the Text Analyser tool free to use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, the Text Analyser is completely free and works entirely in your browser."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I analyze large text files?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, the tool supports large text input and multiple paragraphs for comprehensive analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What metrics does Text Analyser provide?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It provides word count, character count, sentence statistics, paragraph count, lexical density, punctuation counts, capitalization issues, filler words, unique words, hapax legomena, and reading/speaking/typing time estimates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I export the analysis results?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, you can export the results as TXT, Word, or PDF files."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is my text data secure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, all processing happens locally in your browser. No data is uploaded to any server."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Text Analyser detect spelling or grammar mistakes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The tool focuses on capitalization issues, filler words, and punctuation patterns, but it does not provide full grammar or spell checking."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I analyze both US and UK English text?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, the tool supports both US and UK English spelling variations in its analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who can benefit from using this tool?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Writers, students, editors, bloggers, and professionals looking to improve text readability, structure, and statistics can benefit from this tool."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use the tool for multiple languages?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Currently, the tool primarily supports English text, including both US and UK variations."
-          }
-        }
-      ]
-    }
-  ]
-}
+      {
+        "@type": "HowToStep",
+        "name": "Review the Analysis",
+        "text": "Examine the detailed statistics panel, which updates in real-time to show counts, times, keyword insights, and sentiment.",
+        "url": "https://reptilebirds.com/text-analyser"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Use the Insights",
+        "text": "Use the generated data—such as word count for publishing guidelines or keyword density for SEO—to inform your writing or editing process.",
+        "url": "https://reptilebirds.com/text-analyser"
+      }
+    ],
+    "totalTime": "PT1M"
+  }
+]
 </script>

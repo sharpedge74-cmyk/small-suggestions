@@ -48,109 +48,131 @@ keywords: convert QIF to CSV, QIF to CSV converter, convert QIF files to CSV, on
       </div>
     </div>  
 
-<section aria-label="QIF to CSV Converter Tool">
-  <article>
-    <h2>QIF to CSV Converter – Free, Browser-Based Tool</h2>
-    <p>Convert your QIF files to <strong>CSV format</strong> instantly using our <strong>free online QIF to CSV converter</strong>. This tool runs <strong>entirely in your browser</strong>, ensuring <strong>your financial data never leaves your device</strong>. No installation, signup, or server uploads are required.</p>
-
- <section aria-label="More Related Tools">
-      <h3>More Related Tools</h3>
-      <ul>
-        <li><a href="/qif-to-excel" title="QIF to Excel Converter" style="text-decoration: underline;" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">QIF to Excel Converter</a></li>
-      </ul>
-    </section>
-
-    <section aria-label="How QIF to CSV Conversion Works">
-      <h3>How to Convert QIF to CSV</h3>
-      <ol>
-        <li>Click the <strong>Upload QIF</strong> button and select your QIF file.</li>
-        <li>Preview the QIF transactions exactly as they appear in the file.</li>
-        <li>Click <strong>Convert to CSV</strong> to generate a downloadable CSV file.</li>
-      </ol>
-      <p>The converter dynamically detects all QIF fields including <strong>Date, Amount, Payee, Memo, Category, Cleared</strong>, and preserves any extra fields automatically. Unrecognized fields are also exported to ensure no data is lost.</p>
-    </section>
-
-    <section aria-label="Privacy and Security">
-      <h3>Secure and Private Conversion</h3>
-      <p>This <strong>QIF to CSV converter online</strong> works entirely in your browser. <strong>No files are uploaded to any server</strong>, keeping your financial data private. It supports QIF files from <strong>any region or bank</strong> worldwide.</p>
-    </section>
-
-    <section aria-label="Features of QIF to CSV Converter">
-      <h3>Features</h3>
-      <ul>
-        <li>Preview QIF transactions exactly as they appear before conversion.</li>
-        <li>Convert QIF files to CSV instantly.</li>
-        <li>Automatically detects all standard and unknown QIF fields.</li>
-        <li>Preserves categories, memos, and account types in the CSV output.</li>
-        <li>Browser-based: <strong>no server upload, fully offline</strong>.</li>
-        <li>Works for <strong>any QIF format worldwide</strong>.</li>
-      </ul>
-    </section>
-
-    <section aria-label="FAQs">
-      <h3>Frequently Asked Questions</h3>
-
-      <details>
-        <summary>What is a QIF file?</summary>
-        <p>A QIF (Quicken Interchange Format) file stores financial transaction data from banks, credit cards, and investment accounts.</p>
-      </details>
-
-      <details>
-        <summary>Can I convert any QIF file to CSV?</summary>
-        <p>Yes. Our tool supports all QIF files, automatically detecting all fields including non-standard ones and preserving them in the CSV output.</p>
-      </details>
-
-      <details>
-        <summary>Is my data safe?</summary>
-        <p>Absolutely. The conversion happens entirely in your browser. Your files are never uploaded to a server, ensuring complete privacy.</p>
-      </details>
-
-      <details>
-        <summary>Can I preview my QIF file before conversion?</summary>
-        <p>Yes. The tool shows your transactions exactly as they appear in the file, so you can verify everything before exporting.</p>
-      </details>
-
-      <details>
-        <summary>Do I need to install software?</summary>
-        <p>No installation, signup, or plugin is required. This tool is fully online and works in any modern browser.</p>
-      </details>
-
-      <details>
-        <summary>Does it preserve categories, memos, and other fields?</summary>
-        <p>Yes. All standard QIF fields—including Date, Amount, Payee, Memo, Category, and Cleared—are preserved, along with any extra or custom fields.</p>
-      </details>
-
-      <details>
-        <summary>Can I use this tool for QIF files from any country?</summary>
-        <p>Yes. The converter supports QIF files from any region and any bank format worldwide.</p>
-      </details>
-
-    </section>
-  </article>
-</section>
-
   </div>
   <div style="width: 10%;">
-  <label>Other QIF Tools</label>
-  <ul style="list-style: none; padding: 0; margin: 0;">
-  <li style="margin-bottom: 8px;">
-    <a href="/qif-to-qbo" 
-       style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
-       onmouseover="this.style.color='orange';"
-       onmouseout="this.style.color='#0c0c42ff';">
-       QIF to QBO
-    </a>
-  </li>
-  <li style="margin-bottom: 8px;">
-    <a href="/qif-to-excel" 
-       style="text-decoration: underline; color: #0c0c42ff; transition: color 0.3s ease;"
-       onmouseover="this.style.color='orange';"
-       onmouseout="this.style.color='#0c0c42ff';">
-       QIF to Excel
-    </a>
-  </li>
-</ul>
   </div>
 </section>
 
 <script src="/assets/js/qif-to-csv.js"></script>
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://reptilebirds.com/qif-to-csv#webapp",
+    "name": "QIF to CSV Converter - Free QIF to CSV Converter Online",
+    "url": "https://reptilebirds.com/qif-to-csv",
+    "description": "A free, browser-based tool that converts Quicken Interchange Format (QIF) files into CSV format. Securely process and export financial transaction data from banks and accounting software offline.",
+    "applicationCategory": "FinanceConverter",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Secure client-side conversion (no data uploaded to servers)",
+      "Supports all common QIF account types: Bank, Cash, Credit Card, Investment",
+      "Customizable CSV output with selectable delimiters (comma, tab, semicolon)",
+      "Preview QIF transaction data before conversion",
+      "Option to include or exclude specific transaction fields",
+      "Accurate mapping of QIF data to structured CSV columns"
+    ],
+    "softwareRequirements": "A modern web browser",
+    "softwareVersion": "1.0",
+    "datePublished": "2025-11-02",
+    "dateModified": "2025-12-18"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://reptilebirds.com/qif-to-csv#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a QIF to CSV converter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is a tool that converts QIF (Quicken Interchange Format) financial files into CSV (Comma-Separated Values) format, making transaction data usable in spreadsheet programs and other applications."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this converter free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it is completely free and runs entirely in your browser with no installation or sign-up required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my financial QIF data secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All processing happens locally in your browser. Your sensitive financial data is never uploaded to any external server."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What QIF account types does it support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The tool supports Bank, Cash, Credit Card, and Investment account types commonly found in QIF files."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I customize the CSV output?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can choose from different delimiters (comma, tab, semicolon) and select which transaction fields to include in the CSV file."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What transaction details are included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Key details like Transaction Date, Payee, Amount, Category, Memo, and other QIF fields are accurately mapped to CSV columns."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "@id": "https://reptilebirds.com/qif-to-csv#howto",
+    "name": "How to Convert QIF to CSV",
+    "description": "Step-by-step guide to convert QIF financial files into CSV format using the free online converter.",
+    "tool": {
+      "@type": "HowToTool",
+      "name": "QIF to CSV Converter"
+    },
+    "supply": {
+      "@type": "HowToSupply",
+      "name": "QIF File"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Upload Your QIF File",
+        "text": "Click to upload your .qif file from your device. The tool will parse and display the transaction data.",
+        "url": "https://reptilebirds.com/qif-to-csv"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Preview & Configure CSV",
+        "text": "Review the parsed transactions and configure your CSV output settings, including delimiter choice and field selection.",
+        "url": "https://reptilebirds.com/qif-to-csv"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Convert & Download CSV",
+        "text": "Generate the CSV file and download it to your device for use in spreadsheet programs or other applications.",
+        "url": "https://reptilebirds.com/qif-to-csv"
+      }
+    ],
+    "totalTime": "PT2M"
+  }
+]
+</script>

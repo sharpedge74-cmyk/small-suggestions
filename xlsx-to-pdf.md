@@ -50,270 +50,133 @@ keywords: xlsx to pdf, XLSX to PDF converter, convert XLSX files to PDF, online 
 </section>
 <script src="/assets/js/xlsx-to-pdf.js"></script>
 
-<div style="margin: 4rem;">
-
-<article>
-
-  <section aria-labelledby="intro">
-    <h2 id="intro">Convert XLSX to PDF Quickly and Securely</h2>
-    <p>
-      Convert your XLSX files to PDF instantly using our browser-based XLSX to PDF converter. Preserve tables, charts, and formatting 
-      without installing software. Upload, preview, edit, and download your spreadsheets as professional PDF documents instantly.
-    </p>
-  </section>
-
-  <section aria-labelledby="what-is">
-    <h2 id="what-is">What Is an XLSX to PDF Converter?</h2>
-    <p>
-      An XLSX to PDF converter transforms Excel spreadsheets into PDF documents while maintaining layout, tables, and visual structure. 
-      XLSX files store structured spreadsheet data, while PDFs provide a portable, read-only format ideal for sharing or archiving.
-    </p>
-
-    <h3>Why Convert XLSX to PDF?</h3>
-    <p>
-      Converting XLSX files to PDF ensures compatibility across devices, preserves formatting, and simplifies sharing professional-looking documents. 
-      Perfect for reports, financial statements, and presentations.
-    </p>
-  </section>
-
-  <section aria-labelledby="how-to-use">
-    <h2 id="how-to-use">How to Use the XLSX to PDF Converter</h2>
-    <p>This tool runs entirely in your browser. No installation required. Follow these steps to convert your Excel file:</p>
-
-    <h3>Step 1 – Upload Your XLSX File</h3>
-    <p>
-      Click <strong>📂 Upload Excel</strong> and select your XLSX or XLS file. The content will appear in a preview table, 
-      allowing edits before conversion.
-    </p>
-
-    <h3>Step 2 – Convert to PDF</h3>
-    <p>
-      Click <strong>🔄 Convert Excel to PDF</strong>. Conversion happens directly in your browser, keeping your data secure and private.
-    </p>
-
-    <h3>Step 3 – Download Your PDF</h3>
-    <p>
-      After conversion, preview the PDF in the panel. Click the download button to save the PDF to your device.
-    </p>
-  </section>
-
-  <section aria-labelledby="features">
-    <h2 id="features">Key Features and Benefits</h2>
-
-    <h3>Secure Browser-Based Conversion</h3>
-    <p>All XLSX to PDF conversions occur locally in your browser. No files are uploaded to any server, keeping your data private.</p>
-
-    <h3>Preserves Tables and Formatting</h3>
-    <p>The tool maintains the structure, tables, and styling from your Excel sheets, ensuring a clean and accurate PDF output.</p>
-
-    <h3>Fast and Efficient</h3>
-    <p>Even large XLSX files convert in seconds using lightweight, browser-based processing without slowing down your device.</p>
-
-    <h3>Cross-Device Compatibility</h3>
-    <p>Generated PDFs can be opened on any device, including desktops, tablets, and smartphones, without requiring Excel.</p>
-  </section>
-
-  <section aria-labelledby="faqs">
-    <h2 id="faqs">Frequently Asked Questions (FAQs)</h2>
-
-    <details>
-      <summary>Is this XLSX to PDF converter safe?</summary>
-      <p>Yes, all conversions happen in your browser. Your Excel files never leave your device.</p>
-    </details>
-
-    <details>
-      <summary>Can I edit the Excel data before converting?</summary>
-      <p>Yes, the preview table allows inline edits, letting you correct data or remove rows before generating the PDF.</p>
-    </details>
-
-    <details>
-      <summary>What Excel formats are supported?</summary>
-      <p>Both XLSX and XLS formats are supported.</p>
-    </details>
-
-    <details>
-      <summary>Will my tables and charts remain intact?</summary>
-      <p>Tables are preserved. Charts may not fully render in PDF format depending on complexity.</p>
-    </details>
-
-    <details>
-      <summary>Can I use this on mobile devices?</summary>
-      <p>Yes, the converter is fully responsive and works on desktops, tablets, and smartphones.</p>
-    </details>
-  </section>
-
-  <section aria-labelledby="more-tools">
-    <h2 id="more-tools">More Excel Converters</h2>
-    <ul>
-      <li><a href="excel-to-html" style="color:#0066cc; text-decoration:underline;">Excel to HTML</a></li>
-      <li><a href="excel-to-json" style="color:#0066cc; text-decoration:underline;">Excel to JSON</a></li>
-      <li><a href="excel-to-txt" style="color:#0066cc; text-decoration:underline;">Excel to TXT</a></li>
-      <li><a href="convert-xlsx-to-csv" style="color:#0066cc; text-decoration:underline;">Convert XLSX to CSV</a></li>
-      <li><a href="convert-xlsx-to-xml" style="color:#0066cc; text-decoration:underline;">Convert XLSX to XML</a></li>
-      <li><a href="xlsx-to-sql-converter" style="color:#0066cc; text-decoration:underline;">XLSX to SQL Converter</a></li>
-    </ul>
-  </section>
-
-</article>
-
-</div>
-
-
-
-
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "XLSX to PDF Converter",
-  "url": "https://yourdomain.com/xlsx-to-pdf",
-  "applicationCategory": "Utility",
-  "operatingSystem": "All",
-  "description": "Convert XLSX spreadsheets into PDF files online while preserving tables, charts, and formatting. Browser-based, fast, and secure.",
-  "browserRequirements": "Requires modern browser with JavaScript support",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Action",
-  "target": {
-    "@type": "EntryPoint",
-    "urlTemplate": "https://yourdomain.com/xlsx-to-pdf",
-    "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://reptilebirds.com/xlsx-to-pdf#webapp",
+    "name": "Excel to PDF Converter Online",
+    "url": "https://reptilebirds.com/xlsx-to-pdf",
+    "description": "A free, browser-based tool that converts Excel files (XLSX, XLS) to professional PDF documents. Customize layout and formatting with all processing happening offline for complete data security.",
+    "applicationCategory": "DataFormatConverter",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Secure client-side conversion (no data uploaded)",
+      "Supports .xlsx and .xls file formats",
+      "Customizable page settings: orientation, margins, and size",
+      "Option to fit spreadsheet to a single page or multiple pages",
+      "Preserves Excel formatting, gridlines, and cell alignment",
+      "High-quality vector-based PDF output",
+      "Instant preview of the PDF before downloading",
+      "One-click download of the processed PDF file"
+    ],
+    "softwareRequirements": "A modern web browser",
+    "softwareVersion": "1.0",
+    "datePublished": "2025-10-10",
+    "dateModified": "2025-12-07"
   },
-  "instrument": {
-    "@type": "WebApplication",
-    "name": "XLSX to PDF Converter"
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://reptilebirds.com/xlsx-to-pdf#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is this Excel to PDF converter free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it is completely free and runs entirely in your browser."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my Excel data sent to a server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. All conversion happens locally in your browser; your data never leaves your computer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What Excel file formats are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The tool supports both modern .xlsx and legacy .xls file formats."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I customize the PDF page layout?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can choose page orientation (portrait/landscape), set margins, and select paper size (A4, Letter, etc.)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it preserve Excel formatting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the tool aims to preserve the original Excel formatting, including fonts, colors, and cell styles in the PDF."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I preview the PDF before downloading?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, a preview is generated so you can verify the layout and content before saving the final PDF."
+        }
+      }
+    ]
   },
-  "result": {
-    "@type": "DataDownload",
-    "encodingFormat": "application/pdf",
-    "contentUrl": "https://yourdomain.com/download/converted.pdf",
-     "creator": {
-      "@type": "Organization",
-      "name": "Reptile Birds"
-    }
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "@id": "https://reptilebirds.com/xlsx-to-pdf#howto",
+    "name": "How to Convert Excel to PDF",
+    "description": "Step-by-step guide to convert Excel spreadsheets to PDF documents using the free online converter.",
+    "tool": {
+      "@type": "HowToTool",
+      "name": "Excel to PDF Converter"
+    },
+    "supply": {
+      "@type": "HowToSupply",
+      "name": "Excel File (.xlsx or .xls)"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Upload Your Excel File",
+        "text": "Upload your .xlsx or .xls file by dragging it into the tool or clicking to browse your device.",
+        "url": "https://reptilebirds.com/xlsx-to-pdf#step1"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Adjust PDF Settings",
+        "text": "Select your preferred page layout options, such as orientation and paper size.",
+        "url": "https://reptilebirds.com/xlsx-to-pdf#step2"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Generate and Preview PDF",
+        "text": "Convert the file and review the generated PDF in the preview window.",
+        "url": "https://reptilebirds.com/xlsx-to-pdf#step3"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Download Your PDF",
+        "text": "If satisfied, download the final PDF file to your device.",
+        "url": "https://reptilebirds.com/xlsx-to-pdf#step4"
+      }
+    ],
+    "totalTime": "PT3M"
   }
-}
-</script>
-
-<!-- ✅ Dataset Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Dataset",
-      "@id": "#inputExcelDataset",
-      "name": "Excel File Input",
-      "description": "Excel files (XLSX) uploaded by the user to be converted into PDF documents.",
-      "keywords": ["Excel", "XLSX", "Spreadsheet", "Data Conversion", "Document Export"],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Reptile Birds"
-      }
-    },
-    {
-      "@type": "Dataset",
-      "@id": "#outputPdfDataset",
-      "name": "PDF Output File",
-      "description": "Generated PDF file representing the formatted version of the uploaded Excel spreadsheet, maintaining table structure and layout.",
-      "keywords": ["PDF", "Portable Document", "Data Export", "Spreadsheet Conversion"],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Reptile Birds"
-      }
-    }
-  ]
-}
-</script>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Convert XLSX to PDF",
-  "description": "Step-by-step instructions to convert XLSX spreadsheets into PDF files using the online tool.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "text": "Upload your XLSX or XLS file using the 📂 Upload Excel button."
-    },
-    {
-      "@type": "HowToStep",
-      "text": "Click 🔄 Convert Excel to PDF to generate a PDF preview."
-    },
-    {
-      "@type": "HowToStep",
-      "text": "Download the generated PDF using the download link or preview iframe."
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is this XLSX to PDF converter free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free and works entirely in your browser."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to install software to convert XLSX to PDF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No installation is needed. The conversion is fully browser-based."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my Excel formatting be preserved in PDF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, tables, charts, and cell formatting are preserved in the PDF output."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I preview the PDF before downloading?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the tool provides an iframe preview of the generated PDF before download."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool handle large XLSX files?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it efficiently handles large Excel files with in-browser processing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this tool compatible with mobile devices?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it works on desktops, tablets, and smartphones using modern web browsers."
-      }
-    }
-  ]
-}
+]
 </script>

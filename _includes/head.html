@@ -1,4 +1,6 @@
 <head>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <meta name="msvalidate.01" content="703D3A08297CCF6AB17610525D453C0B" />
   <meta charset="utf-8">
   <meta http-equiv="Pragma" content="no-cache" />
@@ -66,6 +68,286 @@
 <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% elsif site.image %}{{ site.image | absolute_url }}{% else %}https://reptilebirds.com/assets/img/reptilebirds.png{% endif %}">
  
   <!-- Styles -->
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <header>
+  <div class="container header-container">
+    <a href="/" class="logo" title="Reptile Birds">
+      <img src="assets/img/reptilebirds.png" class="cover-author-image" alt="Reptile Birds" width="40px" height="40px"/>
+    </a>
+    
+  <div class="nav-controls">
+  <span style="cursor: pointer;" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">JSON Tools</span> | 
+  <span style="cursor: pointer;" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">CSV Tools</span> | 
+  <span style="cursor: pointer;" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">Excel Tools</span> | 
+  <span style="cursor: pointer;" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">XML Tools</span> | 
+  <span style="cursor: pointer;" onmouseover="this.style.color='rgb(239, 96, 8)';" onmouseout="this.style.color='black';">QIF Tools</span>
+</div>
+    <!-- Add this CSS to your <head> section -->
+<style>
+.nav-trigger {
+  cursor: pointer;
+  color: black;
+}
+
+.nav-trigger:hover {
+  color: rgb(239, 96, 8);
+}
+
+/* Flexible popup grid - width adjusts to content */
+.popup-grid {
+  position: fixed;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  z-index: 1000;
+  display: none;
+  min-width: 120px;
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow-y: auto;
+  gap: 10px 15px;
+  margin: 0;
+}
+
+.popup-grid a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 8px 10px;
+  font-size: 0.9em;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 120px;
+}
+
+.popup-grid a:hover {
+  color: rgb(239, 96, 8);
+  text-decoration: underline;
+  background-color: #f8f8f8;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .popup-grid {
+    max-width: 95vw;
+  }
+}
+</style>
+
+<!-- Add this HTML to your page (keep your existing nav-controls but add these popups after it) -->
+<div class="popup-grid" id="jsonTools">
+  <a href="json-to-csv">JSON to CSV</a>
+  <a href="json-to-excel">JSON to Excel</a>
+  <a href="json-to-html">JSON to HTML</a>
+  <a href="json-to-pdf">JSON to PDF</a>
+  <a href="json-to-sql">JSON to SQL</a>
+  <a href="json-to-txt">JSON to TXT</a>
+  <a href="json-to-xml">JSON to XML</a>
+  <a href="json-to-yaml">JSON to YAML</a>
+  <a href="json-string-to-json-object">JSON String to Object</a>
+  <a href="json-to-dart">JSON to Dart</a>
+  <a href="json-to-json-schema">JSON to Schema</a>
+</div>
+
+<div class="popup-grid" id="csvTools">
+  <a href="convert-csv-to-excel">CSV to Excel</a>
+  <a href="convert-csv-to-html">CSV to HTML</a>
+  <a href="convert-csv-to-json">CSV to JSON</a>
+  <a href="convert-csv-to-pdf">CSV to PDF</a>
+  <a href="convert-csv-to-txt">CSV to TXT</a>
+  <a href="convert-csv-to-xml">CSV to XML</a>
+  <a href="csv-to-sql">CSV to SQL</a>
+</div>
+
+<div class="popup-grid" id="excelTools">
+  <a href="excel-to-json">Excel to JSON</a>
+  <a href="excel-to-html">Excel to HTML</a>
+  <a href="excel-to-txt">Excel to TXT</a>
+  <a href="xlsx-to-pdf">XLSX to PDF</a>
+  <a href="xlsx-to-sql-converter">XLSX to SQL</a>
+  <a href="convert-xlsx-to-csv">XLSX to CSV</a>
+  <a href="convert-xlsx-to-xml">XLSX to XML</a>
+</div>
+
+<div class="popup-grid" id="xmlTools">
+  <a href="xml-to-json">XML to JSON</a>
+  <a href="xml-to-xsd-generator">XML to XSD</a>
+</div>
+
+<div class="popup-grid" id="qifTools">
+  <a href="qif-to-csv">QIF to CSV</a>
+  <a href="qif-to-excel">QIF to Excel</a>
+  <a href="qif-to-qbo">QIF to QBO</a>
+</div>
+
+<!-- Add this script to your <head> with defer attribute -->
+<script defer>
+// Wait for everything to load completely
+window.addEventListener('load', function() {
+  // Add nav-trigger class to your existing spans
+  const navSpans = document.querySelectorAll('.nav-controls span');
+  navSpans.forEach(span => {
+    span.classList.add('nav-trigger');
+  });
+  
+  const popups = ['jsonTools', 'csvTools', 'excelTools', 'xmlTools', 'qifTools'];
+  const popupLayouts = {};
+  
+  // Function to calculate text width without displaying
+  function getTextWidth(text, fontSize, fontFamily) {
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    context.font = fontSize + ' ' + fontFamily;
+    return Math.ceil(context.measureText(text).width);
+  }
+  
+  // Pre-calculate optimal layout for each popup
+  function calculatePopupLayout(popup) {
+    if (!popup) return { columns: 3, columnWidth: 120 };
+    
+    const links = popup.querySelectorAll('a');
+    const linkCount = links.length;
+    
+    // Determine column count based on item count
+    let columns;
+    if (linkCount <= 2) {
+      columns = Math.max(1, linkCount);
+    } else if (linkCount <= 4) {
+      columns = 2;
+    } else if (linkCount <= 6) {
+      columns = 2;
+    } else {
+      columns = 3;
+    }
+    
+    // Calculate max text width
+    let maxTextWidth = 0;
+    const sampleLink = links[0];
+    const fontSize = window.getComputedStyle(sampleLink).fontSize;
+    const fontFamily = window.getComputedStyle(sampleLink).fontFamily;
+    
+    links.forEach(link => {
+      const textWidth = getTextWidth(link.textContent, fontSize, fontFamily);
+      maxTextWidth = Math.max(maxTextWidth, textWidth);
+    });
+    
+    // Add padding (20px each side) and cap at reasonable size
+    const columnWidth = Math.min(Math.max(maxTextWidth + 40, 120), 250);
+    
+    return { columns, columnWidth };
+  }
+  
+  // Calculate and store all layouts after page load
+  setTimeout(() => {
+    popups.forEach(popupId => {
+      const popup = document.getElementById(popupId);
+      if (popup) {
+        const layout = calculatePopupLayout(popup);
+        popupLayouts[popupId] = layout;
+        
+        // Apply the grid layout immediately (popup is still hidden)
+        popup.style.gridTemplateColumns = `repeat(${layout.columns}, minmax(${layout.columnWidth}px, auto))`;
+      }
+    });
+  }, 100);
+  
+  // Set up hover events for each trigger
+  navSpans.forEach((trigger, index) => {
+    let hideTimeout;
+    const popupId = popups[index];
+    const popup = document.getElementById(popupId);
+    
+    if (!popup) return;
+    
+    // Apply the pre-calculated layout on hover
+    trigger.addEventListener('mouseenter', () => {
+      clearTimeout(hideTimeout);
+      
+      // Ensure layout is applied
+      const layout = popupLayouts[popupId] || { columns: 3, columnWidth: 120 };
+      popup.style.gridTemplateColumns = `repeat(${layout.columns}, minmax(${layout.columnWidth}px, auto))`;
+      
+      // Show popup first to get dimensions
+      popup.style.display = 'grid';
+      
+      // Position popup
+      const rect = trigger.getBoundingClientRect();
+      const popupWidth = popup.offsetWidth;
+      const popupHeight = popup.offsetHeight;
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      
+      let left = rect.left + window.scrollX;
+      let top = rect.bottom + window.scrollY + 5;
+      
+      // Check right edge overflow
+      if (left + popupWidth > viewportWidth + window.scrollX - 20) {
+        left = viewportWidth + window.scrollX - popupWidth - 20;
+      }
+      
+      // Check left edge overflow
+      if (left < window.scrollX + 20) {
+        left = window.scrollX + 20;
+      }
+      
+      // Check bottom edge overflow
+      if (top + popupHeight > viewportHeight + window.scrollY - 20) {
+        top = rect.top + window.scrollY - popupHeight - 5;
+        if (top < window.scrollY + 20) {
+          top = window.scrollY + 20;
+          left = window.scrollX + (viewportWidth - popupWidth) / 2;
+        }
+      }
+      
+      popup.style.left = left + 'px';
+      popup.style.top = top + 'px';
+    });
+    
+    trigger.addEventListener('mouseleave', () => {
+      hideTimeout = setTimeout(() => {
+        popup.style.display = 'none';
+      }, 100);
+    });
+    
+    popup.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
+    popup.addEventListener('mouseleave', () => {
+      hideTimeout = setTimeout(() => {
+        popup.style.display = 'none';
+      }, 100);
+    });
+  });
+  
+  // Close popups when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav-trigger') && !e.target.closest('.popup-grid')) {
+      document.querySelectorAll('.popup-grid').forEach(popup => {
+        popup.style.display = 'none';
+      });
+    }
+  });
+  
+  // Recalculate on window resize
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      popups.forEach(popupId => {
+        const popup = document.getElementById(popupId);
+        if (popup) {
+          const layout = calculatePopupLayout(popup);
+          popupLayouts[popupId] = layout;
+          popup.style.gridTemplateColumns = `repeat(${layout.columns}, minmax(${layout.columnWidth}px, auto))`;
+        }
+      });
+    }, 250);
+  });
+});
+</script>
+  </div>
+</header>
 </head>

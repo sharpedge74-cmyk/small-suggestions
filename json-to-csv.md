@@ -60,375 +60,147 @@ keywords: json-to-csv, JSON to CSV converter, convert JSON files to CSV, online 
 <div id="toastJson" class="jsonx-toast">✅ Conversion Successful!</div>
 
 <script src="/assets/js/json-to-csv.js"></script>
-
-
-<div style="margin:4rem">
-
-<article>
-
-    <section aria-labelledby="intro">
-        <p>
-            Instantly convert your JSON files or strings into fully structured CSV format with our free, browser-based JSON to CSV converter. Whether your JSON is simple or deeply nested, this tool efficiently transforms it into CSV tables while preserving relationships, and lets you preview, copy, or download the result. All processing happens client-side in your browser — no uploads, no servers, and full privacy.
-        </p>
-    </section>
-
-    <section aria-labelledby="features">
-        <h2 id="features">Key Features of the JSON to CSV Converter</h2>
-
-        <article>
-            <h3>Fast and Accurate Conversion</h3>
-            <p>Upload or paste your JSON data, click convert, and get accurate CSV output instantly. Nested JSON objects and arrays are automatically transformed into separate CSV tables with parent-child relationships maintained using reference keys.</p>
-        </article>
-
-        <article>
-            <h3>Live Preview of JSON</h3>
-            <p>The preview panel displays your JSON in a clear, syntax-highlighted format. It helps you validate your data before conversion and ensures that all nested objects are visible.</p>
-        </article>
-
-        <article>
-            <h3>Copy and Download Options</h3>
-            <p>After conversion, you can either copy the CSV output to your clipboard or download it as a <code>.csv</code> file. Nested JSON generates multiple CSV tables labeled for clarity, making it easy to manage complex data structures.</p>
-        </article>
-
-        <article>
-            <h3>Client-Side, Secure, and Offline</h3>
-            <p>All conversion happens entirely in your browser. No data is sent to external servers, keeping your JSON data private and secure.</p>
-        </article>
-
-        <article>
-            <h3>Error Handling and Validation</h3>
-            <p>The tool automatically detects invalid JSON. If the JSON is invalid, the preview shows <em>❌ Invalid JSON</em> and disables the convert button until the JSON is corrected.</p>
-        </article>
-    </section>
-
-    <section aria-labelledby="how-to-use">
-        <h2 id="how-to-use">How to Convert JSON to CSV</h2>
-        <ol>
-            <li>
-                <h3>Step 1: Paste or Upload JSON</h3>
-                <p>Paste your JSON string directly into the editor or use the <strong>Upload JSON</strong> button to select a JSON file from your device.</p>
-            </li>
-            <li>
-                <h3>Step 2: Preview Your JSON</h3>
-                <p>The tool automatically shows a syntax-highlighted preview of your JSON. Nested objects and arrays are fully displayed for clarity.</p>
-            </li>
-            <li>
-                <h3>Step 3: Convert JSON to CSV</h3>
-                <p>Click the <strong>Convert JSON</strong> button. The converter parses your JSON, creates one or more CSV tables if necessary, and displays them in the output section.</p>
-            </li>
-            <li>
-                <h3>Step 4: Copy or Download CSV</h3>
-                <p>Use the <strong>Copy Output</strong> button to copy the CSV to your clipboard or <strong>Export File</strong> to download it as a CSV file. Multiple tables from nested JSON are included with clear section headings for easy reference.</p>
-            </li>
-        </ol>
-    </section>
-
-    <section aria-labelledby="advanced">
-        <h2 id="advanced">Advanced Functionality</h2>
-
-        <article>
-            <h3>Nested JSON Handling</h3>
-            <p>The converter automatically detects nested arrays and objects and generates separate CSV tables for each nested structure. Parent-child relationships are maintained with reference IDs, making the exported data ready for complex spreadsheet analysis.</p>
-        </article>
-
-        <article>
-            <h3>Toast Notifications</h3>
-            <p>Visual feedback confirms successful conversions or copy actions. The toast appears at the top of the output panel, ensuring you never miss a confirmation.</p>
-        </article>
-
-        <article>
-            <h3>Multiple File Download (Optional)</h3>
-            <p>For JSON with multiple nested structures, you can export each table as separate CSV files for organized data handling.</p>
-        </article>
-    </section>
-
-    <section aria-labelledby="related-tools">
-        <h2 id="related-tools">Other Useful JSON Converters</h2>
-        <ul>
-            <li><a href="json-to-excel" style="color:#0066cc; text-decoration:underline;">JSON to Excel</a></li>
-            <li><a href="json-to-html" style="color:#0066cc; text-decoration:underline;">JSON to HTML</a></li>
-            <li><a href="json-to-sql" style="color:#0066cc; text-decoration:underline;">JSON to SQL</a></li>
-            <li><a href="json-to-txt" style="color:#0066cc; text-decoration:underline;">JSON to TXT</a></li>
-            <li><a href="json-to-xml" style="color:#0066cc; text-decoration:underline;">JSON to XML</a></li>
-            <li><a href="json-string-to-json-object" style="color:#0066cc; text-decoration:underline;">JSON String to JSON Object</a></li>
-            <li><a href="json-to-json-schema" style="color:#0066cc; text-decoration:underline;">JSON to JSON Schema</a></li>
-            <li><a href="json-to-yaml" style="color:#0066cc; text-decoration:underline;">Convert JSON To YAML</a></li>
-        </ul>
-    </section>
-
-    <section aria-labelledby="faq">
-        <h2 id="faq">Frequently Asked Questions (FAQ)</h2>
-
-        <details>
-            <summary>Is this JSON to CSV converter free?</summary>
-            <p>Yes, it is completely free and works entirely in your browser without any installations.</p>
-        </details>
-
-        <details>
-            <summary>Does the conversion happen online or offline?</summary>
-            <p>All conversion is performed client-side in your browser. No data is uploaded to any server.</p>
-        </details>
-
-        <details>
-            <summary>Can this tool handle nested JSON?</summary>
-            <p>Yes, nested objects and arrays are automatically converted into separate CSV tables with proper parent-child relationships.</p>
-        </details>
-
-        <details>
-            <summary>Can I copy or download the CSV output?</summary>
-            <p>Yes, you can copy the CSV to your clipboard or download it as a .csv file using the buttons provided.</p>
-        </details>
-
-        <details>
-            <summary>What happens if my JSON is invalid?</summary>
-            <p>The preview panel will show <em>❌ Invalid JSON</em> and the convert button will remain disabled until the JSON is corrected.</p>
-        </details>
-
-        <details>
-            <summary>Is my data secure during conversion?</summary>
-            <p>Yes, all processing is done locally in your browser. Your JSON data never leaves your device.</p>
-        </details>
-
-        <details>
-            <summary>Do I need to install any software?</summary>
-            <p>No, the converter runs entirely in your browser, supporting all modern browsers like Chrome, Firefox, Edge, and Safari.</p>
-        </details>
-
-    </section>
-
-</article>
-
-</div>
-
-
-<!-- ✅ WebApplication Schema -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "JSON to CSV Converter",
-  "alternateName": "Convert JSON Files to CSV Online",
-  "operatingSystem": "Any",
-  "applicationCategory": "UtilityApplication",
-  "applicationSubCategory": "File Conversion",
-  "description": "Convert JSON files to CSV instantly with this free browser-based converter. No uploads, no installations — fast, secure, and private data conversion directly on your device.",
-  "url": "https://reptilebirds.com/json-to-csv",
-  "image": "https://reptilebirds.com/assets/img/reptilebirds.png",
-  "creator": {
-    "@type": "Organization",
-    "name": "Reptile Birds",
-    "url": "https://reptilebirds.com"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://reptilebirds.com/json-to-csv#webapp",
+    "name": "JSON to CSV Converter Online",
+    "url": "https://reptilebirds.com/json-to-csv",
+    "description": "A free, browser-based tool to instantly convert JSON data into CSV format. All processing happens offline in your browser for maximum data security and privacy.",
+    "applicationCategory": "DataFormatConverter",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Fast and secure client-side conversion (no data uploaded to servers)",
+      "Handles nested JSON arrays and objects with flattening options",
+      "Customizable CSV delimiter selection (comma, tab, semicolon, etc.)",
+      "Real-time JSON validation and error highlighting",
+      "Option to include headers or export data only",
+      "Support for large JSON files with efficient processing"
+    ],
+    "softwareRequirements": "A modern web browser",
+    "softwareVersion": "1.0",
+    "datePublished": "2025-10-01",
+    "dateModified": "2025-12-16"
   },
-  "featureList": [
-    "Instant JSON to CSV conversion",
-    "Handles nested JSON with multiple CSV tables",
-    "Preview JSON with syntax highlighting before conversion",
-    "Copy CSV to clipboard or export as .csv file",
-    "No software installation required",
-    "Completely client-side — no data uploads"
-  ],
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "category": "Free"
-  },
-  "softwareVersion": "1.0.0",
-  "browserRequirements": "Works on all JavaScript-enabled browsers",
-  "permissions": "No data storage or tracking involved",
-  "inLanguage": "en",
-  "about": {
-    "@type": "Thing",
-    "name": "JSON to CSV Conversion",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/JSON",
-      "https://en.wikipedia.org/wiki/Comma-separated_values",
-      "https://reptilebirds.com/json-to-excel",
-    "https://reptilebirds.com/json-to-html",
-    "https://reptilebirds.com/json-to-pdf",
-    "https://reptilebirds.com/json-to-sql",
-    "https://reptilebirds.com/json-to-txt",
-    "https://reptilebirds.com/json-to-xml"
-    ]
-  }
-}
-</script>
-<!-- ✅ ConvertAction Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Action",
-  "@id": "#convertJsonToCsv",
-  "name": "Convert JSON to CSV",
-  "description": "This online tool lets you convert JSON files or strings into CSV format directly in your browser with no uploads or installations.",
-  "actionStatus": "PotentialActionStatus",
-  "object": {
-    "@type": "Dataset",
-    "name": "JSON Dataset",
-    "description": "JSON file or string containing structured data."
-  },
-  "result": {
-    "@type": "Dataset",
-    "name": "CSV File",
-    "description": "CSV file generated from uploaded JSON data, including multiple tables for nested JSON.",
-     "creator": {
-      "@type": "Organization",
-      "name": "Reptile Birds"
-    }
-  },
-  "target": {
-    "@type": "EntryPoint",
-    "urlTemplate": "https://reptilebirds.com/json-to-csv",
-    "actionPlatform": [
-      "https://schema.org/DesktopWebPlatform",
-      "https://schema.org/MobileWebPlatform"
-    ]
-  }
-}
-</script>
-<!-- ✅ Dataset Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Dataset",
-      "@id": "#inputJsonDataset",
-      "name": "JSON Data Input",
-      "description": "Structured JSON data uploaded or pasted by users to convert into CSV format.",
-      "keywords": ["JSON", "Nested JSON", "Data conversion", "JSON to CSV"],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Reptile Birds"
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://reptilebirds.com/json-to-csv#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is this JSON to CSV converter free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it's completely free with no limitations or hidden costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the tool upload my JSON data to a server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, all conversion happens entirely in your browser. Your data never leaves your device."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can it handle nested JSON structures?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the tool can flatten nested objects and arrays into CSV format with configurable options."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What CSV delimiters are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can choose from comma, tab, semicolon, pipe, or custom delimiter."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I preview the CSV before downloading?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the tool provides a real-time preview of the CSV output."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a file size limit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Performance depends on your device, but the tool is optimized for large JSON files."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it work on mobile devices?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the interface is fully responsive and works on smartphones and tablets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I customize the CSV output?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can choose whether to include headers, select delimiters, and configure how nested data is handled."
+        }
       }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "@id": "https://reptilebirds.com/json-to-csv#howto",
+    "name": "How to Convert JSON to CSV",
+    "description": "Step-by-step guide to convert JSON data into CSV format using the free online converter.",
+    "tool": {
+      "@type": "HowToTool",
+      "name": "JSON to CSV Converter"
     },
-    {
-      "@type": "Dataset",
-      "@id": "#outputCsvDataset",
-      "name": "CSV File Output",
-      "description": "CSV file generated from the input JSON data, including separate tables for nested objects.",
-      "keywords": ["CSV", "Comma Separated Values", "Spreadsheet", "Data export"],
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "Reptile Birds"
+    "supply": {
+      "@type": "HowToSupply",
+      "name": "JSON Data"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Input JSON Data",
+        "text": "Paste your JSON string directly into the input area or upload a JSON file from your device.",
+        "url": "https://reptilebirds.com/json-to-csv#step1"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Configure CSV Options",
+        "text": "Select your preferred delimiter (comma, tab, etc.) and choose whether to include headers or flatten nested structures.",
+        "url": "https://reptilebirds.com/json-to-csv#step2"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Validate and Preview",
+        "text": "Use the validation feature to check JSON syntax and preview the CSV output before conversion.",
+        "url": "https://reptilebirds.com/json-to-csv#step3"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Convert and Download",
+        "text": "Click the convert button and download the resulting CSV file to your device.",
+        "url": "https://reptilebirds.com/json-to-csv#step4"
       }
-    }
-  ]
-}
-</script>
-
-<!-- ✅ HowTo Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Convert JSON to CSV",
-  "description": "Follow these simple steps to convert your JSON data into CSV format using our free web tool.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "Paste or Upload JSON",
-      "text": "Paste your JSON string into the editor or use the Upload button to select a JSON file from your device."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 2,
-      "name": "Preview Your JSON",
-      "text": "View your JSON content in the preview panel with syntax highlighting to ensure it's correctly formatted."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 3,
-      "name": "Convert to CSV",
-      "text": "Click the Convert JSON button to generate CSV output, including separate tables for nested JSON."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 4,
-      "name": "Copy or Download CSV",
-      "text": "Copy the CSV to your clipboard or download it as a .csv file. Nested JSON will produce multiple CSV tables."
-    }
-  ]
-}
-</script>
-<!-- ✅ ItemList Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Related JSON Conversion Tools",
-  "itemListOrder": "Ascending",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "JSON to Excel", "url": "https://reptilebirds.com/json-to-excel" },
-    { "@type": "ListItem", "position": 2, "name": "JSON to HTML", "url": "https://reptilebirds.com/json-to-html" },
-    { "@type": "ListItem", "position": 3, "name": "JSON to PDF", "url": "https://reptilebirds.com/json-to-pdf" },
-    { "@type": "ListItem", "position": 4, "name": "JSON to TXT", "url": "https://reptilebirds.com/json-to-txt" },
-    { "@type": "ListItem", "position": 5, "name": "JSON to SQL", "url": "https://reptilebirds.com/json-to-sql" },
-    { "@type": "ListItem", "position": 6, "name": "JSON to XML", "url": "https://reptilebirds.com/json-to-xml" },
-    { "@type": "ListItem", "position": 7, "name": "JSON String to JSON Object", "url": "https://reptilebirds.com/json-string-to-json-object" },
-    { "@type": "ListItem", "position": 8, "name": "JSON to JSON Schema", "url": "https://reptilebirds.com/json-to-json-schema" }
-  ]
-}
-</script>
-<!-- ✅ FAQPage Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is this JSON to CSV converter free to use?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, our JSON to CSV converter is completely free and works directly in your browser." }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the conversion happen online or offline?",
-      "acceptedAnswer": { "@type": "Answer", "text": "All conversions happen client-side in your browser. No data is uploaded or stored on external servers." }
-    },
-    {
-      "@type": "Question",
-      "name": "Can this tool handle nested JSON?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, nested JSON objects and arrays are automatically converted into separate CSV tables with reference IDs for relationships." }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I copy or download the CSV output?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can copy the CSV to your clipboard or export it as a .csv file using the provided buttons." }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to install any software?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No installation is required. The converter runs entirely in your web browser." }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my data formatting stay intact?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, your JSON structure and values are preserved, and nested objects are properly separated into tables." }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use this tool on mobile devices?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, it works smoothly on all mobile browsers that support JavaScript." }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there any file size limits?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No, there are no file size restrictions. Conversion depends only on your browser's memory capacity." }
-    },
-    {
-      "@type": "Question",
-      "name": "Which CSV options are available?",
-      "acceptedAnswer": { "@type": "Answer", "text": "You can copy the CSV, export it as a .csv file, and for nested JSON, multiple CSV tables are created automatically." }
-    },
-    {
-      "@type": "Question",
-      "name": "Which browsers are supported?",
-      "acceptedAnswer": { "@type": "Answer", "text": "All modern browsers are supported, including Chrome, Firefox, Edge, and Safari." }
-    }
-  ]
-}
+    ],
+    "totalTime": "PT1M"
+  }
+]
 </script>

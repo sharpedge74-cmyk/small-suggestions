@@ -69,7 +69,7 @@
  
   <!-- Styles -->
 
-  <header>
+<header>
   <div class="container header-container">
     <a href="/" class="logo" title="Reptile Birds">
       <img src="assets/img/reptilebirds.png" class="cover-author-image" alt="Reptile Birds" width="40px" height="40px"/>
@@ -93,21 +93,19 @@
   color: rgb(239, 96, 8);
 }
 
-/* Flexible popup grid - width adjusts to content */
 .popup-grid {
-  position: fixed;
+  position: fixed !important;
   background: white;
   border: 1px solid #ddd;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 15px;
-  z-index: 1000;
+  z-index: 9999;
   display: none;
-  min-width: 120px;
+  width: auto;
   max-width: 90vw;
   max-height: 80vh;
   overflow-y: auto;
-  gap: 10px 15px;
   margin: 0;
 }
 
@@ -151,7 +149,7 @@
   <a href="json-to-yaml">JSON to YAML</a>
   <a href="json-string-to-json-object">JSON String to Object</a>
   <a href="json-to-dart">JSON to Dart</a>
-  <a href="json-to-json-schema">JSON to Schema</a>
+  <a href="json-to-json-schema">JSON to JSON Schema</a>
   <a href="yaml-to-json">YAML To JSON</a>
 </div>
 
@@ -186,7 +184,6 @@
   <a href="qif-to-qbo">QIF to QBO</a>
 </div>
 
-<!-- Add this script to your <head> with defer attribute -->
 <script>
 // Wait for everything to load completely
 window.addEventListener('load', function() {
@@ -197,67 +194,46 @@ window.addEventListener('load', function() {
   });
   
   const popups = ['jsonTools', 'csvTools', 'excelTools', 'xmlTools', 'qifTools'];
-  const popupLayouts = {};
   
-  // Function to calculate text width without displaying
-  function getTextWidth(text, fontSize, fontFamily) {
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
-    context.font = fontSize + ' ' + fontFamily;
-    return Math.ceil(context.measureText(text).width);
-  }
-  
-  // Pre-calculate optimal layout for each popup
-  function calculatePopupLayout(popup) {
-    if (!popup) return { columns: 3, columnWidth: 120 };
+  // Function to position popup at the top of the viewport
+  function positionPopupAtTop(trigger, popup) {
+    // First, make popup visible to get its dimensions
+    popup.style.display = 'grid';
+    popup.style.visibility = 'hidden'; // Hide but keep layout
     
-    const links = popup.querySelectorAll('a');
-    const linkCount = links.length;
+    // Get popup dimensions
+    const popupWidth = popup.offsetWidth;
+    const popupHeight = popup.offsetHeight;
+    const viewportWidth = window.innerWidth;
     
-    // Determine column count based on item count
-    let columns;
-    if (linkCount <= 2) {
-      columns = Math.max(1, linkCount);
-    } else if (linkCount <= 4) {
-      columns = 2;
-    } else if (linkCount <= 6) {
-      columns = 2;
-    } else {
-      columns = 3;
+    // Calculate position - always at top of viewport
+    let left = 20; // Start with some margin
+    let top = 50; // Position from top of viewport
+    
+    // Try to align with trigger if possible
+    const rect = trigger.getBoundingClientRect();
+    const triggerCenter = rect.left + (rect.width / 2);
+    
+    // Center popup relative to trigger, but ensure it's within viewport
+    left = Math.max(20, triggerCenter - (popupWidth / 2));
+    
+    // Ensure popup doesn't go off right side
+    if (left + popupWidth > viewportWidth - 10) {
+      left = viewportWidth - popupWidth - 10;
     }
     
-    // Calculate max text width
-    let maxTextWidth = 0;
-    const sampleLink = links[0];
-    const fontSize = window.getComputedStyle(sampleLink).fontSize;
-    const fontFamily = window.getComputedStyle(sampleLink).fontFamily;
+    // Ensure popup doesn't go off left side
+    if (left < 20) {
+      left = 20;
+    }
     
-    links.forEach(link => {
-      const textWidth = getTextWidth(link.textContent, fontSize, fontFamily);
-      maxTextWidth = Math.max(maxTextWidth, textWidth);
-    });
-    
-    // Add padding (20px each side) and cap at reasonable size
-    const columnWidth = Math.min(Math.max(maxTextWidth + 40, 120), 250);
-    
-    return { columns, columnWidth };
+    // Apply positions
+    popup.style.left = left + 'px';
+    popup.style.top = top + 'px';
+    popup.style.visibility = 'visible'; // Now show it
   }
   
-  // Calculate and store all layouts after page load
-  setTimeout(() => {
-    popups.forEach(popupId => {
-      const popup = document.getElementById(popupId);
-      if (popup) {
-        const layout = calculatePopupLayout(popup);
-        popupLayouts[popupId] = layout;
-        
-        // Apply the grid layout immediately (popup is still hidden)
-        popup.style.gridTemplateColumns = `repeat(${layout.columns}, minmax(${layout.columnWidth}px, auto))`;
-      }
-    });
-  }, 100);
-  
-  // Set up hover events for each trigger
+  // Set up hover events
   navSpans.forEach((trigger, index) => {
     let hideTimeout;
     const popupId = popups[index];
@@ -265,48 +241,22 @@ window.addEventListener('load', function() {
     
     if (!popup) return;
     
-    // Apply the pre-calculated layout on hover
+    // Set a fixed grid layout for simplicity
+    popup.style.gridTemplateColumns = 'repeat(3, minmax(20px, auto))';
+    
     trigger.addEventListener('mouseenter', () => {
       clearTimeout(hideTimeout);
       
-      // Ensure layout is applied
-      const layout = popupLayouts[popupId] || { columns: 3, columnWidth: 120 };
-      popup.style.gridTemplateColumns = `repeat(${layout.columns}, minmax(${layout.columnWidth}px, auto))`;
-      
-      // Show popup first to get dimensions
-      popup.style.display = 'grid';
-      
-      // Position popup
-      const rect = trigger.getBoundingClientRect();
-      const popupWidth = popup.offsetWidth;
-      const popupHeight = popup.offsetHeight;
-      const viewportWidth = window.innerWidth;
-      const viewportHeight = window.innerHeight;
-      
-      let left = rect.left + window.scrollX;
-      let top = rect.bottom + window.scrollY + 5;
-      
-      // Check right edge overflow
-      if (left + popupWidth > viewportWidth + window.scrollX - 20) {
-        left = viewportWidth + window.scrollX - popupWidth - 20;
-      }
-      
-      // Check left edge overflow
-      if (left < window.scrollX + 20) {
-        left = window.scrollX + 20;
-      }
-      
-      // Check bottom edge overflow
-      if (top + popupHeight > viewportHeight + window.scrollY - 20) {
-        top = rect.top + window.scrollY - popupHeight - 5;
-        if (top < window.scrollY + 20) {
-          top = window.scrollY + 20;
-          left = window.scrollX + (viewportWidth - popupWidth) / 2;
+      // Hide all other popups
+      popups.forEach(id => {
+        const p = document.getElementById(id);
+        if (p && p !== popup) {
+          p.style.display = 'none';
         }
-      }
+      });
       
-      popup.style.left = left + 'px';
-      popup.style.top = top + 'px';
+      // Position and show this popup at the top
+      positionPopupAtTop(trigger, popup);
     });
     
     trigger.addEventListener('mouseleave', () => {
@@ -326,26 +276,13 @@ window.addEventListener('load', function() {
   // Close popups when clicking outside
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.nav-trigger') && !e.target.closest('.popup-grid')) {
-      document.querySelectorAll('.popup-grid').forEach(popup => {
-        popup.style.display = 'none';
-      });
-    }
-  });
-  
-  // Recalculate on window resize
-  let resizeTimer;
-  window.addEventListener('resize', () => {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => {
       popups.forEach(popupId => {
         const popup = document.getElementById(popupId);
         if (popup) {
-          const layout = calculatePopupLayout(popup);
-          popupLayouts[popupId] = layout;
-          popup.style.gridTemplateColumns = `repeat(${layout.columns}, minmax(${layout.columnWidth}px, auto))`;
+          popup.style.display = 'none';
         }
       });
-    }, 250);
+    }
   });
 });
 </script>

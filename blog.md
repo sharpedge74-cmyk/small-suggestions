@@ -174,7 +174,7 @@ keywords: reptilebirds blog, productivity tools, data conversion blog, online co
   </h1>
   <p style="text-align: center; max-width: 720px; margin: 0 auto 2rem;">
     Welcome to the <strong>Reptile Birds Blog</strong> — your go-to source for articles about
-    data conversion tools and guides to faster your workflow. WWW
+    data conversion tools and guides to faster your workflow.
   </p>
   <br>
 

@@ -1,15 +1,21 @@
 ---
 layout: main
-title: UUID & GUID Generator - Generate v1, v4, v7, GUID IDs
-description: Generate UUIDs and GUIDs online instantly. Select version, create multiple IDs, and export to CSV, Excel, SQL, XML, or JSON.
-keywords: uuid generator, guid generator, generate uuid, uuid v1, uuid v4, uuid v7, guid online, generate guid, export uuid, export guid, free uuid generator
+title: UUID, KSUID & NanoID Generator – Create Unique IDs Online
+description: Generate UUID, GUID, KSUID, NanoID, ULID, and CUID identifiers online. Create random, time-sortable, and URL-safe IDs instantly with bulk export options.
+keywords: uuid generator, guid generator, ksuid generator, nanoid generator, ulid generator, cuid generator, generate uuid online, unique id generator, bulk id generator
 ---
+
 
 <section style="display: flex; justify-content: center">
   <div style="width: 15%;"></div>
   <div style="width: 69%;">
-    <h1>UUID & GUID Generator – Create v1, v4, v7, GUID IDs Instantly</h1>
-    <div class="csvx-container" style="min-height: 450px; border-radius: 20px;">
+    <h1>UUID, KSUID & NanoID Generator – Create Unique IDs Online</h1>
+    <p>
+    Generate secure, unique identifiers for modern applications using UUID, GUID, KSUID, NanoID, ULID, and CUID formats.
+This free online generator helps developers create random, time-sortable, and URL-safe IDs instantly—no signup required.
+Choose the right ID type for databases, APIs, distributed systems, and frontend applications.
+    </p>
+    <div class="csvx-container" style="min-height: 450px; border-radius: 20px; max-width:99%;">
       <div class="csvx-panel" id="csvPanelXsd" style="min-height: 450px;">
         <div class="panel-header">
           <div class="controls">
@@ -43,6 +49,34 @@ keywords: uuid generator, guid generator, generate uuid, uuid v1, uuid v4, uuid 
       </div>
     </div>
     <div id="toastUUID" class="jsonx-toast">✅ UUID Generation Successful</div>
+
+<div id="semantic-content" role="main" aria-label="UUID, KSUID, NanoID and unique ID generator explanation">
+  <!-- Intro section -->
+  <section id="intro" aria-label="Introduction to unique identifiers">
+    <p>
+      Modern applications rely on globally unique identifiers to safely reference records, sessions, and resources across distributed systems. 
+      This generator allows developers to create <strong>UUID</strong>, <strong>GUID</strong>, <strong>KSUID</strong>, <strong>NanoID</strong>, <strong>ULID</strong>, and <strong>CUID</strong> identifiers instantly, using widely adopted, standards-compliant formats.
+    </p>
+  </section>
+
+  <!-- Use cases section -->
+  <section id="use-cases" aria-label="Use cases for UUID, KSUID, NanoID, and other identifiers">
+    <p>
+      <strong>UUIDs</strong> and <strong>GUIDs</strong> are commonly used as database keys, API identifiers, and message IDs where global uniqueness is required. 
+      <strong>KSUIDs</strong> and <strong>ULIDs</strong> provide time-sortable IDs for chronological ordering, while <strong>NanoID</strong> and <strong>CUID</strong> offer compact, URL-safe IDs for frontend and public-facing applications.
+    </p>
+  </section>
+
+  <!-- Features / functionality section -->
+  <section id="features" aria-label="Generator features and capabilities">
+    <p>
+      Developers can generate single or bulk identifiers, select the right ID type for their use case, and copy or export results in multiple formats including CSV, Excel, SQL, XML, or JSON. 
+      All identifiers are generated instantly in the browser, making this tool fast, reliable, and suitable for development, testing, and production workflows.
+    </p>
+  </section>
+</div>
+
+
   </div>
   <div style="width: 15%;"></div>
 </section>

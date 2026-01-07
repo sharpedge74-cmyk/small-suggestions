@@ -4,6 +4,100 @@ title: Convert PDF To Powerpoint - Free And Browser Based
 description: PDF To Powerpoint converter helps you to convert any pdf to ppt or pptx format Within browser. No file uploads - Free and Secure.
 keywords: pdf to powerpoint, pdf to ppt, pdf to pptx, pdf to ms office powerpoint, convert pdf to powerpoint, convert pdf to ppt, convert pdf to pptx, convert pdf to ms office powerpoint, convert pdf to powerpoint free, free pdf to ppt converter, convert pdf to powerpoint free, 
 ---
+<style>
+.blog-post-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #777;
+  margin: 1rem;
+}
+
+.author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: 500;
+  margin: 5px;
+}
+
+.post-date {
+  margin-left: 1rem;
+}
+p{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+.link{
+    text-decoration: underline; 
+    color: #0c0c42ff; 
+    transition: color 0.3s ease;
+}
+.link:hover {
+    color: orange;
+}
+
+.floating-video {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 340px;
+  height: 190px;
+  z-index: 99999;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.floating-video.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(30px);
+}
+
+.floating-video-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  background: #000;
+}
+
+.floating-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.fv-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  background: rgba(0,0,0,0.6);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px; /* Make text vertically centered */
+  text-align: center; /* Horizontally center */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.10.0/dist/pptxgen.bundle.js"></script>
 
@@ -12,6 +106,11 @@ keywords: pdf to powerpoint, pdf to ppt, pdf to pptx, pdf to ms office powerpoin
 <div style="width: 10%;"></div>
 <div style="width: 69%;">
  <h1>PDF to PowerPoint Converter – Free, Fast & High-Quality</h1>
+ <p>
+  Convert PDF files into editable PowerPoint (PPTX) slides directly in your browser.<br>
+  Preview pages instantly, generate slides page-by-page, and download — no server upload required.
+</p>
+
   <div class="csvx-container" style="min-height:520px; border-radius: 10px">
    <div class="csvx-panel" id="pdfPanel" style="min-height:520px;">
     <div class="panel-header">
@@ -53,6 +152,53 @@ keywords: pdf to powerpoint, pdf to ppt, pdf to pptx, pdf to ms office powerpoin
  </div>
 
  <div id="toast" class="jsonx-toast">✅ Conversion Successful!</div>
+<div style="display: flex;">
+  <div class="blog-post-meta">
+    <span class="post-date">Created By</span>
+    <a href="saeed-ahmed" style="display:flex; gap: 10px;" class="link">
+      <img src="assets/img/saeed-ahmed.jpg" alt="Saeed Ahmed" class="author-img">
+      <span class="author-name">Saeed Ahmed</span>
+    </a>
+  </div>
+
+  <div class="blog-post-meta">
+    <span class="post-date">Tested And Validated By</span>
+    <a href="gourav-mishra" style="display:flex; gap: 10px;" class="link">
+      <img src="assets/img/gourav-mishra.jpg" alt="Gourav Mishra" class="author-img">
+      <span class="author-name">Gourav Mishra</span>
+    </a>
+  </div>
+</div>
+<div id="semantic-content-pdf-pptx" role="main" aria-label="PDF to PowerPoint converter explanation">
+
+  <section aria-label="PDF to PPTX tool overview">
+    <p>
+      This PDF to PowerPoint converter allows you to transform PDF documents into fully usable PPTX slides directly in the browser.
+      Each PDF page is rendered as a high-quality slide image and placed into a PowerPoint presentation with correct sizing and layout.
+      The built-in preview helps you review content before exporting the final file.
+    </p>
+  </section>
+
+  <section aria-label="PDF to PowerPoint use cases">
+    <p>
+      The tool is ideal for professionals, educators, and students who need to edit or reuse PDF content in PowerPoint format.
+      It works well for reports, lecture notes, presentations, and archived documents that need quick conversion without installing software.
+      All processing happens locally, keeping your files private and secure.
+    </p>
+  </section>
+
+  <section aria-label="PDF to PPTX features">
+    <ul>
+      <li>Upload and preview PDF files instantly</li>
+      <li>Convert each PDF page into a PowerPoint slide</li>
+      <li>High-resolution canvas-based rendering</li>
+      <li>Thumbnail navigation with slide numbering</li>
+      <li>Download PPTX with a single click</li>
+      <li>Fully client-side conversion for privacy</li>
+    </ul>
+  </section>
+
+</div>
 
 </div>
 

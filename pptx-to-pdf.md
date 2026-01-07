@@ -4,6 +4,100 @@ title: PPTX to PDF Converter - Instant PowerPoint to PDF
 description: Convert PPTX and PPT files to PDF instantly. Preview your slides and download the PDF securely, all in-browser and free.
 keywords: pptx to pdf, ppt to pdf, powerpoint to pdf, convert pptx to pdf, convert ppt to pdf, free pptx to pdf converter, pptx preview, export pdf online, online pptx to pdf, pptx converter
 ---
+<style>
+.blog-post-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #777;
+  margin: 1rem;
+}
+
+.author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: 500;
+  margin: 5px;
+}
+
+.post-date {
+  margin-left: 1rem;
+}
+p{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+.link{
+    text-decoration: underline; 
+    color: #0c0c42ff; 
+    transition: color 0.3s ease;
+}
+.link:hover {
+    color: orange;
+}
+
+.floating-video {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 340px;
+  height: 190px;
+  z-index: 99999;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.floating-video.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(30px);
+}
+
+.floating-video-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  background: #000;
+}
+
+.floating-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.fv-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  background: rgba(0,0,0,0.6);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px; /* Make text vertically centered */
+  text-align: center; /* Horizontally center */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.10.0/dist/pptxgen.bundle.js"></script>
@@ -12,6 +106,8 @@ keywords: pptx to pdf, ppt to pdf, powerpoint to pdf, convert pptx to pdf, conve
   <div style="width: 10%;"></div>
   <div style="width: 69%;">
     <h1>PPTX to PDF Converter – Fast, Secure & High-Quality</h1>
+    <p>Convert PowerPoint (PPTX / PPT) files into clean, high-quality PDFs directly in your browser.
+Preview slides instantly, generate a PDF in one click, and download — no uploads, no server, no data leakage.</p>
     <!-- Upload Panel -->
     <div class="csvx-container" style="min-height:520px; border-radius: 10px">
       <div class="csvx-panel" id="pptxPanel" style="min-height:520px;">
@@ -53,6 +149,54 @@ keywords: pptx to pdf, ppt to pdf, powerpoint to pdf, convert pptx to pdf, conve
       </div>
     </div>
     <div id="toastPptx" class="jsonx-toast">✅ PDF Generated Successfully!</div>
+    <!-- Author & Validator -->
+  <div style="display: flex;">
+    <div class="blog-post-meta">
+     <span class="post-date">Created By</span>
+     <a href="gourav-mishra" style="display:flex; gap: 10px;" class="link">
+      <img src="assets/img/saeed-ahmed.jpg" alt="Gourav Mishra" class="author-img">
+      <span class="author-name">Saeed Ahmed</span>
+      </a>
+    </div>
+    <div class="blog-post-meta">
+     <span class="post-date">Tested And Validated By</span>
+     <a href="gourav-mishra" style="display:flex; gap: 10px;" class="link">
+      <img src="assets/img/gourav-mishra.jpg" alt="Gourav Mishra" class="author-img">
+      <span class="author-name">Gourav Mishra</span>
+      </a>
+    </div>
+  </div>
+<!-- Semantic Content Block -->
+<div id="semantic-content-pptx" role="main" aria-label="PPTX to PDF converter explanation">
+  <!-- Intro section -->
+  <section id="intro-pptx" aria-label="Introduction to PPTX to PDF converter">
+    <p>
+      Instantly convert PowerPoint presentations (.PPTX or .PPT) into high-quality PDF documents directly in your browser. 
+      Upload your presentation, preview slides immediately, and generate a PDF with just one click — no server upload required.
+    </p>
+  </section>
+
+  <!-- Use cases section -->
+  <section id="use-cases-pptx" aria-label="Use cases for PPTX to PDF conversion">
+    <p>
+      This tool is perfect for educators, professionals, and students who need to share presentations in a universally accessible format. 
+      It preserves slide formatting, allows quick review via the built-in slide preview, and is ideal for printing, emailing, or archiving presentations.
+    </p>
+  </section>
+
+  <!-- Features / functionality section -->
+  <section id="features-pptx" aria-label="Features of PPTX to PDF converter">
+    <ul>
+      <li>Upload .PPTX or .PPT files and preview slides instantly</li>
+      <li>Navigate slides via thumbnails with slide numbering</li>
+      <li>Convert presentations to PDF maintaining slide layout and quality</li>
+      <li>Download generated PDFs immediately</li>
+      <li>Fully client-side conversion — no data leaves your browser</li>
+      <li>User-friendly interface with responsive preview and smooth scrolling</li>
+    </ul>
+  </section>
+</div>
+
   </div>
   <div style="width: 10%;"></div>
 </section>

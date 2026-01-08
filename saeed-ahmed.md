@@ -32,7 +32,7 @@ description: Full Stack Developer with 6+ years experience in Java, Spring Boot,
 
   <!-- Skills -->
   <div style="margin-top:3rem;">
-    <h2 style="font-size:1.6rem; margin-bottom:1rem;">Technical Skills</h2>
+    <h2 style="font-size:1.6rem; margin-bottom:1rem;">Saeed's Technical Skills</h2>
     <div style="display:flex; flex-wrap:wrap; gap:0.6rem;">
       <span style="background:#eef; padding:0.5rem 1rem; border-radius:2rem;">Java</span>
       <span style="background:#eef; padding:0.5rem 1rem; border-radius:2rem;">Spring Boot</span>
@@ -50,7 +50,7 @@ description: Full Stack Developer with 6+ years experience in Java, Spring Boot,
 
   <!-- Career Journey -->
   <div style="margin-top:3rem;">
-    <h2 style="font-size:1.6rem; margin-bottom:1rem;">Career Journey</h2>
+    <h2 style="font-size:1.6rem; margin-bottom:1rem;">Saeed's Journey</h2>
     <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem;">
       <div style="background:#fafafa; border-left:4px solid #007bff; padding:1rem 1.5rem; border-radius:0.5rem;">
         <strong>Telecom & eCommerce Projects</strong> — Full Stack Development (Mar 2024 – Present)<br>

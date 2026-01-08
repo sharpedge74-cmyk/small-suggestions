@@ -46,7 +46,7 @@ description: Business Analyst with experience in mortgage underwriting, fraud an
 
   <!-- Career Journey -->
   <div style="margin-top:3rem;">
-    <h2 style="font-size:1.6rem; margin-bottom:1rem;">Career Journey</h2>
+    <h2 style="font-size:1.6rem; margin-bottom:1rem;">Gourav's Career Journey</h2>
     <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem;">
 
       <div style="background:#fafafa; border-left:4px solid #007bff; padding:1rem 1.5rem; border-radius:0.5rem;">

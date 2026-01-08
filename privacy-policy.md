@@ -1,6 +1,6 @@
 ---
 layout: main
-title: "Reptile Birds Privacy Policy"
+title: "Reptile Birds | Privacy Policy Details"
 description: "Reptile Birds Privacy Policy — Learn how we protect your privacy with 100% local file processing. No uploads, no tracking, fully GDPR & CCPA compliant."
 keywords: privacy policy, GDPR, CCPA, data protection, local file processing, secure file converter, browser-based tools, no file upload, Reptile Birdss privacy
 ---

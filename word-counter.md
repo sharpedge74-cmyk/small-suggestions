@@ -10,7 +10,9 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
 <div style="width: 10%;"></div>
 <div style="width: 69%;">
 
-  <h1>Word Counter – Free Comprehensive Tool For Text Analysis | Reptile Birds</h1>
+  <h1>Word Counter – Free Comprehensive Tool For Text Analysis</h1>
+  
+  <p>Our <strong>Word Counter</strong> is a free, browser-based tool designed to instantly analyze your text. It provides <em>comprehensive insights</em> about your content, including:</p>
 <section class="tool-section container">
     <div style="display: flex; justify-content: end;">
         <label style="font-size: 1rem; margin-top: 1px; color: orange;">Export To → → </label>
@@ -362,12 +364,9 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
 
 </section>
 <div id="semantic-word-counter" aria-label="Word Counter and Text Analysis Tool Description">
-  <h1>Word Counter & Online Text Analysis Tool</h1>
-
-  <p>Our <strong>Word Counter</strong> is a free, browser-based tool designed to instantly analyze your text. It provides <em>comprehensive insights</em> about your content, including:</p>
 
   <section aria-labelledby="core-metrics">
-    <h2 id="core-metrics">Core Text Metrics</h2>
+    <h4 id="core-metrics">Core Text Metrics</h4>
     <p>Quickly understand the basic structure of your text:</p>
     <ul>
       <li><strong>Word Count:</strong> Total number of words.</li>
@@ -381,7 +380,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="time-estimates">
-    <h2 id="time-estimates">Time Estimates</h2>
+    <h4 id="time-estimates">Time Estimates</h4>
     <p>Get actionable timing insights for different use cases:</p>
     <ul>
       <li><strong>Reading Time:</strong> Estimated time to read aloud or silently.</li>
@@ -394,7 +393,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="lexical-analysis">
-    <h2 id="lexical-analysis">Lexical Analysis</h2>
+    <h4 id="lexical-analysis">Lexical Analysis</h4>
     <p>Advanced text analysis for writers, editors, and SEO specialists:</p>
     <ul>
       <li><strong>Syllable Count:</strong> Total number of syllables.</li>
@@ -409,7 +408,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="sentence-stats">
-    <h2 id="sentence-stats">Sentence Statistics</h2>
+    <h4 id="sentence-stats">Sentence Statistics</h4>
     <p>Detailed insights on sentence structure:</p>
     <ul>
       <li><strong>Longest & Shortest Sentences:</strong> Helps analyze sentence complexity.</li>
@@ -419,7 +418,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="style-structure-checks">
-    <h2 id="style-structure-checks">Style & Structure Checks</h2>
+    <h4 id="style-structure-checks">Style & Structure Checks</h4>
     <p>Ensure your text follows proper punctuation and formatting rules:</p>
     <ul>
       <li><strong>Punctuation Counts:</strong> Periods, commas, colons, semicolons, question marks, exclamation marks, ellipses, hyphens, dashes, quotation marks, parentheses, brackets, braces, slashes, backslashes.</li>
@@ -429,7 +428,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="keyword-frequency">
-    <h2 id="keyword-frequency">Keyword & Frequency Analysis</h2>
+    <h4 id="keyword-frequency">Keyword & Frequency Analysis</h4>
     <p>Optimize your content and understand term usage:</p>
     <ul>
       <li><strong>Most Used Words:</strong> List of frequently occurring words.</li>
@@ -439,7 +438,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="export-options">
-    <h2 id="export-options">Export & Share</h2>
+    <h4 id="export-options">Export & Share</h4>
     <p>Save or share your analyzed text easily:</p>
     <ul>
       <li>Export as <strong>TXT</strong>, <strong>Word</strong>, or <strong>PDF</strong>.</li>
@@ -449,7 +448,7 @@ keywords: text analyzer, text analyser, text analysis, word counter, lexical ana
   </section>
 
   <section aria-labelledby="tool-benefits">
-    <h2 id="tool-benefits">Why Use This Tool?</h2>
+    <h4 id="tool-benefits">Why Use This Tool?</h4>
     <ul>
       <li>Free, instant, and secure — works offline in your browser.</li>
       <li>Provides real-time text insights as you type or paste content.</li>

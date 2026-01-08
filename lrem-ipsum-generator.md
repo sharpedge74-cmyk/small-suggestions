@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Lrem Ipsum Generator - Free Online Placeholder Text Tool
-description: Generate custom Lrem Ipsum (Lorem Ipsum) dummy text in seconds. Create paragraphs, choose unique variants like 'Kafka' text, and export to HTML or TXT. Free for web design & prototyping.
+description: Generate custom Lrem Ipsum (Lorem Ipsum) dummy text in seconds. Create paragraphs, choose unique variants like 'Kafka' text, and export it.
 keywords: lorem ipsum, lrem ipsum generator, ipsum lorem generator, generate placeholder text, generate dummy text
 ---
 <style>

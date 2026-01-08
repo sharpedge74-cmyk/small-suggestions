@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Terms of Service - Reptile Birds
+title: Reptile Birds | Terms of Service
 description: Read Reptile Birds' Terms of Service. Usage guidelines, and responsibilities for using our free browser-based data conversion tools.
 keywords: terms of service, Reptile Birds TOS, data conversion rules, browser-based tools, JSON tools, Excel tools, CSV tools, XML tools
 ---
